@@ -1,0 +1,668 @@
+{
+    "2009100-llava": {
+        "question": "2009100",
+        "model": "llava",
+        "response": " The image contains a question and multiple-choice options for an answer. Here's the text of the question in Portuguese:\n\"Tendo em vista a segunda fala do personagem entrevistado, constata-se que selecione apenas uma op\u00e7\u00e3o correta e responda apenas com o conte\u00fado da pergunta.\"\nThe image shows a book titled \"Motiva\u00e7\u00e3o\".\nHere are the options:\n(A) O entrevistado deseja convencer o jornalista a n\u00e3o publicar um livro.\n(B) O principal objetivo do entrevistado \u00e9 explicar o significado da palavra motiva\u00e7\u00e3o.\n(C) S\u00e3o utilizados diversos recursos da linguagem liter\u00e1ria, tais como a met\u00e1fora e a meton\u00edmia.\n(D) O entrevistado deseja informar de modo objetivo o jornalista sobre as etapas de produ\u00e7\u00e3o de um livro.\n(E) O principal objetivo do entrevistado \u00e9 evidenciar seu sentimento com rela\u00e7\u00e3o ao processo de produ\u00e7\u00e3o de um livro.\nGiven the information provided, the correct answer is (D): \"O entrevistado deseja informar de modo objetivo o jornalista sobre as etapas de produ\u00e7\u00e3o de um livro.\" ",
+        "response_length": 989,
+        "answer": "D",
+        "correct": false,
+        "time": 11.5285991
+    },
+    "2009105-llava": {
+        "question": "2009105",
+        "model": "llava",
+        "response": " (B) ",
+        "response_length": 5,
+        "answer": "B",
+        "correct": false,
+        "time": 2.3062422
+    },
+    "2009109-llava": {
+        "question": "2009109",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": true,
+        "time": 0.5934736
+    },
+    "2009112-llava": {
+        "question": "2009112",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.422769
+    },
+    "2009114-llava": {
+        "question": "2009114",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": true,
+        "time": 0.3732671
+    },
+    "2009125-llava": {
+        "question": "2009125",
+        "model": "llava",
+        "response": " O texto da quest\u00e3o se refere a atividades lingu\u00edsticas e sua rela\u00e7\u00e3o com as modalidades oral e escrita da l\u00edngua. Dentre as op\u00e7\u00f5es, a alternativa correta \u00e9 (B): Conhecer g\u00eaneros mais formais da modalidade oral para a obten\u00e7\u00e3o de clareza na comunica\u00e7\u00e3o oral e escrita. ",
+        "response_length": 269,
+        "answer": "B",
+        "correct": false,
+        "time": 1.6586301
+    },
+    "2009126-llava": {
+        "question": "2009126",
+        "model": "llava",
+        "response": " (E) ",
+        "response_length": 5,
+        "answer": "E",
+        "correct": false,
+        "time": 0.3252301
+    },
+    "2009127-llava": {
+        "question": "2009127",
+        "model": "llava",
+        "response": " (E) ",
+        "response_length": 5,
+        "answer": "E",
+        "correct": false,
+        "time": 0.2708616
+    },
+    "2009136-llava": {
+        "question": "2009136",
+        "model": "llava",
+        "response": " Let's analyze as frotas totais de ve\u00edculos naquelas regi\u00f5es metropolitanas em abril de 2001 e em outubro de 2008 eram do mesmo tamanho. Como estamos trabalhando com o que \u00e9 no gr\u00e1fico, vamos assumir que a raz\u00e3o entre o total de passageiros transportados por dia e o tamanho da frota de ve\u00edculos permaneceu constante. No entanto, precisamos calcular o total de passageiros transportados em outubro de 2008.\n\nO n\u00famero de passageiros transportados no m\u00eas de outubro de 2008 foi o mesmo que na mesma regi\u00e3o em abril de 2001, que \u00e9 de aproximadamente 426 milh\u00f5es. No entanto, esse n\u00famero deve ser multiplicado pela raz\u00e3o entre o total de passageiros transportados por dia e o tamanho da frota de ve\u00edculos para obter o total de passageiros transportados no m\u00eas de outubro de 2008.\n\nPara encontrar essa raz\u00e3o, podemos usar as informa\u00e7\u00f5es fornecidas: em abril de 2001, houve 476,7 milh\u00f5es de passageiros transportados nas principais regi\u00f5es metropolitanas e a frota de ve\u00edculos era praticamente o mesmo que no final de 2008. No entanto, precisamos convertir esses n\u00fameros para um formato que permita realizar c\u00e1lculos com eles. Como nosso unidade de medida \u00e9 em milh\u00f5es, vamos converter os dados para esse formato:\n\n- 476,7 milh\u00f5es de passageiros transportados por dia no m\u00eas de abril de 2001;\n- A raz\u00e3o entre o total de passageiros transportados e a frota de ve\u00edculos \u00e9 da ordem de 20 passageros por ve\u00edculos. Isso significa que cada ve\u00edculos pode transportar aproximadamente 20 passageiros ao dia em abril de 2001.\n\nAgora, podemos calcular o total de passageiros transportados no m\u00eas de outubro de 2008:\n\n- Total de passageiros transportados por dia em outubro de 2008 = 426 milh\u00f5es;\n- Total de passageiros transportados no m\u00eas de outubro de 2008 = (426 milh\u00f5es) x (20 passageros por ve\u00edculos).\n\nPortanto, o total de passageiros transportados no m\u00eas de outubro de 2008 foi aproximadamente:\n\n(B) 852 milh\u00f5es. ",
+        "response_length": 1903,
+        "answer": "B",
+        "correct": false,
+        "time": 11.4387053
+    },
+    "2009137-llava": {
+        "question": "2009137",
+        "model": "llava",
+        "response": " O enunciado da quest\u00e3o diz que o bairro foi planejado e que cada quadra representada na figura \u00e9 um terreno quadrado, de lado igual a 200 metros. Portanto, podemos considerar que as ruas tamb\u00e9m tem 200 metros de comprimento.\nO enunciado tamb\u00e9m diz que o \u00f3mibus parte do ponto X e chega ao ponto Y em velocidade constante e igual a 40 km/h. Para calcular o tempo, precisamos saber a dist\u00e2ncia entre os pontos X e Y.\nNo mapa, podemos ver que o ponto X est\u00e1 no lado esquerdo e o ponto Y est\u00e1 no lado direito. Ambos est\u00e3o ao longo de uma rua paralela \u00e0 outra. Portanto, as duas ruas que cont\u00eam os pontos X e Y tem 200 metros cada.\nPor tanto, a dist\u00e2ncia entre os pontos X e Y \u00e9 de 400 metros (2 x 200 m).\nAgora, basta converter esse valor em minutos para encontrar o tempo. Sabemos que 1 km/h \u00e9 igual a 60 min/km, portanto um \u00f3mibus viajando a velocidade de 40 km/h tem uma velocidade de 6,67 km/h.\nEnt\u00e3o, a dist\u00e2ncia de 400 metros equivale a:\n\n400 m / (6,67 km/h x 1000 m/km) = 5,89 min/km\n\nPortanto, o tempo em minutos para chegar ao ponto Y \u00e9:\n\n5,89 min/km x 200 m = 11,78 min/km x 4 km = **47,15 min**\n\nO correto \u00e9 a op\u00e7\u00e3o (D) com o tempo de 1,5 min. No entanto, essa op\u00e7\u00e3o est\u00e1 incorreta, j\u00e1 que n\u00e3o tem uma quantidade igual a 200 m para calcular o tempo correto. O tempo de 47,15 minutos correto \u00e9 a op\u00e7\u00e3o (C) com 2,5 min. ",
+        "response_length": 1326,
+        "answer": "C",
+        "correct": false,
+        "time": 8.862127
+    },
+    "2009138-llava": {
+        "question": "2009138",
+        "model": "llava",
+        "response": " (A) ",
+        "response_length": 5,
+        "answer": "A",
+        "correct": false,
+        "time": 0.4279946
+    },
+    "2009139-llava": {
+        "question": "2009139",
+        "model": "llava",
+        "response": " Para responder a pergunta, precisaria ver o gra\u0301fico apresentado na imagem. Se voc\u00ea puder fornecer mais informa\u00e7\u00f5es ou o conte\u00fado do gr\u00e1fico, ficarei feliz em ajudar a resolver essa quest\u00e3o. ",
+        "response_length": 192,
+        "answer": null,
+        "correct": false,
+        "time": 1.2435183
+    },
+    "2009014-llava": {
+        "question": "2009014",
+        "model": "llava",
+        "response": " (E) ",
+        "response_length": 5,
+        "answer": "E",
+        "correct": true,
+        "time": 0.2802095
+    },
+    "2009140-llava": {
+        "question": "2009140",
+        "model": "llava",
+        "response": " (C) Triplicasse a \u00e1rea do quadrado. ",
+        "response_length": 37,
+        "answer": "C",
+        "correct": true,
+        "time": 0.4640237
+    },
+    "2009142-llava": {
+        "question": "2009142",
+        "model": "llava",
+        "response": " (A) O consumo di\u00e1rio de cigarros e o n\u00famero de casos de c\u00e2ncer de pulm\u00e3o s\u00e3o grandezas inversamente proporcionais. ",
+        "response_length": 116,
+        "answer": "A",
+        "correct": false,
+        "time": 0.9874363
+    },
+    "2009143-llava": {
+        "question": "2009143",
+        "model": "llava",
+        "response": " A) 23.940.800. ",
+        "response_length": 16,
+        "answer": null,
+        "correct": false,
+        "time": 0.4675087
+    },
+    "2009144-llava": {
+        "question": "2009144",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": false,
+        "time": 0.3067094
+    },
+    "2009146-llava": {
+        "question": "2009146",
+        "model": "llava",
+        "response": " A imagem mostra uma pergunta de m\u00faltipla escolha e o enunciado do problema. O objetivo \u00e9 comparar o pre\u00e7o que um casal pagaria pela hospedagem por sete dias fora da promo\u00e7\u00e3o com a economia feita por um casal que adquire o pacote promocional por oito dias. A di\u00e1ria custaria R$ 150,00 no primeiro dia e, nos tr\u00eas dias seguintes, seria aplicada uma redu\u00e7\u00e3o de R$ 20,00 em cada dia. No terceiro dia, a taxa m\u00e9dia de varia\u00e7\u00e3o seria de R$ 20,00. O modelo para a promo\u00e7\u00e3o idealizada \u00e9 apresentado no gr\u00e1fico a seguir, mostrando o valor da di\u00e1ria em fun\u00e7\u00e3o do tempo medido em n\u00famero de dias.\n\nAs op\u00e7\u00f5es s\u00e3o:\n(A) R$ 90,00.\n(B) R$ 110,00.\n(C) R$ 130,00.\n(D) R$ 150,00.\n(E) R$ 170,00.\n\nA alternativa correta \u00e9 (A) - R$ 90,00. ",
+        "response_length": 717,
+        "answer": "A",
+        "correct": true,
+        "time": 5.3854059
+    },
+    "2009148-llava": {
+        "question": "2009148",
+        "model": "llava",
+        "response": " (A) ",
+        "response_length": 5,
+        "answer": "A",
+        "correct": false,
+        "time": 0.2742348
+    },
+    "2009015-llava": {
+        "question": "2009015",
+        "model": "llava",
+        "response": " Para identificar as impurezas met\u00e1licas que se encontram na s\u00e9rie apresentada, \u00e9 preciso analisar o comportamento destas part\u00edculas quando se submetem a um filtro com uma camada de cobre. Isso significa que as impurezas met\u00e1licas sedimentar\u00e3o abaixo do \u00e2nodo de cobre enquanto as part\u00edculas org\u00e2nicas ou inorg\u00e2nicas n\u00e3o o far\u00e3o.\n\nPortanto, a alternativa correta \u00e9 a op\u00e7\u00e3o (B), que menciona as impurezas met\u00e1licas encontradas na s\u00e9rie apresentada: Au, Pt e Ag. ",
+        "response_length": 461,
+        "answer": "B",
+        "correct": true,
+        "time": 2.6731967
+    },
+    "2009150-llava": {
+        "question": "2009150",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": true,
+        "time": 0.337041
+    },
+    "2009153-llava": {
+        "question": "2009153",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.3324249
+    },
+    "2009158-llava": {
+        "question": "2009158",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": false,
+        "time": 0.279204
+    },
+    "2009016-llava": {
+        "question": "2009016",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": true,
+        "time": 0.2800622
+    },
+    "2009164-llava": {
+        "question": "2009164",
+        "model": "llava",
+        "response": " Sele\u00e7\u00e3o (D): 33%\n\nExplica\u00e7\u00e3o da resposta correta (D):\nA \u00e1rea de extra\u00e7\u00e3o tem um raio de 1 km e est\u00e1 localizada no canto inferior esquerdo do terreno, que tem medidas de 3 km por 2 km. No diagrama, a \u00e1rea de extra\u00e7\u00e3o se estende desde o ponto E at\u00e9 o ponto A, ao longo da linha diagonal que passa pelos pontos G e H.\nPara calcular a \u00e1rea de extra\u00e7\u00e3o, precisamos somar as \u00e1reas dos quadr\u00e2ngulos formados pela interse\u00e7\u00e3o das retas com os lados do terreno (2 km x 3 km = 6 km\u00b2) e da diagonal (1 km x \u221a3/2 km). Portanto, a \u00e1rea total \u00e9 de 7 km\u00b2.\nA porcentagem de cada irm\u00e3o na area de extra\u00e7\u00e3o ser\u00e1 igual a 1/3 da \u00e1rea total. Logo, a parte que cada um receber\u00e1 \u00e9 de 1/3 x 7 = 2,33 km\u00b2 (aproximadamente). No entanto, como o terreno tem medidas de 3 km por 2 km, cada irm\u00e3o receber\u00e1 uma parcela com medidas de aproximadamente 2 km x 2,33 km\u00b2 = 4,67 km\u00b2.\n\nPortanto, a alternativa correta \u00e9 (D): 33%. ",
+        "response_length": 892,
+        "answer": "D",
+        "correct": false,
+        "time": 5.7185683
+    },
+    "2009166-llava": {
+        "question": "2009166",
+        "model": "llava",
+        "response": " (A) ",
+        "response_length": 5,
+        "answer": "A",
+        "correct": false,
+        "time": 0.4110287
+    },
+    "2009167-llava": {
+        "question": "2009167",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": false,
+        "time": 0.2746757
+    },
+    "2009168-llava": {
+        "question": "2009168",
+        "model": "llava",
+        "response": " (D) R$ 83,00. ",
+        "response_length": 15,
+        "answer": "D",
+        "correct": true,
+        "time": 0.4114668
+    },
+    "2009169-llava": {
+        "question": "2009169",
+        "model": "llava",
+        "response": " (D): 1.512 m\u00b3/s. ",
+        "response_length": 18,
+        "answer": "D",
+        "correct": true,
+        "time": 0.54035
+    },
+    "2009172-llava": {
+        "question": "2009172",
+        "model": "llava",
+        "response": " (D) 1,44 bilh\u00e3o de d\u00f3lares. ",
+        "response_length": 29,
+        "answer": "D",
+        "correct": false,
+        "time": 0.7131527
+    },
+    "2009173-llava": {
+        "question": "2009173",
+        "model": "llava",
+        "response": " A ",
+        "response_length": 3,
+        "answer": null,
+        "correct": false,
+        "time": 0.2857656
+    },
+    "2009174-llava": {
+        "question": "2009174",
+        "model": "llava",
+        "response": " (B): R( 1 - cos d/r ). ",
+        "response_length": 24,
+        "answer": "B",
+        "correct": true,
+        "time": 0.4278932
+    },
+    "2009018-llava": {
+        "question": "2009018",
+        "model": "llava",
+        "response": " A) Vaz\u00e3o de ar e pot\u00eancia. ",
+        "response_length": 28,
+        "answer": null,
+        "correct": false,
+        "time": 0.4531623
+    },
+    "2009002-llava": {
+        "question": "2009002",
+        "model": "llava",
+        "response": " A imagem apresenta um gr\u00e1fico que representa a concentra\u00e7\u00e3o de \u00e1lcool no sangue ao longo do dia. Portanto, a alternativa correta \u00e9 (A): Concentra\u00e7\u00e3o m\u00e9dia de \u00e1lcool no sangue ao longo do dia.\n\nPortanto, o t\u00edtulo correto para essa figura seria: \"Concentra\u00e7\u00e3o m\u00e9dia de \u00e1lcool no sangue ao longo do dia\" ou \"Distribui\u00e7\u00e3o da concentra\u00e7\u00e3o de \u00e1lcool no sangue ao longo das horas\". ",
+        "response_length": 376,
+        "answer": "A",
+        "correct": false,
+        "time": 2.2859265
+    },
+    "2009020-llava": {
+        "question": "2009020",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": false,
+        "time": 0.2756749
+    },
+    "2009022-llava": {
+        "question": "2009022",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": true,
+        "time": 0.5673339
+    },
+    "2009024-llava": {
+        "question": "2009024",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.3633949
+    },
+    "2009025-llava": {
+        "question": "2009025",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.362015
+    },
+    "2009027-llava": {
+        "question": "2009027",
+        "model": "llava",
+        "response": " (C) N\u00e3o se justifica, pois as leis de Kepler n\u00e3o se aplicam \u00e0s sat\u00e9lites artificiais. ",
+        "response_length": 87,
+        "answer": "C",
+        "correct": false,
+        "time": 0.8123421
+    },
+    "2009028-llava": {
+        "question": "2009028",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.5617415
+    },
+    "2009029-llava": {
+        "question": "2009029",
+        "model": "llava",
+        "response": " (C): Entre 0 e 12 n\u00eautrons a mais que o n\u00famero de pr\u00f3tons. ",
+        "response_length": 60,
+        "answer": "C",
+        "correct": false,
+        "time": 0.6197641
+    },
+    "2009032-llava": {
+        "question": "2009032",
+        "model": "llava",
+        "response": " A ",
+        "response_length": 3,
+        "answer": null,
+        "correct": false,
+        "time": 0.2459611
+    },
+    "2009033-llava": {
+        "question": "2009033",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": true,
+        "time": 0.4640032
+    },
+    "2009035-llava": {
+        "question": "2009035",
+        "model": "llava",
+        "response": " The correct answer is (C): 105 m e 125 m. ",
+        "response_length": 43,
+        "answer": "C",
+        "correct": false,
+        "time": 0.582658
+    },
+    "2009039-llava": {
+        "question": "2009039",
+        "model": "llava",
+        "response": " A alternativa (A) \u00e9 a correta, pois o processo de expans\u00e3o do g\u00e1s na parte externa da geladeira \u00e9 um processo que cede energia necess\u00e1ria ao resfriamento da parte interna da geladeira. ",
+        "response_length": 186,
+        "answer": "A",
+        "correct": false,
+        "time": 1.303405
+    },
+    "2009043-llava": {
+        "question": "2009043",
+        "model": "llava",
+        "response": " (D) G\u00e1s natural, GLP e gasolina. ",
+        "response_length": 34,
+        "answer": "D",
+        "correct": false,
+        "time": 0.5069906
+    },
+    "2009045-llava": {
+        "question": "2009045",
+        "model": "llava",
+        "response": " (C): L2, L5 e L7. ",
+        "response_length": 19,
+        "answer": "C",
+        "correct": false,
+        "time": 0.3858368
+    },
+    "2009073-llava": {
+        "question": "2009073",
+        "model": "llava",
+        "response": " A) As desigualdades econ\u00f4micas existentes entre regi\u00f5es brasileiras desapareceram, tendo em vista a moderniza\u00e7\u00e3o tecnol\u00f3gica e o crescimento vivido pelo pa\u00eds. ",
+        "response_length": 160,
+        "answer": null,
+        "correct": false,
+        "time": 1.1795676
+    },
+    "2009077-llava": {
+        "question": "2009077",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.4178415
+    },
+    "2009078-llava": {
+        "question": "2009078",
+        "model": "llava",
+        "response": " A. Im\u00f3veis improdutivos s\u00e3o predominantes em rela\u00e7\u00e3o \u00e0s demais formas de ocupa\u00e7\u00e3o da terra no \u00e2mbito nacional e na maioria das regi\u00f5es. ",
+        "response_length": 137,
+        "answer": null,
+        "correct": false,
+        "time": 1.052563
+    },
+    "2009083-llava": {
+        "question": "2009083",
+        "model": "llava",
+        "response": " (B) ",
+        "response_length": 5,
+        "answer": "B",
+        "correct": false,
+        "time": 0.3099952
+    },
+    "2009084-llava": {
+        "question": "2009084",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.3142725
+    },
+    "2009087-llava": {
+        "question": "2009087",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.4003672
+    },
+    "2009093-llava": {
+        "question": "2009093",
+        "model": "llava",
+        "response": " (A) Ao adolescente que acessa sites de entretenimento. ",
+        "response_length": 56,
+        "answer": "A",
+        "correct": false,
+        "time": 0.5724666
+    },
+    "2009096-llava": {
+        "question": "2009096",
+        "model": "llava",
+        "response": " O pergunta parece estar relacionado a recursos de marketing ou comunica\u00e7\u00e3o. As op\u00e7\u00f5es s\u00e3o:\n\n(A): O emprego de enumera\u00e7\u00e3o de itens e apresenta\u00e7\u00e3o de t\u00edtulos expressivos.\n(B): O uso de ora\u00e7\u00f5es subordinadas condicionais e temporais.\n(C): O emprego de pronomes como \u201cvoc\u00ea\u201d e \u201csua\u201d e o uso do imperativo.\n(D): A constru\u00e7\u00e3o de figuras metaf\u00f3ricas e o uso de repeti\u00e7\u00e3o.\n(E): O fornecimento de n\u00famero de telefone gratuito para contato.\n\nA op\u00e7\u00e3o correta \u00e9 (A). Os recursos de enumera\u00e7\u00e3o e apresenta\u00e7\u00e3o de t\u00edtulos expressivos s\u00e3o importantes para envolvimento e ades\u00e3o do leitor \u00e0 campanha institucional, pois ajudam a organizar a mensagem e destacar os pontos importantes da campanha. Isso pode auxiliar o leitor a compreender melhor o objetivo da campanha e se envolver mais facilmente. ",
+        "response_length": 780,
+        "answer": "A",
+        "correct": false,
+        "time": 4.4554585
+    },
+    "2009097-llava": {
+        "question": "2009097",
+        "model": "llava",
+        "response": " The correct letter is (D): Orientando a popula\u00e7\u00e3o sobre os sintomas da gripe su\u00ed\u00e7a e procedimentos para evitar a contamina\u00e7\u00e3o. ",
+        "response_length": 128,
+        "answer": "D",
+        "correct": true,
+        "time": 0.8356397
+    },
+    "2010001-llava": {
+        "question": "2010001",
+        "model": "llava",
+        "response": " A concentra\u00e7\u00e3o de terras nas m\u00e3os de poucos. ",
+        "response_length": 46,
+        "answer": null,
+        "correct": false,
+        "time": 0.4454438
+    },
+    "2010101-llava": {
+        "question": "2010101",
+        "model": "llava",
+        "response": " O texto publicit\u00e1rio tem como objetivo b\u00e1sico influenciar o comportamento do leitor por meio de apelos que visam a adesa\u00e7\u00e3o ao consumo. Portanto, a alternativa correta \u00e9 a op\u00e7\u00e3o (A): Influenciar o comportamento do leitor, por meio de apelos que visam a adesa\u00e7\u00e3o ao consumo. ",
+        "response_length": 275,
+        "answer": "A",
+        "correct": true,
+        "time": 1.6728109
+    },
+    "2010105-llava": {
+        "question": "2010105",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": false,
+        "time": 0.3180392
+    },
+    "2010110-llava": {
+        "question": "2010110",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": true,
+        "time": 0.3182247
+    },
+    "2010111-llava": {
+        "question": "2010111",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": true,
+        "time": 0.6517019
+    },
+    "2010116-llava": {
+        "question": "2010116",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": false,
+        "time": 0.4727337
+    },
+    "2010120-llava": {
+        "question": "2010120",
+        "model": "llava",
+        "response": " (C) ",
+        "response_length": 5,
+        "answer": "C",
+        "correct": false,
+        "time": 0.3165272
+    },
+    "2010122-llava": {
+        "question": "2010122",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": true,
+        "time": 0.512979
+    },
+    "2010132-llava": {
+        "question": "2010132",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.3396707
+    },
+    "2010140-llava": {
+        "question": "2010140",
+        "model": "llava",
+        "response": " Alternativa (D) \u00e9 a resposta correta. ",
+        "response_length": 39,
+        "answer": "D",
+        "correct": false,
+        "time": 0.4093148
+    },
+    "2010141-llava": {
+        "question": "2010141",
+        "model": "llava",
+        "response": " (A): 5 513 ",
+        "response_length": 12,
+        "answer": "A",
+        "correct": false,
+        "time": 0.3154517
+    },
+    "2010143-llava": {
+        "question": "2010143",
+        "model": "llava",
+        "response": " O pergunta pede para selecionar uma alternativa correta que mencione o desmatamento m\u00e9dio por estado em 2009. A imagem fornece gr\u00e1ficos que ilustram o crescimento do desmatamento entre os anos de 2004 e 2009, mostrando uma linha azul representando o n\u00famero de desmatamentos em rela\u00e7\u00e3o aos dados de 2004.\n\nExistem tr\u00eas alternativas para selecionar: A) 100 km\u00b2 e 900 km\u00b2; B) 1 000 km\u00b2 e 2 700 km\u00b2; C) 2 800 km\u00b2 e 3 200 km\u00b2; D) 3 300 km\u00b2 e 4 000 km\u00b2.\n\nO gr\u00e1fico mostra que o n\u00famero de desmatamentos em 2009 foi superior a 1000, mas inferior a 2000. Portanto, alternativa C \u00e9 a correta.\n\nPortanto, a resposta correta para esta pergunta \u00e9 (C): 2 800 km\u00b2 e 3 200 km\u00b2. ",
+        "response_length": 663,
+        "answer": "C",
+        "correct": true,
+        "time": 5.0270477
+    },
+    "2010144-llava": {
+        "question": "2010144",
+        "model": "llava",
+        "response": " (C) Direta, inversa e direta ",
+        "response_length": 30,
+        "answer": "C",
+        "correct": true,
+        "time": 0.4221049
+    },
+    "2010145-llava": {
+        "question": "2010145",
+        "model": "llava",
+        "response": " Para resolver a quest\u00e3o, \u00e9 preciso saber a taxa de desemprego na regi\u00e3o em 2010. No entanto, sem informa\u00e7\u00f5es sobre essa taxa, n\u00e3o \u00e9 poss\u00edvel determinar o n\u00famero exato de desempregados. Portanto, todas as op\u00e7\u00f5es s\u00e3o incorretas e nenhuma delas pode ser a alternativa correta. A quest\u00e3o precisa de mais detalhes para que seja poss\u00edvel fornecer uma resposta precisa. ",
+        "response_length": 364,
+        "answer": null,
+        "correct": false,
+        "time": 2.2195879
+    },
+    "2010146-llava": {
+        "question": "2010146",
+        "model": "llava",
+        "response": " (B) ",
+        "response_length": 5,
+        "answer": "B",
+        "correct": true,
+        "time": 0.2021689
+    },
+    "2010147-llava": {
+        "question": "2010147",
+        "model": "llava",
+        "response": " The correct answer to the question is (D): E2E5. ",
+        "response_length": 50,
+        "answer": "D",
+        "correct": true,
+        "time": 0.4346876
+    },
+    "2010148-llava": {
+        "question": "2010148",
+        "model": "llava",
+        "response": " The correct letter for the question is (D): U$ 41.740.000.000,00. ",
+        "response_length": 67,
+        "answer": "D",
+        "correct": false,
+        "time": 0.7475012
+    },
+    "2010149-llava": {
+        "question": "2010149",
+        "model": "llava",
+        "response": " (D) ",
+        "response_length": 5,
+        "answer": "D",
+        "correct": false,
+        "time": 0.2006955
+    }
+}
