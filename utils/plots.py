@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from utils import format_time
 
-def plot_model_performance(df: pd.DataFrame):
+def model_performance(df: pd.DataFrame):
     """Gera um gráfico de barras empilhadas mostrando a distribuição de acertos, nulos e erros por modelo."""
     df_sorted = df[df["Model"] != "TOTAL"].sort_values(by="OK", ascending=False)
     models = df_sorted["Model"]
@@ -29,7 +29,7 @@ def plot_model_performance(df: pd.DataFrame):
     plt.xticks(rotation=45)
     plt.show()
 
-def plot_time_metrics(df: pd.DataFrame):
+def time_metrics(df: pd.DataFrame):
     """Gera dois gráficos: um para tempo médio, mínimo e máximo por modelo, e outro para tempo total."""
     df_sorted = df[df["Model"] != "TOTAL"]
     models = df_sorted["Model"]
@@ -72,7 +72,7 @@ def plot_time_metrics(df: pd.DataFrame):
     plt.tight_layout()
     plt.show()
 
-def plot_accuracy_vs_time(df: pd.DataFrame):
+def accuracy_vs_time(df: pd.DataFrame):
     """Gera um gráfico de dispersão mostrando a correlação entre tempo médio e acurácia por modelo."""
     df_sorted = df[df["Model"] != "TOTAL"]
     models = df_sorted["Model"]
@@ -93,7 +93,7 @@ def plot_accuracy_vs_time(df: pd.DataFrame):
     plt.legend()
     plt.show()
 
-def plot_discipline_performance(df: pd.DataFrame, group_model: bool = False, normalize: bool = False):
+def discipline_performance(df: pd.DataFrame, group_model: bool = False, normalize: bool = False):
     """Gera múltiplos gráficos de barras empilhadas mostrando a distribuição de acertos, nulos e erros por disciplina e modelo.
     Se group_model for True, agrupa os dados por modelo em vez de disciplina.
     Se normalize for True, normaliza os valores pelo total de questões em cada grupo.
@@ -168,3 +168,93 @@ def plot_discipline_performance(df: pd.DataFrame, group_model: bool = False, nor
         ax.set_title("Desempenho por Disciplina e Modelo" if not group_model else "Desempenho por Modelo e Disciplina")
         ax.legend()
         plt.show()
+        
+def discipline_time_performance(df: pd.DataFrame, group_model: bool = False):
+    """Gera múltiplos gráficos de barras mostrando o tempo médio por disciplina e modelo.
+    Se group_model for True, agrupa os dados por modelo e disciplina.
+    O eixo Y representa o tempo médio em segundos.
+    Limita a exibição a 2 disciplinas por gráfico se agrupado por disciplina e 3 disciplinas por gráfico se agrupado por modelo.
+    Mantém agrupamentos juntos e adiciona legenda de cores.
+    """
+    df_filtered = df.dropna(subset=["discipline"]).copy()
+    df_filtered["time"] = pd.to_numeric(df_filtered["time"], errors="coerce")  # Garante que os tempos sejam numéricos
+    
+    group_by = "model" if group_model else "discipline"
+    grouped = df_filtered.groupby([group_by, "discipline" if group_model else "model"]).agg(
+        Avg_Time=("time", "mean"),
+        Count=("question", "count")
+    ).reset_index()
+    
+    # Ordena os grupos pelo maior tempo médio
+    sorted_groups = grouped.groupby(group_by)["Avg_Time"].mean().sort_values(ascending=False).index
+    grouped[group_by] = pd.Categorical(grouped[group_by], categories=sorted_groups, ordered=True)
+    grouped = grouped.sort_values([group_by, "Avg_Time"], ascending=[False, False])
+    
+    max_groups = 2 if not group_model else 3
+    unique_groups = grouped[group_by].unique()
+    group_chunks = [unique_groups[i:i+max_groups] for i in range(0, len(unique_groups), max_groups)]
+    
+    lista_cores = ['#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3', '#a6d854', '#ffd92f']
+    categories = sorted(grouped["discipline"].unique()) if group_model else sorted(grouped["model"].unique())
+    color_map = {category: lista_cores[i % len(lista_cores)] for i, category in enumerate(categories)}
+    
+    for group_subset in group_chunks:
+        fig, ax = plt.subplots(figsize=(max(12, len(group_subset) * 2), 6))
+        width = 0.4
+        
+        subset_data = grouped[grouped[group_by].isin(group_subset)]
+        x_positions = []
+        tick_labels = []
+        x_index = 0
+        spacing = 2  # Aumenta a separação entre grupos distintos
+        
+        for category in group_subset:
+            category_data = subset_data[subset_data[group_by] == category]
+            
+            if category_data.empty:
+                continue
+            
+            for _, row in category_data.iterrows():
+                color = color_map[row["discipline"]] if group_model else color_map[row["model"]]
+                ax.bar(x_index, row["Avg_Time"], width, color=color)
+                ax.text(x_index, row["Avg_Time"] * 1.03, f"{row['Avg_Time']:.2f}s", ha='center', fontsize=10)
+                x_positions.append(x_index)
+                tick_labels.append(category)
+                x_index += 1
+            x_index += spacing  # Adiciona espaço entre os grupos
+        
+        ax.set_xticks(x_positions)
+        ax.set_xticklabels(tick_labels, rotation=45)
+        ax.set_ylabel("Tempo Médio (segundos)")
+        ax.set_xlabel("Modelos" if group_model else "Disciplinas")
+        ax.set_title("Tempo Médio por Disciplina e Modelo" if not group_model else "Tempo Médio por Modelo e Disciplina")
+        
+        # Criar a legenda corretamente sem duplicação
+        unique_labels = sorted(set(color_map.keys()))
+        handles = [plt.Rectangle((0,0),1,1, color=color_map[label]) for label in unique_labels]
+        ax.legend(handles, unique_labels, title="Disciplinas" if group_model else "Modelos")
+        
+        plt.show()
+
+def discipline_accuracy_vs_time(df: pd.DataFrame):
+    """Gera um gráfico de dispersão mostrando a correlação entre acurácia e tempo médio por disciplina e modelo."""
+    df_filtered = df.dropna(subset=["discipline"]).copy()
+    df_filtered["time"] = pd.to_numeric(df_filtered["time"], errors="coerce")
+    
+    grouped = df_filtered.groupby(["model", "discipline"]).agg(
+        Avg_Time=("time", "mean"),
+        Accuracy=("correct", "mean")
+    ).reset_index()
+    
+    fig, ax = plt.subplots(figsize=(10, 6))
+    colors = plt.cm.get_cmap("tab10", len(grouped["discipline"].unique()))
+    color_map = {discipline: colors(i) for i, discipline in enumerate(sorted(grouped["discipline"].unique()))}
+    
+    for _, row in grouped.iterrows():
+        ax.scatter(row["Avg_Time"], row["Accuracy"], color=color_map[row["discipline"]])
+        ax.text(row["Avg_Time"], row["Accuracy"], f"{row['model']}-{row['discipline']}", fontsize=9, ha='right', va='bottom')
+    
+    ax.set_xlabel("Tempo Médio (segundos)")
+    ax.set_ylabel("Acurácia")
+    ax.set_title("Correlação entre Acurácia e Tempo Médio por Modelo e Disciplina")
+    plt.show()
