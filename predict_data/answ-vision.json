@@ -1,0 +1,1856 @@
+{
+    "2009021-moondream": {
+        "question": "2009021",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 4.5721766
+    },
+    "2009036-moondream": {
+        "question": "2009036",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0788458
+    },
+    "2009085-moondream": {
+        "question": "2009085",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0641884
+    },
+    "2009091-moondream": {
+        "question": "2009091",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1085953
+    },
+    "2010100-moondream": {
+        "question": "2010100",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0958715
+    },
+    "2010142-moondream": {
+        "question": "2010142",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1130023
+    },
+    "2010080-moondream": {
+        "question": "2010080",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1109467
+    },
+    "2010084-moondream": {
+        "question": "2010084",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0949331
+    },
+    "2011152-moondream": {
+        "question": "2011152",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0949506
+    },
+    "2011179-moondream": {
+        "question": "2011179",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0739244
+    },
+    "2012152-moondream": {
+        "question": "2012152",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0901269
+    },
+    "2012156-moondream": {
+        "question": "2012156",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1629838
+    },
+    "2012170-moondream": {
+        "question": "2012170",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0620793
+    },
+    "2012055-moondream": {
+        "question": "2012055",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0653233
+    },
+    "2012060-moondream": {
+        "question": "2012060",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0451752
+    },
+    "2012078-moondream": {
+        "question": "2012078",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0506667
+    },
+    "2013138-moondream": {
+        "question": "2013138",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1926702
+    },
+    "2013151-moondream": {
+        "question": "2013151",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1352916
+    },
+    "2013153-moondream": {
+        "question": "2013153",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.145886
+    },
+    "2013055-moondream": {
+        "question": "2013055",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1189232
+    },
+    "2013058-moondream": {
+        "question": "2013058",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.122167
+    },
+    "2013087-moondream": {
+        "question": "2013087",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1074034
+    },
+    "2014144-moondream": {
+        "question": "2014144",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.116375
+    },
+    "2014145-moondream": {
+        "question": "2014145",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0983453
+    },
+    "2014016-moondream": {
+        "question": "2014016",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0669497
+    },
+    "2014163-moondream": {
+        "question": "2014163",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0299345
+    },
+    "2014065-moondream": {
+        "question": "2014065",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0243704
+    },
+    "2015176-moondream": {
+        "question": "2015176",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0340601
+    },
+    "2015048-moondream": {
+        "question": "2015048",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0828565
+    },
+    "2016147-moondream": {
+        "question": "2016147",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0513405
+    },
+    "2016150-moondream": {
+        "question": "2016150",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0571826
+    },
+    "2016168-moondream": {
+        "question": "2016168",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0798943
+    },
+    "2016063-moondream": {
+        "question": "2016063",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0498114
+    },
+    "2017108-moondream": {
+        "question": "2017108",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0513033
+    },
+    "2017125-moondream": {
+        "question": "2017125",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0710669
+    },
+    "2017136-moondream": {
+        "question": "2017136",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0570448
+    },
+    "2017175-moondream": {
+        "question": "2017175",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0219594
+    },
+    "2018126-moondream": {
+        "question": "2018126",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0707144
+    },
+    "2018148-moondream": {
+        "question": "2018148",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0419307
+    },
+    "2018165-moondream": {
+        "question": "2018165",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0331448
+    },
+    "2018056-moondream": {
+        "question": "2018056",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0469508
+    },
+    "2019139-moondream": {
+        "question": "2019139",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0628502
+    },
+    "2019165-moondream": {
+        "question": "2019165",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0553213
+    },
+    "2020113-moondream": {
+        "question": "2020113",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0671765
+    },
+    "2020147-moondream": {
+        "question": "2020147",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0343318
+    },
+    "2020157-moondream": {
+        "question": "2020157",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0416401
+    },
+    "2020161-moondream": {
+        "question": "2020161",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0322983
+    },
+    "2020163-moondream": {
+        "question": "2020163",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0349383
+    },
+    "2020170-moondream": {
+        "question": "2020170",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0225064
+    },
+    "2020093-moondream": {
+        "question": "2020093",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0419548
+    },
+    "2021135-moondream": {
+        "question": "2021135",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0348054
+    },
+    "2021161-moondream": {
+        "question": "2021161",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0400234
+    },
+    "2021163-moondream": {
+        "question": "2021163",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0397283
+    },
+    "2021179-moondream": {
+        "question": "2021179",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0417767
+    },
+    "2022155-moondream": {
+        "question": "2022155",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0412439
+    },
+    "2022157-moondream": {
+        "question": "2022157",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0250142
+    },
+    "2023113-moondream": {
+        "question": "2023113",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0198515
+    },
+    "2023141-moondream": {
+        "question": "2023141",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0280172
+    },
+    "2023168-moondream": {
+        "question": "2023168",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0399022
+    },
+    "2023173-moondream": {
+        "question": "2023173",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0169771
+    },
+    "2023178-moondream": {
+        "question": "2023178",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0529018
+    },
+    "2009021-minicpm-v": {
+        "question": "2009021",
+        "model": "minicpm-v",
+        "response": "(B)",
+        "response_length": 3,
+        "answer": "B",
+        "correct": false,
+        "time": 7.372418
+    },
+    "2009036-minicpm-v": {
+        "question": "2009036",
+        "model": "minicpm-v",
+        "response": "(B)",
+        "response_length": 3,
+        "answer": "B",
+        "correct": false,
+        "time": 1.642035
+    },
+    "2009085-minicpm-v": {
+        "question": "2009085",
+        "model": "minicpm-v",
+        "response": "(C)",
+        "response_length": 3,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5060039
+    },
+    "2009091-minicpm-v": {
+        "question": "2009091",
+        "model": "minicpm-v",
+        "response": "(C)",
+        "response_length": 3,
+        "answer": "C",
+        "correct": false,
+        "time": 1.6065952
+    },
+    "2010100-minicpm-v": {
+        "question": "2010100",
+        "model": "minicpm-v",
+        "response": "The answer to this question depends on identifying which of the given images corresponds with \"contemporary artists who appropriate cartoon drawings, illustrations from books and even graphics for their works.\" Based on your description, it appears that none of these specific artistic styles or themes are depicted in any of the provided image options. Therefore:\n\n(A): None",
+        "response_length": 375,
+        "answer": "A",
+        "correct": false,
+        "time": 2.7219275
+    },
+    "2010142-minicpm-v": {
+        "question": "2010142",
+        "model": "minicpm-v",
+        "response": "Answer:A",
+        "response_length": 8,
+        "answer": null,
+        "correct": false,
+        "time": 1.5506098
+    },
+    "2010080-minicpm-v": {
+        "question": "2010080",
+        "model": "minicpm-v",
+        "response": "Answer:C",
+        "response_length": 8,
+        "answer": null,
+        "correct": false,
+        "time": 1.5497347
+    },
+    "2010084-minicpm-v": {
+        "question": "2010084",
+        "model": "minicpm-v",
+        "response": "(B)",
+        "response_length": 3,
+        "answer": "B",
+        "correct": false,
+        "time": 1.5350865
+    },
+    "2011152-minicpm-v": {
+        "question": "2011152",
+        "model": "minicpm-v",
+        "response": "The answer is (C).",
+        "response_length": 18,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5598033
+    },
+    "2011179-minicpm-v": {
+        "question": "2011179",
+        "model": "minicpm-v",
+        "response": "(C)",
+        "response_length": 3,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5096177
+    },
+    "2012152-minicpm-v": {
+        "question": "2012152",
+        "model": "minicpm-v",
+        "response": "Answer: A",
+        "response_length": 9,
+        "answer": null,
+        "correct": false,
+        "time": 1.6050956
+    },
+    "2012156-minicpm-v": {
+        "question": "2012156",
+        "model": "minicpm-v",
+        "response": "The graph that best represents the relationship between salary and number of products sold corresponds to alternative B. This conclusion can be drawn from observing its steady increase, which matches the observed trend in all other graphs provided.\nAnswer: (B)",
+        "response_length": 260,
+        "answer": "B",
+        "correct": false,
+        "time": 2.2956381
+    },
+    "2012170-minicpm-v": {
+        "question": "2012170",
+        "model": "minicpm-v",
+        "response": "(C): None",
+        "response_length": 9,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5773328
+    },
+    "2012055-minicpm-v": {
+        "question": "2012055",
+        "model": "minicpm-v",
+        "response": "(B): None",
+        "response_length": 9,
+        "answer": "B",
+        "correct": false,
+        "time": 1.4762856
+    },
+    "2012060-minicpm-v": {
+        "question": "2012060",
+        "model": "minicpm-v",
+        "response": "(D)",
+        "response_length": 3,
+        "answer": "D",
+        "correct": false,
+        "time": 1.4550692
+    },
+    "2012078-minicpm-v": {
+        "question": "2012078",
+        "model": "minicpm-v",
+        "response": "(C)",
+        "response_length": 3,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5168267
+    },
+    "2013138-minicpm-v": {
+        "question": "2013138",
+        "model": "minicpm-v",
+        "response": "(C): None",
+        "response_length": 9,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5147609
+    },
+    "2013151-minicpm-v": {
+        "question": "2013151",
+        "model": "minicpm-v",
+        "response": "Answer:A",
+        "response_length": 8,
+        "answer": null,
+        "correct": false,
+        "time": 1.5561236
+    },
+    "2013153-minicpm-v": {
+        "question": "2013153",
+        "model": "minicpm-v",
+        "response": "(C): None",
+        "response_length": 9,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5461923
+    },
+    "2013055-minicpm-v": {
+        "question": "2013055",
+        "model": "minicpm-v",
+        "response": "(D): None",
+        "response_length": 9,
+        "answer": "D",
+        "correct": false,
+        "time": 1.5325081
+    },
+    "2013058-minicpm-v": {
+        "question": "2013058",
+        "model": "minicpm-v",
+        "response": "(D): None",
+        "response_length": 9,
+        "answer": "D",
+        "correct": false,
+        "time": 1.6411972
+    },
+    "2013087-minicpm-v": {
+        "question": "2013087",
+        "model": "minicpm-v",
+        "response": "(B): None",
+        "response_length": 9,
+        "answer": "B",
+        "correct": true,
+        "time": 1.6058159
+    },
+    "2014144-minicpm-v": {
+        "question": "2014144",
+        "model": "minicpm-v",
+        "response": "(B)",
+        "response_length": 3,
+        "answer": "B",
+        "correct": false,
+        "time": 1.4411628
+    },
+    "2014145-minicpm-v": {
+        "question": "2014145",
+        "model": "minicpm-v",
+        "response": "D",
+        "response_length": 1,
+        "answer": null,
+        "correct": false,
+        "time": 1.4091512
+    },
+    "2014016-minicpm-v": {
+        "question": "2014016",
+        "model": "minicpm-v",
+        "response": "The question asks which of the listed images corresponds to a cultural heritage item in Brazil that, like Queijo de Minas, belongs to an intangible cultural property category.\n\nBased on the provided information and context from the Folha de S. Paulo article dated May 15, 2008, we can deduce that the mode of artisanal cheese production is recognized as a Brazilian Intangible Cultural Heritage item by the Iphan's Consultative Council at the Museu de Artes e Of\u00edcios in Belo Horizonte.\n\nThe images provided depict various cultural heritage sites and practices. The first image (A) shows Mosteiro de S\u00e3o Bento, which may not be directly related to artisanal cheese production mentioned in the article.\n \nTherefore, none of these images explicitly represents a cultural heritage item recognized by Iphan as an intangible property like Queijo de Minas.\n\nThe correct answer based on this analysis would be:\n(A) None",
+        "response_length": 912,
+        "answer": "A",
+        "correct": false,
+        "time": 5.1209326
+    },
+    "2014163-minicpm-v": {
+        "question": "2014163",
+        "model": "minicpm-v",
+        "response": "(A)",
+        "response_length": 3,
+        "answer": "A",
+        "correct": false,
+        "time": 1.5005839
+    },
+    "2014065-minicpm-v": {
+        "question": "2014065",
+        "model": "minicpm-v",
+        "response": "The group responsible for bioactivity of this drug is:\n(B): None.",
+        "response_length": 65,
+        "answer": "B",
+        "correct": false,
+        "time": 1.6930912
+    },
+    "2015176-minicpm-v": {
+        "question": "2015176",
+        "model": "minicpm-v",
+        "response": "The answer to your question cannot be determined from the provided images as they are all marked with \"None\" and do not contain any relevant information or data related to the relationship between monthly payment for a plan and call volumes. Therefore, none of these alternatives (A) through (E) can provide an accurate response based on the given options.\n\nIf you have another image that depicts the mentioned graph or has additional context needed to answer your question, please share it so I may assist accordingly.\n",
+        "response_length": 520,
+        "answer": "E",
+        "correct": false,
+        "time": 3.1882749
+    },
+    "2015048-minicpm-v": {
+        "question": "2015048",
+        "model": "minicpm-v",
+        "response": "(C): None",
+        "response_length": 9,
+        "answer": "C",
+        "correct": true,
+        "time": 1.5670048
+    },
+    "2016147-minicpm-v": {
+        "question": "2016147",
+        "model": "minicpm-v",
+        "response": "(D)",
+        "response_length": 3,
+        "answer": "D",
+        "correct": false,
+        "time": 1.4892378
+    },
+    "2016150-minicpm-v": {
+        "question": "2016150",
+        "model": "minicpm-v",
+        "response": "(C)",
+        "response_length": 3,
+        "answer": "C",
+        "correct": false,
+        "time": 1.4439955
+    },
+    "2016168-minicpm-v": {
+        "question": "2016168",
+        "model": "minicpm-v",
+        "response": "(D)",
+        "response_length": 3,
+        "answer": "D",
+        "correct": false,
+        "time": 1.4528746
+    },
+    "2016063-minicpm-v": {
+        "question": "2016063",
+        "model": "minicpm-v",
+        "response": "The best alternative is:\n(B): None",
+        "response_length": 34,
+        "answer": "B",
+        "correct": false,
+        "time": 1.4980393
+    },
+    "2017108-minicpm-v": {
+        "question": "2017108",
+        "model": "minicpm-v",
+        "response": "The graph that describes a child jumping on an elasto-pogo spring bed showing their kinetic energy as a function of height in this case would be: \n\nAnswer: Option D.",
+        "response_length": 165,
+        "answer": null,
+        "correct": false,
+        "time": 2.116106
+    },
+    "2017125-minicpm-v": {
+        "question": "2017125",
+        "model": "minicpm-v",
+        "response": "Answer:C",
+        "response_length": 8,
+        "answer": null,
+        "correct": false,
+        "time": 1.55508
+    },
+    "2017136-minicpm-v": {
+        "question": "2017136",
+        "model": "minicpm-v",
+        "response": "The expression that corresponds to the amount paid for early payment of a loan. After paying the sixth installment, it will be:\n(B: )",
+        "response_length": 133,
+        "answer": null,
+        "correct": false,
+        "time": 1.931506
+    },
+    "2017175-minicpm-v": {
+        "question": "2017175",
+        "model": "minicpm-v",
+        "response": "(B)",
+        "response_length": 3,
+        "answer": "B",
+        "correct": false,
+        "time": 1.4629325
+    },
+    "2018126-minicpm-v": {
+        "question": "2018126",
+        "model": "minicpm-v",
+        "response": "Based on your provided context and images, it appears that you are looking for a specific chemical structure related to an anionic surfactant mentioned in environmental literature. However, none of the alternative answers provided correspond directly with the information given.\n\nGiven this scenario:\n\nThe correct answer should be based on identifying which of these options corresponds most closely with the persistent emulsifier discussed in the context: (D)\n\nTherefore:\n(C)",
+        "response_length": 476,
+        "answer": "C",
+        "correct": false,
+        "time": 3.0266546
+    },
+    "2018148-minicpm-v": {
+        "question": "2018148",
+        "model": "minicpm-v",
+        "response": "None",
+        "response_length": 4,
+        "answer": null,
+        "correct": false,
+        "time": 1.6303838
+    },
+    "2018165-minicpm-v": {
+        "question": "2018165",
+        "model": "minicpm-v",
+        "response": "Based on your question and given information, I can help you solve it. But first, please upload the images of options A to E so that we have all necessary details for answering this specific multiple-choice question.\n\nOnce you've uploaded those images or provided a link to them, I'll be able to describe each option in detail and give an appropriate answer based on your requirements.\n",
+        "response_length": 386,
+        "answer": null,
+        "correct": false,
+        "time": 2.9066482
+    },
+    "2018056-minicpm-v": {
+        "question": "2018056",
+        "model": "minicpm-v",
+        "response": "The transformation of map space where the form of objects is distorted to highlight a theme indicates that anamorfose has been applied in option C. Therefore, the correct letter inside parentheses is:\n(C): Anamorfose",
+        "response_length": 216,
+        "answer": "C",
+        "correct": true,
+        "time": 2.3535865
+    },
+    "2019139-minicpm-v": {
+        "question": "2019139",
+        "model": "minicpm-v",
+        "response": "The correct alternative is:\n(D):",
+        "response_length": 32,
+        "answer": "D",
+        "correct": false,
+        "time": 1.73719
+    },
+    "2019165-minicpm-v": {
+        "question": "2019165",
+        "model": "minicpm-v",
+        "response": "Answer: D",
+        "response_length": 9,
+        "answer": null,
+        "correct": false,
+        "time": 1.6619697
+    },
+    "2020113-minicpm-v": {
+        "question": "2020113",
+        "model": "minicpm-v",
+        "response": "(A)",
+        "response_length": 3,
+        "answer": "A",
+        "correct": false,
+        "time": 1.6208607
+    },
+    "2020147-minicpm-v": {
+        "question": "2020147",
+        "model": "minicpm-v",
+        "response": "(D): None",
+        "response_length": 9,
+        "answer": "D",
+        "correct": false,
+        "time": 1.6109506
+    },
+    "2020157-minicpm-v": {
+        "question": "2020157",
+        "model": "minicpm-v",
+        "response": "(C)",
+        "response_length": 3,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5937149
+    },
+    "2020161-minicpm-v": {
+        "question": "2020161",
+        "model": "minicpm-v",
+        "response": "(C): None",
+        "response_length": 9,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5557484
+    },
+    "2020163-minicpm-v": {
+        "question": "2020163",
+        "model": "minicpm-v",
+        "response": "(B): None",
+        "response_length": 9,
+        "answer": "B",
+        "correct": false,
+        "time": 1.5386722
+    },
+    "2020170-minicpm-v": {
+        "question": "2020170",
+        "model": "minicpm-v",
+        "response": "(D)",
+        "response_length": 3,
+        "answer": "D",
+        "correct": false,
+        "time": 1.5080286
+    },
+    "2020093-minicpm-v": {
+        "question": "2020093",
+        "model": "minicpm-v",
+        "response": "(A)",
+        "response_length": 3,
+        "answer": "A",
+        "correct": false,
+        "time": 1.5098361
+    },
+    "2021135-minicpm-v": {
+        "question": "2021135",
+        "model": "minicpm-v",
+        "response": "(A)",
+        "response_length": 3,
+        "answer": "A",
+        "correct": false,
+        "time": 1.5742059
+    },
+    "2021161-minicpm-v": {
+        "question": "2021161",
+        "model": "minicpm-v",
+        "response": "(D)",
+        "response_length": 3,
+        "answer": "D",
+        "correct": false,
+        "time": 1.567831
+    },
+    "2021163-minicpm-v": {
+        "question": "2021163",
+        "model": "minicpm-v",
+        "response": "(C): kg\u00b7m<sup>-3</sup>.s<sup>-1</sup>\u00b2",
+        "response_length": 38,
+        "answer": "C",
+        "correct": false,
+        "time": 1.8840034
+    },
+    "2021179-minicpm-v": {
+        "question": "2021179",
+        "model": "minicpm-v",
+        "response": "(B)",
+        "response_length": 3,
+        "answer": "B",
+        "correct": false,
+        "time": 1.5253233
+    },
+    "2022155-minicpm-v": {
+        "question": "2022155",
+        "model": "minicpm-v",
+        "response": "(B) None",
+        "response_length": 8,
+        "answer": "B",
+        "correct": true,
+        "time": 1.6087266
+    },
+    "2022157-minicpm-v": {
+        "question": "2022157",
+        "model": "minicpm-v",
+        "response": "(C) None",
+        "response_length": 8,
+        "answer": "C",
+        "correct": false,
+        "time": 1.5799131
+    },
+    "2023113-minicpm-v": {
+        "question": "2023113",
+        "model": "minicpm-v",
+        "response": "None",
+        "response_length": 4,
+        "answer": null,
+        "correct": false,
+        "time": 1.5535068
+    },
+    "2023141-minicpm-v": {
+        "question": "2023141",
+        "model": "minicpm-v",
+        "response": "(D): None",
+        "response_length": 9,
+        "answer": "D",
+        "correct": false,
+        "time": 1.4883025
+    },
+    "2023168-minicpm-v": {
+        "question": "2023168",
+        "model": "minicpm-v",
+        "response": "(A)",
+        "response_length": 3,
+        "answer": "A",
+        "correct": true,
+        "time": 1.601997
+    },
+    "2023173-minicpm-v": {
+        "question": "2023173",
+        "model": "minicpm-v",
+        "response": "The unit of measure for the size described by the parameter EC is:\n(B): mL\u00b7kg/min",
+        "response_length": 81,
+        "answer": "B",
+        "correct": true,
+        "time": 1.8942216
+    },
+    "2023178-minicpm-v": {
+        "question": "2023178",
+        "model": "minicpm-v",
+        "response": "The solution for this problem requires a detailed understanding of water flow in relation to time during handwashing. Given that both pumps deliver constant amounts, we can use integration techniques or calculus knowledge to calculate the total volume of water used per cycle.\n\nFrom our given figures:\n\nFor \\( 0 \\leq t < 3 \\) seconds:\n\\[ V_1(t) = kt\\]\n\\( k=2L/s \\)\n\nIntegration from \\( 0\\) to \\(t=3\\):\n\\[V(3)=k*4=\\frac{8}{s}\\]\n\nFrom \\(t=3\\) to \\(t=7.5\\) seconds and again at intervals:\nFor the interval: \n\\[ V_1(t) = kt\\]\n\\( k=2L/s \\)\n\nIntegration from 0 to t (which is not given here):\n\nFrom Figure 4 for each cycle in a minute, we observe that when \\( n \\geq 3\\) cycles within this period of time:\n\n[...]",
+        "response_length": 706,
+        "answer": null,
+        "correct": false,
+        "time": 6.7724842
+    },
+    "2009021-llava-phi3": {
+        "question": "2009021",
+        "model": "llava-phi3",
+        "response": "  Rn 2  E and  Pro  O Pro  NoR  E",
+        "response_length": 33,
+        "answer": null,
+        "correct": false,
+        "time": 6.369446
+    },
+    "2009036-llava-phi3": {
+        "question": "2009036",
+        "model": "llava-phi3",
+        "response": " If  Image  This Image  Ch  A M  This Image  Image  For  Ch  The Process  Image  Image  No  Each  Image  Image P Image  P Sub  Ch  Im  Image  Image  Im  Image  Image  Image  Im  Image  Image  Image  Image  Image  Image, Image  It  P  Image  Image  Image  Is  Image  Image  The Image  Image  Image  I Image  Image  Image  Image  Image  Image  Image  Image  The Image  The image   Mole  The Image  This  The Image  The Image  The Image  Im Image  Image  The Image Image  The Image  Image Image  The Image  The Image  The Image  The Image  The Image  The Image  The Image  Image  Image ",
+        "response_length": 583,
+        "answer": null,
+        "correct": false,
+        "time": 4.9857884
+    },
+    "2009085-llava-phi3": {
+        "question": "2009085",
+        "model": "llava-phi3",
+        "response": " A  Prel A photo and IA Ch  No side of Eight the picture A frame. Ph  It and P clamp  The presence, A frame a  Birth a photo - The picture, No image A  A number A right B no  And 3 in Ready B o No sting A simple photo  Not one",
+        "response_length": 226,
+        "answer": null,
+        "correct": false,
+        "time": 3.1943373
+    },
+    "2009091-llava-phi3": {
+        "question": "2009091",
+        "model": "llava-phi3",
+        "response": " Each",
+        "response_length": 5,
+        "answer": null,
+        "correct": false,
+        "time": 2.2385743
+    },
+    "2010100-llava-phi3": {
+        "question": "2010100",
+        "model": "llava-phi3",
+        "response": " Cri  B  B  Rend No  Tom and  The Th P  There  Mon  Par R PI, Par  H 1 No  S Par  P  Tom No  D O B No  Birth No  This  A No Man  Tom  There 3 The  A B TR Tom Pari with No  P  B  P There  No  Play  R  No  A Th  No D Rom  P  P  No Tom  No ",
+        "response_length": 237,
+        "answer": null,
+        "correct": false,
+        "time": 3.9053766
+    },
+    "2010142-llava-phi3": {
+        "question": "2010142",
+        "model": "llava-phi3",
+        "response": " A  No  A  No",
+        "response_length": 13,
+        "answer": null,
+        "correct": false,
+        "time": 2.309543
+    },
+    "2010080-llava-phi3": {
+        "question": "2010080",
+        "model": "llava-phi3",
+        "response": " M   Ch  The page P  Pot  Part  The same Plain In the C and Part  B  Di  Pro P and D  It chain  Not  P At P  The  This  Pro  P  Pro  Part  P P  No P  The Play P   P  No ChP  P  This  For   P  P P  P A From the P Di  With, P  P and P Play  P Image P At P The P No P  P Play  P Pro  P Pro P ",
+        "response_length": 289,
+        "answer": null,
+        "correct": false,
+        "time": 4.0826325
+    },
+    "2010084-llava-phi3": {
+        "question": "2010084",
+        "model": "llava-phi3",
+        "response": " No",
+        "response_length": 3,
+        "answer": null,
+        "correct": false,
+        "time": 2.2258609
+    },
+    "2011152-llava-phi3": {
+        "question": "2011152",
+        "model": "llava-phi3",
+        "response": " No  E  These A  There line",
+        "response_length": 27,
+        "answer": null,
+        "correct": false,
+        "time": 2.2989032
+    },
+    "2011179-llava-phi3": {
+        "question": "2011179",
+        "model": "llava-phi3",
+        "response": " B  R  If ",
+        "response_length": 10,
+        "answer": null,
+        "correct": false,
+        "time": 2.2565665
+    },
+    "2012152-llava-phi3": {
+        "question": "2012152",
+        "model": "llava-phi3",
+        "response": " A   L if xIn the image A PrI",
+        "response_length": 29,
+        "answer": null,
+        "correct": false,
+        "time": 2.3850617
+    },
+    "2012156-llava-phi3": {
+        "question": "2012156",
+        "model": "llava-phi3",
+        "response": "  A In this No  Pair A User  The  The Page 1",
+        "response_length": 44,
+        "answer": null,
+        "correct": false,
+        "time": 2.3676698
+    },
+    "2012170-llava-phi3": {
+        "question": "2012170",
+        "model": "llava-phi3",
+        "response": "  No The  E A  De This  This  E There  There  As  The  It ( No Ben",
+        "response_length": 66,
+        "answer": null,
+        "correct": false,
+        "time": 2.6041033
+    },
+    "2012055-llava-phi3": {
+        "question": "2012055",
+        "model": "llava-phi3",
+        "response": " No De  Pages This Prive No  B No AvP There  Pock. Note: Can The No No B  The Image P  No No P The P Any The Text The No P No P Di P Drive of P There A P Yes the Drive an No  No P I  P No Pase P Drive any No P No P Drive",
+        "response_length": 220,
+        "answer": null,
+        "correct": false,
+        "time": 3.2772575
+    },
+    "2012060-llava-phi3": {
+        "question": "2012060",
+        "model": "llava-phi3",
+        "response": " No",
+        "response_length": 3,
+        "answer": null,
+        "correct": false,
+        "time": 2.118263
+    },
+    "2012078-llava-phi3": {
+        "question": "2012078",
+        "model": "llava-phi3",
+        "response": " A value at XP  No picture B  A  No  The record  A P air: No",
+        "response_length": 60,
+        "answer": null,
+        "correct": false,
+        "time": 2.5138765
+    },
+    "2013138-llava-phi3": {
+        "question": "2013138",
+        "model": "llava-phi3",
+        "response": " NoL  A NoB  This text:  BP  No 37 The  No: No Right  No: EThe  No: The text 46 and no   P There  No  Round  Yes B with  The No 2B  If the No B",
+        "response_length": 143,
+        "answer": null,
+        "correct": false,
+        "time": 3.0457296
+    },
+    "2013151-llava-phi3": {
+        "question": "2013151",
+        "model": "llava-phi3",
+        "response": " Sight \" A  x   Sight  S  This  This  Hase   The",
+        "response_length": 48,
+        "answer": null,
+        "correct": false,
+        "time": 2.5844602
+    },
+    "2013153-llava-phi3": {
+        "question": "2013153",
+        "model": "llava-phi3",
+        "response": " M  E  To  S  Pair  M  L  I  No  D  M  E. If  No  M and M  M ",
+        "response_length": 61,
+        "answer": null,
+        "correct": false,
+        "time": 2.7635249
+    },
+    "2013055-llava-phi3": {
+        "question": "2013055",
+        "model": "llava-phi3",
+        "response": " E  A  No",
+        "response_length": 9,
+        "answer": null,
+        "correct": false,
+        "time": 2.2528951
+    },
+    "2013058-llava-phi3": {
+        "question": "2013058",
+        "model": "llava-phi3",
+        "response": " Pro This mole",
+        "response_length": 14,
+        "answer": null,
+        "correct": false,
+        "time": 2.3380815
+    },
+    "2013087-llava-phi3": {
+        "question": "2013087",
+        "model": "llava-phi3",
+        "response": " No",
+        "response_length": 3,
+        "answer": null,
+        "correct": false,
+        "time": 2.187278
+    },
+    "2014144-llava-phi3": {
+        "question": "2014144",
+        "model": "llava-phi3",
+        "response": " No This  Bottom It' As the None text A  No text",
+        "response_length": 48,
+        "answer": null,
+        "correct": false,
+        "time": 2.3161025
+    },
+    "2014145-llava-phi3": {
+        "question": "2014145",
+        "model": "llava-phi3",
+        "response": " No  A. 2  + two  By  x and  The  P  The  x =  y  No ",
+        "response_length": 53,
+        "answer": null,
+        "correct": false,
+        "time": 2.5704636
+    },
+    "2014016-llava-phi3": {
+        "question": "2014016",
+        "model": "llava-phi3",
+        "response": " Bend The image. ",
+        "response_length": 17,
+        "answer": null,
+        "correct": false,
+        "time": 2.3917675
+    },
+    "2014163-llava-phi3": {
+        "question": "2014163",
+        "model": "llava-phi3",
+        "response": " B  It' No single. The text:  No  Yes B  As  B x. In a  No  The  Appre and  In  No  In  No  The  App  No",
+        "response_length": 104,
+        "answer": null,
+        "correct": false,
+        "time": 2.8007849
+    },
+    "2014065-llava-phi3": {
+        "question": "2014065",
+        "model": "llava-phi3",
+        "response": " No right This line B if a Page: There this text A potential and Pro this Scre Aw",
+        "response_length": 81,
+        "answer": null,
+        "correct": false,
+        "time": 2.4081563
+    },
+    "2015176-llava-phi3": {
+        "question": "2015176",
+        "model": "llava-phi3",
+        "response": " No  No ",
+        "response_length": 8,
+        "answer": null,
+        "correct": false,
+        "time": 2.1996957
+    },
+    "2015048-llava-phi3": {
+        "question": "2015048",
+        "model": "llava-phi3",
+        "response": " Plain S En Pert  5  ",
+        "response_length": 21,
+        "answer": null,
+        "correct": false,
+        "time": 2.3457422
+    },
+    "2016147-llava-phi3": {
+        "question": "2016147",
+        "model": "llava-phi3",
+        "response": " B:  Answer: Yes 6:",
+        "response_length": 19,
+        "answer": null,
+        "correct": false,
+        "time": 2.2600597
+    },
+    "2016150-llava-phi3": {
+        "question": "2016150",
+        "model": "llava-phi3",
+        "response": " Line  A  A  BA  Round  Pair No one as  A  A  B aid  Y  From  No  I round",
+        "response_length": 73,
+        "answer": null,
+        "correct": false,
+        "time": 2.6048346
+    },
+    "2016168-llava-phi3": {
+        "question": "2016168",
+        "model": "llava-phi3",
+        "response": " B22  No 2  par le  No 2  Le  The  Par No  The Text by  The  E  No  No  This   Play  In  Li  NP  A B  Parl The C  D  No  The Power",
+        "response_length": 130,
+        "answer": null,
+        "correct": false,
+        "time": 3.1263741
+    },
+    "2016063-llava-phi3": {
+        "question": "2016063",
+        "model": "llava-phi3",
+        "response": " No  A  D if any no disc of No text D p Do sense Dist ad No right  Disc  Th  No image",
+        "response_length": 85,
+        "answer": null,
+        "correct": false,
+        "time": 2.5405582
+    },
+    "2017108-llava-phi3": {
+        "question": "2017108",
+        "model": "llava-phi3",
+        "response": " No  No  H  No",
+        "response_length": 14,
+        "answer": null,
+        "correct": false,
+        "time": 2.3494365
+    },
+    "2017125-llava-phi3": {
+        "question": "2017125",
+        "model": "llava-phi3",
+        "response": " C C NoR",
+        "response_length": 8,
+        "answer": null,
+        "correct": false,
+        "time": 2.2868523
+    },
+    "2017136-llava-phi3": {
+        "question": "2017136",
+        "model": "llava-phi3",
+        "response": " Par  E + To the line Plus a text",
+        "response_length": 33,
+        "answer": null,
+        "correct": false,
+        "time": 2.2968598
+    },
+    "2017175-llava-phi3": {
+        "question": "2017175",
+        "model": "llava-phi3",
+        "response": " Yes follow If No x  No time in Text: No two  A  Primary text follow E  No  Second The  Primary Bare x  No  Bar  Cont  primary to  No x No  No following  It Second  Round  Yes Time  No In  Bar  Primary  Add round Ex  No  This  No  To  x Bar  Line X No Text follow No",
+        "response_length": 266,
+        "answer": null,
+        "correct": false,
+        "time": 3.2876516
+    },
+    "2018126-llava-phi3": {
+        "question": "2018126",
+        "model": "llava-phi3",
+        "response": " It  I  T    This   Rate In  No Rage Pro  R P Load Rates Rates RVO From a Rate Rate Image Rate R1 Ramp  Rate Rate Rate Rate Rate RS  The Rate RP Rays RT RR Rate R At  Rate R  RB Rv Rage Ramp R This R The R5 R R The R  R  R R is R  R  RP R R R R R  RR R The R A Rate R R1 Rate R  This RR R2 R RR R R P RR R R Rate RR R R RV RR R RR R R R R R R R R R R R R R R R RR R R R R R R R RR",
+        "response_length": 380,
+        "answer": null,
+        "correct": false,
+        "time": 4.9866373
+    },
+    "2018148-llava-phi3": {
+        "question": "2018148",
+        "model": "llava-phi3",
+        "response": " This Y  yx  No  The  The  No   A  P  Yes  The  It 1 Y  This  The  X  R  In  N Y Y  Y  Y  No   Y  Y  Y  No   Y  Y  Play 3  Y  Y  Y  Y 5y To  In  Y y Yes  No Y  X The No  Y  Y  Y  Y Y Y  Y This Y  Y  Y   Y  Y   Y  Y Y  Y  Y  Y  Y  Y Y Y  Y YY  Y  Y  YY Y  Y. Y  Y - Y Y + y X The Y  Y No Y  Y  Y Y Y Y Y Y Y  Y OY  Y Y Y YY Y Y No Y The Y Y Y Y Y Y Y Y  Y Y  Y Y This  Y   Y Y R Y  Y  Y.",
+        "response_length": 386,
+        "answer": null,
+        "correct": false,
+        "time": 5.5601152
+    },
+    "2018165-llava-phi3": {
+        "question": "2018165",
+        "model": "llava-phi3",
+        "response": " The image A  E It Ply No B no Image  For  Let  This  This  For 1 It  This for Image B 1R",
+        "response_length": 89,
+        "answer": null,
+        "correct": false,
+        "time": 2.7611957
+    },
+    "2018056-llava-phi3": {
+        "question": "2018056",
+        "model": "llava-phi3",
+        "response": " A rectangle DP Adding Pair A S. Nesting EPA  C  No",
+        "response_length": 51,
+        "answer": null,
+        "correct": false,
+        "time": 2.4507376
+    },
+    "2019139-llava-phi3": {
+        "question": "2019139",
+        "model": "llava-phi3",
+        "response": " No  R. PV R and  Pr  R  R   Yes",
+        "response_length": 32,
+        "answer": null,
+        "correct": false,
+        "time": 2.5216137
+    },
+    "2019165-llava-phi3": {
+        "question": "2019165",
+        "model": "llava-phi3",
+        "response": " In  No  B  A In ",
+        "response_length": 17,
+        "answer": null,
+        "correct": false,
+        "time": 2.3627701
+    },
+    "2020113-llava-phi3": {
+        "question": "2020113",
+        "model": "llava-phi3",
+        "response": " M    No  ",
+        "response_length": 10,
+        "answer": null,
+        "correct": false,
+        "time": 2.2508035
+    },
+    "2020147-llava-phi3": {
+        "question": "2020147",
+        "model": "llava-phi3",
+        "response": " T  X  P  No plus A and B in A x In  Pr  This In  No  In P   No  The  No  Prov IA  A It P to PI  X   X X x  In the X",
+        "response_length": 116,
+        "answer": null,
+        "correct": false,
+        "time": 3.0587424
+    },
+    "2020157-llava-phi3": {
+        "question": "2020157",
+        "model": "llava-phi3",
+        "response": " No  Yes The paragraph To the No  Not The No  No  No The no A Br The Par1 and No  No+ No For  A L Not The par PB The text of  There The page and No  No  The di No The text to5 Line B YesNo 2 Plus No 3 D Maying No   No2  No line with P Since 4 It No 0 Yes  No Man  No The  NoP  The No  None2 Ch Text No 0  No5 Yes Line Not This Par  The No To No  The No No  The Pro  Par No In The  No Not C   The No No  No  No  The Y  The PresP  The No  The A The No  The It Not No 21 +No Yes No The No Yes No The No  No  No The P This No No ",
+        "response_length": 525,
+        "answer": null,
+        "correct": false,
+        "time": 5.0736151
+    },
+    "2020161-llava-phi3": {
+        "question": "2020161",
+        "model": "llava-phi3",
+        "response": " No B and Sh de  A It v B x Nov B round B of Bare def Ure B of B re B de B no Par vv DeA Uv Bake The B side of U B image Not  This textv DiBv A and B a No v Nov B and B ad  No B",
+        "response_length": 177,
+        "answer": null,
+        "correct": false,
+        "time": 3.17977
+    },
+    "2020163-llava-phi3": {
+        "question": "2020163",
+        "model": "llava-phi3",
+        "response": " No matter Pair Nothing Par This line bar s and Ease N  IfNo The No value The Bake There par. Un You background No  Nine",
+        "response_length": 120,
+        "answer": null,
+        "correct": false,
+        "time": 2.6001199
+    },
+    "2020170-llava-phi3": {
+        "question": "2020170",
+        "model": "llava-phi3",
+        "response": " No No Yes The No 3  A paragraph of  No text and  No Not The  B no par This No 02 ParNo  The No To The par ad particles No par No No The black with  C2 Jo It No the two di 2 The return E The text no par Y No parno P No  No No No  NoB 3 No Yes No  No There No Shtext No No No2 No You No No In No What To No This par Text + It  TwoNo In E No  The The No No and the No The A If no B No2 No Do  The text of  No NoNo No No No no Parno No No No  No Sh No2 Dip No Let No The No The text Yes No No   Y  No No To B What  No No In No It No No par Not There No No No Notext Text No No No No Nono NoP The No Yes No No NoNo New No Yes In No The No No P No No No No2 Ch No  No Par No D The The  No In No No No No  No No No Y The No No No No Th The Y No It  No  The No New Text The No  No Two NoP Not No No No  There No No Non No No No This No No  No No No No No No  The No It No No Num No No It No In No No  No No There No There B The No No No To No P No No  The No In No No No No No No Yes No No No No Not No No No No Background NoNo No Th  No No No No It No No No No No Di No No No No No No No Not No No No No Not No Par No  No No No No B No No No No No To No No No In New No No No No The No This NoB No The No Yes No No No No No No No No No No No  No  No D The No No No Di No It No No No  No No No No  No B No  The No Two P No No No Par  No No No No No The No No No No No In No No P No No No No Non The No No No No  No   No The No The Th No Yes No No No No  No Di No No No No No No New The No No It No Not  No No No Di No The No No No No No Par No No No No No No No No No No No No No No No No No No Di No B No No A There No N No No No  No No Non The No It The No Th No No  The No The P No No  No No Par No It No No No P No Not   No  No No  No No Yes No M No Par No The No No No  No No No Par No No No M No No There No No B No  No Yes  No Blue In The No No Line No No No No This No N No No No No No The No No No No Text No No",
+        "response_length": 1913,
+        "answer": null,
+        "correct": false,
+        "time": 11.7707026
+    },
+    "2020093-llava-phi3": {
+        "question": "2020093",
+        "model": "llava-phi3",
+        "response": " No  A  The  Side  The B no JP The side B  Side  To side  P  No side  Yes  Do as  S. The  A  No side  D  This text on  The side  No  No  No  In the diagram  Day  As  No  No text  No J  No text. The Cont the Text in  The  No ",
+        "response_length": 224,
+        "answer": null,
+        "correct": false,
+        "time": 3.4158488
+    },
+    "2021135-llava-phi3": {
+        "question": "2021135",
+        "model": "llava-phi3",
+        "response": " Image The No A This Body Image. Is Power Despite I This No It n  Not In This  But Ch It N  No B P If This As Each You The No This  No If No  B Is No Although The  The N Another The Other The Image The Right The B  Car  B  Yes  This Image Image The Image",
+        "response_length": 254,
+        "answer": null,
+        "correct": false,
+        "time": 3.2147455
+    },
+    "2021161-llava-phi3": {
+        "question": "2021161",
+        "model": "llava-phi3",
+        "response": "  B  A 6 4 1  The 5 1  0 0 1  B  ( 0 5  B  12  R  B 5 [  No  1 B 1 ",
+        "response_length": 67,
+        "answer": null,
+        "correct": false,
+        "time": 2.9527884
+    },
+    "2021163-llava-phi3": {
+        "question": "2021163",
+        "model": "llava-phi3",
+        "response": " by  A c adam  no",
+        "response_length": 17,
+        "answer": null,
+        "correct": false,
+        "time": 2.2805849
+    },
+    "2021179-llava-phi3": {
+        "question": "2021179",
+        "model": "llava-phi3",
+        "response": " I  If the Di step image  A10 DiNo, Plus  D  No: No 2 Di  A  As an side  The  Side  P I  No  Di and  No  Di  To  Yes  + A  Day  I  Di 5 - H  No 3",
+        "response_length": 145,
+        "answer": null,
+        "correct": false,
+        "time": 3.1379743
+    },
+    "2022155-llava-phi3": {
+        "question": "2022155",
+        "model": "llava-phi3",
+        "response": " No   In  P Is no  (  X x + Nx  This  Yes  The  No In  No  (  If  (  (  No To  Ex  Sub  The S For  The  In Side  (  P M P  I  (   -  No  (  No In  The  Box  As      +  x This  It Un Yes  The Step  (  If  x  No When  The  X +  This  The Two  No Par  Yes. This  To  No Ex  Px P x P x This -  Since Dx  In  No x Exp P x x x Px Is x Part  The Plus  x Ex P  P  P It This Left P X  (  The Step",
+        "response_length": 387,
+        "answer": null,
+        "correct": false,
+        "time": 5.0566716
+    },
+    "2022157-llava-phi3": {
+        "question": "2022157",
+        "model": "llava-phi3",
+        "response": "  A + In  B 3 + No 3 + The ",
+        "response_length": 27,
+        "answer": null,
+        "correct": false,
+        "time": 2.4489846
+    },
+    "2023113-llava-phi3": {
+        "question": "2023113",
+        "model": "llava-phi3",
+        "response": " No 1   The  The  C  The  The P ",
+        "response_length": 32,
+        "answer": null,
+        "correct": false,
+        "time": 2.4867835
+    },
+    "2023141-llava-phi3": {
+        "question": "2023141",
+        "model": "llava-phi3",
+        "response": "  The text Bottom  E  A  No  In this Text  A small text",
+        "response_length": 55,
+        "answer": null,
+        "correct": false,
+        "time": 2.4384915
+    },
+    "2023168-llava-phi3": {
+        "question": "2023168",
+        "model": "llava-phi3",
+        "response": " No  E  T  In  Is ",
+        "response_length": 18,
+        "answer": null,
+        "correct": false,
+        "time": 2.4342072
+    },
+    "2023173-llava-phi3": {
+        "question": "2023173",
+        "model": "llava-phi3",
+        "response": " You  B  L  No  This  In  No  The net  The No  BL  B  The  For the  The  The  line  Yes  The  A If  The  To  B  A  L  As  It  S  A  The  Line  L  No  Line  The  L  L  No  No  The  S  The  No  It  Over  L  L  L  L in  Low  In    Line  L ",
+        "response_length": 236,
+        "answer": null,
+        "correct": false,
+        "time": 3.9180695
+    },
+    "2023178-llava-phi3": {
+        "question": "2023178",
+        "model": "llava-phi3",
+        "response": " Cont play  A  De No De Cont  De ",
+        "response_length": 33,
+        "answer": null,
+        "correct": false,
+        "time": 2.4156426
+    },
+    "2009149-moondream": {
+        "question": "2009149",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 4.6502983
+    },
+    "2010136-moondream": {
+        "question": "2010136",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1833129
+    },
+    "2010138-moondream": {
+        "question": "2010138",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1760382
+    },
+    "2012143-moondream": {
+        "question": "2012143",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1505288
+    },
+    "2012153-moondream": {
+        "question": "2012153",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1756388
+    },
+    "2012165-moondream": {
+        "question": "2012165",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1649475
+    },
+    "2012169-moondream": {
+        "question": "2012169",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1837339
+    },
+    "2012066-moondream": {
+        "question": "2012066",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.2084966
+    },
+    "2012073-moondream": {
+        "question": "2012073",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1651353
+    },
+    "2013164-moondream": {
+        "question": "2013164",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.170473
+    },
+    "2013180-moondream": {
+        "question": "2013180",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1988732
+    },
+    "2013068-moondream": {
+        "question": "2013068",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.0966662
+    },
+    "2013072-moondream": {
+        "question": "2013072",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1587126
+    },
+    "2014143-moondream": {
+        "question": "2014143",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1627919
+    },
+    "2014148-moondream": {
+        "question": "2014148",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1700758
+    },
+    "2014160-moondream": {
+        "question": "2014160",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.183155
+    },
+    "2014165-moondream": {
+        "question": "2014165",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.2131931
+    },
+    "2014064-moondream": {
+        "question": "2014064",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1546366
+    },
+    "2015154-moondream": {
+        "question": "2015154",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.161741
+    },
+    "2015164-moondream": {
+        "question": "2015164",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1400587
+    },
+    "2015167-moondream": {
+        "question": "2015167",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1349267
+    },
+    "2015068-moondream": {
+        "question": "2015068",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1453713
+    },
+    "2016155-moondream": {
+        "question": "2016155",
+        "model": "moondream",
+        "response": "",
+        "response_length": 0,
+        "answer": null,
+        "correct": false,
+        "time": 1.1388328
+    }
+}

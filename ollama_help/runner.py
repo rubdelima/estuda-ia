@@ -21,42 +21,45 @@ def test_ollama_models(models, questions, predict_file, short_response=False):
     for model in models:
         for question in questions:
             question_id = str(question["id"])
-            
-            if f"{question_id}-{model}" in predict_data:
+            try:
+                if f"{question_id}-{model}" in predict_data:
+                    continue
+                
+                start_time = time.time_ns()
+
+                question_text = text_question(question)
+
+                response = ollama.generate(
+                    model=model, 
+                    prompt=question_text,
+                    options={
+                        'temperature': 0.0,
+                        'max_tokens': 1 
+                    }if short_response else None,
+                    images= get_images(question)
+                )
+
+                exec_time = (time.time_ns() - start_time) / 10**9  
+
+                answer = extract_answer(response.response)
+
+                predict_data[f"{question_id}-{model}"] = {
+                    "question": question_id,
+                    "model": model,
+                    "response": response.response,
+                    "response_length" : len(response.response),
+                    "answer": answer,
+                    "correct": question["correct_alternative"] == answer,
+                    "time": exec_time,
+                }
+
+                update_json(predict_data, predict_file)
+                df = test_table(predict_file, len(questions),models)
+                clear_output(wait=True)
+                display(df)
+            except Exception as e:
+                print(f"Error ao gerar resposta para a pergunta {question_id} do modelo {model}: {e}")
                 continue
-            
-            start_time = time.time_ns()
-            
-            question_text = text_question(question)
-            
-            response = ollama.generate(
-                model=model, 
-                prompt=question_text,
-                options={
-                    'temperature': 0.0,
-                    'max_tokens': 1 
-                }if short_response else None,
-                images= get_images(question)
-            )
-            
-            exec_time = (time.time_ns() - start_time) / 10**9  
-
-            answer = extract_answer(response.response)
-
-            predict_data[f"{question_id}-{model}"] = {
-                "question": question_id,
-                "model": model,
-                "response": response.response,
-                "response_length" : len(response.response),
-                "answer": answer,
-                "correct": question["correct_alternative"] == answer,
-                "time": exec_time,
-            }
-
-            update_json(predict_data, predict_file)
-            df = test_table(predict_file, len(questions),models)
-            clear_output(wait=True)
-            display(df)
 
 def test_ollama_multi_models(text_models, vision_models, questions, predict_file):
     
@@ -74,7 +77,7 @@ def test_ollama_multi_models(text_models, vision_models, questions, predict_file
             
             start_time = time.time_ns()
             
-            images = get_images()
+            images = get_images(question)
             
             # Caso a questão possua imagem no contexto
             if question['type'] in ['context-image', 'full-image']:
