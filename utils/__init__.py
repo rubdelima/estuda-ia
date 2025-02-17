@@ -1,7 +1,6 @@
 import json
 import math
 import pandas as pd
-from IPython.display import clear_output, display
 import os
 import re
 
@@ -27,8 +26,8 @@ def update_json(obj,filename)->bool:
     
 
 def format_time(seconds: float) -> str:
-    if seconds is None or math.isnan(seconds) or math.isinf(seconds):
-        return "0.0"
+    if seconds is None or math.isnan(seconds) or math.isinf(seconds) or seconds < 0:
+        return "ND"
     
     if seconds >= 3600:
         hours = int(seconds // 3600)
@@ -40,15 +39,21 @@ def format_time(seconds: float) -> str:
     else:
         return f"{seconds:.2f}"
 
-def update_table(models: list[str], predict_path: str, total_questions: int):
+# update_table
+def test_table(predict_path: str, total_questions: int, models:list[str]|None=None)->pd.DataFrame:
 
     with open(predict_path) as f:
         predict_data = json.load(f)
     
-    models_dict = {model: [] for model in models}
-    
+    models_dict = {model : [] for model in models} if models is not None else {} #type: ignore
+        
     for question in predict_data.values():
-        models_dict[question["model"]].append(question)
+        if question["model"] in models_dict:
+            models_dict[question["model"]].append(question)
+        elif (models is not None) and (question["model"] not in models):
+            continue
+        else:
+            models_dict[question["model"]] = [question]
 
     table_data = []
     total_completed = 0
@@ -95,7 +100,7 @@ def update_table(models: list[str], predict_path: str, total_questions: int):
 
     table_data.append([
         "TOTAL",
-         f"{total_completed} ({((100 * total_completed) / (total_questions * len(models))):.0f}%)",
+         f"{total_completed} ({((100 * total_completed) / max(1, total_questions * len(models if models is not None else models_dict.keys()))):.0f}%)",
          total_corrects,
          total_nulls,
          total_errors,
@@ -107,7 +112,4 @@ def update_table(models: list[str], predict_path: str, total_questions: int):
          format_time(total_min_time)
          ])
 
-    df = pd.DataFrame(table_data, columns=["Model", "Finsh", "OK", "Null", "Err", "Acc", "Ttot", "Tle", "Tavg", "Tmax", "Tmin"])
-
-    clear_output(wait=True)
-    display(df)
+    return pd.DataFrame(table_data, columns=["Model", "Finsh", "OK", "Null", "Err", "Acc", "Ttot", "Tle", "Tavg", "Tmax", "Tmin"])
