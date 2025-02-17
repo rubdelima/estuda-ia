@@ -258,3 +258,38 @@ def discipline_accuracy_vs_time(df: pd.DataFrame):
     ax.set_ylabel("Acurácia")
     ax.set_title("Correlação entre Acurácia e Tempo Médio por Modelo e Disciplina")
     plt.show()
+
+def multi_model_performance(df: pd.DataFrame, group: str, y_axis: str):
+    """Gera um gráfico de barras mostrando a acurácia ou tempo médio por modelo de visão ou modelo de texto."""
+    if group not in ["model_vision", "model_text"]:
+        raise ValueError("O parâmetro 'group' deve ser 'model_vision' ou 'model_text'")
+    if y_axis not in ["time-avg", "accuracy"]:
+        raise ValueError("O parâmetro 'y_axis' deve ser 'time-avg' ou 'accuracy'")
+    
+    df_filtered = df.copy()
+    df_filtered["time"] = pd.to_numeric(df_filtered["time"], errors="coerce")
+    
+    grouped = df_filtered.groupby(group).agg(
+        Avg_Time=("time", "mean"),
+        Accuracy=("correct", "mean")
+    ).reset_index()
+    
+    y_label = "Tempo Médio (segundos)" if y_axis == "time-avg" else "Acurácia"
+    title = "Tempo Médio por Modelo" if y_axis == "time-avg" else "Acurácia por Modelo"
+    
+    fig, ax = plt.subplots(figsize=(10, 6))
+    
+    if y_axis == "time-avg":
+        bars = ax.bar(grouped[group], grouped["Avg_Time"], color="skyblue")
+    else:
+        bars = ax.bar(grouped[group], grouped["Accuracy"], color="lightcoral")
+    
+    for bar in bars:
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2, height * 1.03, f"{height:.2f}", ha='center', fontsize=10)
+    
+    ax.set_xlabel("Modelos")
+    ax.set_ylabel(y_label)
+    ax.set_title(title)
+    plt.xticks(rotation=45)
+    plt.show()
