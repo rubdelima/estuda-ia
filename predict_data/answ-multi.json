@@ -6,7 +6,8 @@
         "response_length": 1166,
         "answer": "A",
         "correct": false,
-        "time": 16.8491496
+        "time": 16.8491496,
+        "discipline": "ciencias-natureza"
     },
     "2009036-llama3.2-vision+phi4": {
         "question": "2009036",
@@ -15,7 +16,8 @@
         "response_length": 1353,
         "answer": "E",
         "correct": true,
-        "time": 13.4220644
+        "time": 13.4220644,
+        "discipline": "ciencias-natureza"
     },
     "2009085-llama3.2-vision+phi4": {
         "question": "2009085",
@@ -24,7 +26,8 @@
         "response_length": 587,
         "answer": "A",
         "correct": false,
-        "time": 3.965876
+        "time": 3.965876,
+        "discipline": "ciencias-humanas"
     },
     "2009091-llama3.2-vision+phi4": {
         "question": "2009091",
@@ -33,7 +36,8 @@
         "response_length": 570,
         "answer": "E",
         "correct": false,
-        "time": 4.3611957
+        "time": 4.3611957,
+        "discipline": "linguagens"
     },
     "2010100-llama3.2-vision+phi4": {
         "question": "2010100",
@@ -42,7 +46,8 @@
         "response_length": 772,
         "answer": "A",
         "correct": false,
-        "time": 5.4099073
+        "time": 5.4099073,
+        "discipline": "linguagens"
     },
     "2010142-llama3.2-vision+phi4": {
         "question": "2010142",
@@ -51,7 +56,8 @@
         "response_length": 1203,
         "answer": "E",
         "correct": false,
-        "time": 9.7065304
+        "time": 9.7065304,
+        "discipline": "matematica"
     },
     "2010080-llama3.2-vision+phi4": {
         "question": "2010080",
@@ -60,7 +66,8 @@
         "response_length": 784,
         "answer": "A",
         "correct": false,
-        "time": 6.6882477
+        "time": 6.6882477,
+        "discipline": "ciencias-natureza"
     },
     "2010084-llama3.2-vision+phi4": {
         "question": "2010084",
@@ -69,7 +76,8 @@
         "response_length": 1728,
         "answer": null,
         "correct": false,
-        "time": 13.4215831
+        "time": 13.4215831,
+        "discipline": "ciencias-natureza"
     },
     "2011152-llama3.2-vision+phi4": {
         "question": "2011152",
@@ -78,7 +86,8 @@
         "response_length": 987,
         "answer": "A",
         "correct": false,
-        "time": 8.5578045
+        "time": 8.5578045,
+        "discipline": "ciencias-humanas"
     },
     "2011179-llama3.2-vision+phi4": {
         "question": "2011179",
@@ -87,7 +96,8 @@
         "response_length": 2393,
         "answer": null,
         "correct": false,
-        "time": 26.7620631
+        "time": 26.7620631,
+        "discipline": "matematica"
     },
     "2012152-llama3.2-vision+phi4": {
         "question": "2012152",
@@ -96,7 +106,8 @@
         "response_length": 896,
         "answer": "E",
         "correct": false,
-        "time": 8.6962473
+        "time": 8.6962473,
+        "discipline": "matematica"
     },
     "2012156-llama3.2-vision+phi4": {
         "question": "2012156",
@@ -105,7 +116,8 @@
         "response_length": 592,
         "answer": "A",
         "correct": false,
-        "time": 5.0069784
+        "time": 5.0069784,
+        "discipline": "matematica"
     },
     "2012170-llama3.2-vision+phi4": {
         "question": "2012170",
@@ -114,7 +126,8 @@
         "response_length": 1342,
         "answer": "E",
         "correct": false,
-        "time": 11.5617999
+        "time": 11.5617999,
+        "discipline": "matematica"
     },
     "2012055-llama3.2-vision+phi4": {
         "question": "2012055",
@@ -123,7 +136,8 @@
         "response_length": 732,
         "answer": "E",
         "correct": false,
-        "time": 13.3053407
+        "time": 13.3053407,
+        "discipline": "ciencias-natureza"
     },
     "2012060-llama3.2-vision+phi4": {
         "question": "2012060",
@@ -132,7 +146,8 @@
         "response_length": 341,
         "answer": "A",
         "correct": false,
-        "time": 2.7079316
+        "time": 2.7079316,
+        "discipline": "ciencias-natureza"
     },
     "2012078-llama3.2-vision+phi4": {
         "question": "2012078",
@@ -141,7 +156,8 @@
         "response_length": 1972,
         "answer": "A",
         "correct": true,
-        "time": 13.4058471
+        "time": 13.4058471,
+        "discipline": "ciencias-natureza"
     },
     "2013138-llama3.2-vision+phi4": {
         "question": "2013138",
@@ -150,7 +166,8 @@
         "response_length": 397,
         "answer": "A",
         "correct": true,
-        "time": 2.5393182
+        "time": 2.5393182,
+        "discipline": "matematica"
     },
     "2013151-llama3.2-vision+phi4": {
         "question": "2013151",
@@ -159,7 +176,8 @@
         "response_length": 1854,
         "answer": "B",
         "correct": false,
-        "time": 20.6440464
+        "time": 20.6440464,
+        "discipline": "matematica"
     },
     "2013153-llama3.2-vision+phi4": {
         "question": "2013153",
@@ -168,7 +186,8 @@
         "response_length": 1482,
         "answer": "E",
         "correct": false,
-        "time": 14.0290158
+        "time": 14.0290158,
+        "discipline": "matematica"
     },
     "2013055-llama3.2-vision+phi4": {
         "question": "2013055",
@@ -177,7 +196,8 @@
         "response_length": 1626,
         "answer": "E",
         "correct": false,
-        "time": 10.7868941
+        "time": 10.7868941,
+        "discipline": "ciencias-natureza"
     },
     "2013058-llama3.2-vision+phi4": {
         "question": "2013058",
@@ -186,7 +206,8 @@
         "response_length": 684,
         "answer": "E",
         "correct": false,
-        "time": 5.344685
+        "time": 5.344685,
+        "discipline": "ciencias-natureza"
     },
     "2013087-llama3.2-vision+phi4": {
         "question": "2013087",
@@ -195,7 +216,8 @@
         "response_length": 2180,
         "answer": "E",
         "correct": false,
-        "time": 14.9297636
+        "time": 14.9297636,
+        "discipline": "ciencias-natureza"
     },
     "2014144-llama3.2-vision+phi4": {
         "question": "2014144",
@@ -204,7 +226,8 @@
         "response_length": 550,
         "answer": null,
         "correct": false,
-        "time": 3.5044997
+        "time": 3.5044997,
+        "discipline": "matematica"
     },
     "2014145-llama3.2-vision+phi4": {
         "question": "2014145",
@@ -213,7 +236,8 @@
         "response_length": 367,
         "answer": null,
         "correct": false,
-        "time": 2.5351638
+        "time": 2.5351638,
+        "discipline": "matematica"
     },
     "2014016-llama3.2-vision+phi4": {
         "question": "2014016",
@@ -222,7 +246,8 @@
         "response_length": 1356,
         "answer": "E",
         "correct": false,
-        "time": 9.1479971
+        "time": 9.1479971,
+        "discipline": "ciencias-humanas"
     },
     "2014163-llama3.2-vision+phi4": {
         "question": "2014163",
@@ -231,7 +256,8 @@
         "response_length": 695,
         "answer": "A",
         "correct": false,
-        "time": 4.6055655
+        "time": 4.6055655,
+        "discipline": "matematica"
     },
     "2014065-llama3.2-vision+phi4": {
         "question": "2014065",
@@ -240,7 +266,8 @@
         "response_length": 877,
         "answer": null,
         "correct": false,
-        "time": 5.578085
+        "time": 5.578085,
+        "discipline": "ciencias-natureza"
     },
     "2015176-llama3.2-vision+phi4": {
         "question": "2015176",
@@ -249,7 +276,8 @@
         "response_length": 955,
         "answer": "A",
         "correct": false,
-        "time": 5.9968357
+        "time": 5.9968357,
+        "discipline": "matematica"
     },
     "2015048-llama3.2-vision+phi4": {
         "question": "2015048",
@@ -258,7 +286,8 @@
         "response_length": 526,
         "answer": "A",
         "correct": false,
-        "time": 3.5232436
+        "time": 3.5232436,
+        "discipline": "ciencias-natureza"
     },
     "2016147-llama3.2-vision+phi4": {
         "question": "2016147",
@@ -267,7 +296,8 @@
         "response_length": 665,
         "answer": "A",
         "correct": true,
-        "time": 4.5266416
+        "time": 4.5266416,
+        "discipline": "matematica"
     },
     "2016150-llama3.2-vision+phi4": {
         "question": "2016150",
@@ -276,7 +306,8 @@
         "response_length": 302,
         "answer": "A",
         "correct": false,
-        "time": 2.2578364
+        "time": 2.2578364,
+        "discipline": "matematica"
     },
     "2016168-llama3.2-vision+phi4": {
         "question": "2016168",
@@ -285,7 +316,8 @@
         "response_length": 1380,
         "answer": "D",
         "correct": false,
-        "time": 12.4806364
+        "time": 12.4806364,
+        "discipline": "matematica"
     },
     "2016063-llama3.2-vision+phi4": {
         "question": "2016063",
@@ -294,7 +326,8 @@
         "response_length": 1831,
         "answer": "A",
         "correct": false,
-        "time": 16.1161923
+        "time": 16.1161923,
+        "discipline": "ciencias-natureza"
     },
     "2017108-llama3.2-vision+phi4": {
         "question": "2017108",
@@ -303,7 +336,8 @@
         "response_length": 1653,
         "answer": "D",
         "correct": false,
-        "time": 13.1998905
+        "time": 13.1998905,
+        "discipline": "ciencias-humanas"
     },
     "2017125-llama3.2-vision+phi4": {
         "question": "2017125",
@@ -312,7 +346,8 @@
         "response_length": 1288,
         "answer": "E",
         "correct": false,
-        "time": 9.4874221
+        "time": 9.4874221,
+        "discipline": "ciencias-natureza"
     },
     "2017136-llama3.2-vision+phi4": {
         "question": "2017136",
@@ -321,7 +356,8 @@
         "response_length": 1985,
         "answer": null,
         "correct": false,
-        "time": 18.8145525
+        "time": 18.8145525,
+        "discipline": "matematica"
     },
     "2017175-llama3.2-vision+phi4": {
         "question": "2017175",
@@ -330,7 +366,8 @@
         "response_length": 823,
         "answer": "A",
         "correct": true,
-        "time": 5.3221185
+        "time": 5.3221185,
+        "discipline": "matematica"
     },
     "2018126-llama3.2-vision+phi4": {
         "question": "2018126",
@@ -339,7 +376,8 @@
         "response_length": 1128,
         "answer": "A",
         "correct": false,
-        "time": 8.2254595
+        "time": 8.2254595,
+        "discipline": "ciencias-natureza"
     },
     "2018148-llama3.2-vision+phi4": {
         "question": "2018148",
@@ -348,7 +386,8 @@
         "response_length": 1854,
         "answer": "A",
         "correct": true,
-        "time": 20.7780697
+        "time": 20.7780697,
+        "discipline": "matematica"
     },
     "2018165-llama3.2-vision+phi4": {
         "question": "2018165",
@@ -357,7 +396,8 @@
         "response_length": 1652,
         "answer": "A",
         "correct": false,
-        "time": 15.3842915
+        "time": 15.3842915,
+        "discipline": "matematica"
     },
     "2018056-llama3.2-vision+phi4": {
         "question": "2018056",
@@ -366,7 +406,8 @@
         "response_length": 1552,
         "answer": "A",
         "correct": false,
-        "time": 11.8790464
+        "time": 11.8790464,
+        "discipline": "ciencias-humanas"
     },
     "2019139-llama3.2-vision+phi4": {
         "question": "2019139",
@@ -375,7 +416,8 @@
         "response_length": 1973,
         "answer": "E",
         "correct": false,
-        "time": 21.3086912
+        "time": 21.3086912,
+        "discipline": "matematica"
     },
     "2019165-llama3.2-vision+phi4": {
         "question": "2019165",
@@ -384,7 +426,8 @@
         "response_length": 1565,
         "answer": "E",
         "correct": true,
-        "time": 13.6864612
+        "time": 13.6864612,
+        "discipline": "matematica"
     },
     "2020113-llama3.2-vision+phi4": {
         "question": "2020113",
@@ -393,7 +436,8 @@
         "response_length": 1546,
         "answer": "E",
         "correct": false,
-        "time": 11.4484526
+        "time": 11.4484526,
+        "discipline": "ciencias-natureza"
     },
     "2020147-llama3.2-vision+phi4": {
         "question": "2020147",
@@ -402,7 +446,8 @@
         "response_length": 1344,
         "answer": "E",
         "correct": false,
-        "time": 11.7946248
+        "time": 11.7946248,
+        "discipline": "matematica"
     },
     "2020157-llama3.2-vision+phi4": {
         "question": "2020157",
@@ -411,7 +456,8 @@
         "response_length": 2701,
         "answer": "A",
         "correct": false,
-        "time": 22.476785
+        "time": 22.476785,
+        "discipline": "matematica"
     },
     "2020161-llama3.2-vision+phi4": {
         "question": "2020161",
@@ -420,7 +466,8 @@
         "response_length": 1119,
         "answer": "A",
         "correct": false,
-        "time": 12.9800779
+        "time": 12.9800779,
+        "discipline": "matematica"
     },
     "2020163-llama3.2-vision+phi4": {
         "question": "2020163",
@@ -429,7 +476,8 @@
         "response_length": 1237,
         "answer": "A",
         "correct": false,
-        "time": 13.8089396
+        "time": 13.8089396,
+        "discipline": "matematica"
     },
     "2020170-llama3.2-vision+phi4": {
         "question": "2020170",
@@ -438,7 +486,8 @@
         "response_length": 1301,
         "answer": null,
         "correct": false,
-        "time": 15.8283587
+        "time": 15.8283587,
+        "discipline": "matematica"
     },
     "2020093-llama3.2-vision+phi4": {
         "question": "2020093",
@@ -447,7 +496,8 @@
         "response_length": 1359,
         "answer": "E",
         "correct": false,
-        "time": 9.2305937
+        "time": 9.2305937,
+        "discipline": "ciencias-natureza"
     },
     "2021135-llama3.2-vision+phi4": {
         "question": "2021135",
@@ -456,7 +506,8 @@
         "response_length": 736,
         "answer": "A",
         "correct": false,
-        "time": 4.9108765
+        "time": 4.9108765,
+        "discipline": "ciencias-natureza"
     },
     "2021161-llama3.2-vision+phi4": {
         "question": "2021161",
@@ -465,7 +516,8 @@
         "response_length": 2266,
         "answer": null,
         "correct": false,
-        "time": 21.1459212
+        "time": 21.1459212,
+        "discipline": "matematica"
     },
     "2021163-llama3.2-vision+phi4": {
         "question": "2021163",
@@ -474,7 +526,8 @@
         "response_length": 1067,
         "answer": "A",
         "correct": false,
-        "time": 10.3105379
+        "time": 10.3105379,
+        "discipline": "matematica"
     },
     "2021179-llama3.2-vision+phi4": {
         "question": "2021179",
@@ -483,7 +536,8 @@
         "response_length": 1460,
         "answer": "E",
         "correct": false,
-        "time": 13.4735839
+        "time": 13.4735839,
+        "discipline": "matematica"
     },
     "2022155-llama3.2-vision+phi4": {
         "question": "2022155",
@@ -492,7 +546,8 @@
         "response_length": 1914,
         "answer": "E",
         "correct": false,
-        "time": 17.7439658
+        "time": 17.7439658,
+        "discipline": "matematica"
     },
     "2022157-llama3.2-vision+phi4": {
         "question": "2022157",
@@ -501,7 +556,8 @@
         "response_length": 1365,
         "answer": "A",
         "correct": false,
-        "time": 15.672095
+        "time": 15.672095,
+        "discipline": "matematica"
     },
     "2023113-llama3.2-vision+phi4": {
         "question": "2023113",
@@ -510,7 +566,8 @@
         "response_length": 1305,
         "answer": "E",
         "correct": false,
-        "time": 14.4328286
+        "time": 14.4328286,
+        "discipline": "ciencias-natureza"
     },
     "2023141-llama3.2-vision+phi4": {
         "question": "2023141",
@@ -519,7 +576,8 @@
         "response_length": 646,
         "answer": "E",
         "correct": true,
-        "time": 4.0922697
+        "time": 4.0922697,
+        "discipline": "matematica"
     },
     "2023168-llama3.2-vision+phi4": {
         "question": "2023168",
@@ -528,7 +586,8 @@
         "response_length": 2036,
         "answer": "A",
         "correct": true,
-        "time": 20.4779879
+        "time": 20.4779879,
+        "discipline": "matematica"
     },
     "2023173-llama3.2-vision+phi4": {
         "question": "2023173",
@@ -537,7 +596,8 @@
         "response_length": 758,
         "answer": "A",
         "correct": false,
-        "time": 7.0319647
+        "time": 7.0319647,
+        "discipline": "matematica"
     },
     "2023178-llama3.2-vision+phi4": {
         "question": "2023178",
@@ -546,7 +606,8 @@
         "response_length": 1194,
         "answer": "E",
         "correct": false,
-        "time": 9.8842344
+        "time": 9.8842344,
+        "discipline": "matematica"
     },
     "2009021-llama3.2-vision+gemma2": {
         "question": "2009021",
@@ -555,7 +616,8 @@
         "response_length": 176,
         "answer": "D",
         "correct": false,
-        "time": 6.9021201
+        "time": 6.9021201,
+        "discipline": "ciencias-natureza"
     },
     "2009036-llama3.2-vision+gemma2": {
         "question": "2009036",
@@ -564,7 +626,8 @@
         "response_length": 101,
         "answer": "A",
         "correct": false,
-        "time": 1.0118515
+        "time": 1.0118515,
+        "discipline": "ciencias-natureza"
     },
     "2009085-llama3.2-vision+gemma2": {
         "question": "2009085",
@@ -573,7 +636,8 @@
         "response_length": 560,
         "answer": "A",
         "correct": false,
-        "time": 2.7011485
+        "time": 2.7011485,
+        "discipline": "ciencias-humanas"
     },
     "2009091-llama3.2-vision+gemma2": {
         "question": "2009091",
@@ -582,7 +646,8 @@
         "response_length": 73,
         "answer": "A",
         "correct": true,
-        "time": 0.8719164
+        "time": 0.8719164,
+        "discipline": "linguagens"
     },
     "2010100-llama3.2-vision+gemma2": {
         "question": "2010100",
@@ -591,7 +656,8 @@
         "response_length": 100,
         "answer": "E",
         "correct": false,
-        "time": 0.9389823
+        "time": 0.9389823,
+        "discipline": "linguagens"
     },
     "2010142-llama3.2-vision+gemma2": {
         "question": "2010142",
@@ -600,7 +666,8 @@
         "response_length": 78,
         "answer": "C",
         "correct": false,
-        "time": 0.837707
+        "time": 0.837707,
+        "discipline": "matematica"
     },
     "2010080-llama3.2-vision+gemma2": {
         "question": "2010080",
@@ -609,7 +676,8 @@
         "response_length": 191,
         "answer": "E",
         "correct": true,
-        "time": 1.538283
+        "time": 1.538283,
+        "discipline": "ciencias-natureza"
     },
     "2010084-llama3.2-vision+gemma2": {
         "question": "2010084",
@@ -618,7 +686,8 @@
         "response_length": 439,
         "answer": "D",
         "correct": true,
-        "time": 2.5988251
+        "time": 2.5988251,
+        "discipline": "ciencias-natureza"
     },
     "2011152-llama3.2-vision+gemma2": {
         "question": "2011152",
@@ -627,7 +696,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.3127967
+        "time": 0.3127967,
+        "discipline": "ciencias-humanas"
     },
     "2011179-llama3.2-vision+gemma2": {
         "question": "2011179",
@@ -636,7 +706,8 @@
         "response_length": 480,
         "answer": "E",
         "correct": false,
-        "time": 2.9013551
+        "time": 2.9013551,
+        "discipline": "matematica"
     },
     "2012152-llama3.2-vision+gemma2": {
         "question": "2012152",
@@ -645,7 +716,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.3486637
+        "time": 0.3486637,
+        "discipline": "matematica"
     },
     "2012156-llama3.2-vision+gemma2": {
         "question": "2012156",
@@ -654,7 +726,8 @@
         "response_length": 221,
         "answer": "A",
         "correct": false,
-        "time": 1.2274561
+        "time": 1.2274561,
+        "discipline": "matematica"
     },
     "2012170-llama3.2-vision+gemma2": {
         "question": "2012170",
@@ -663,7 +736,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": true,
-        "time": 0.3370971
+        "time": 0.3370971,
+        "discipline": "matematica"
     },
     "2012055-llama3.2-vision+gemma2": {
         "question": "2012055",
@@ -672,7 +746,8 @@
         "response_length": 284,
         "answer": "A",
         "correct": false,
-        "time": 1.7370888
+        "time": 1.7370888,
+        "discipline": "ciencias-natureza"
     },
     "2012060-llama3.2-vision+gemma2": {
         "question": "2012060",
@@ -681,7 +756,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.27486
+        "time": 0.27486,
+        "discipline": "ciencias-natureza"
     },
     "2012078-llama3.2-vision+gemma2": {
         "question": "2012078",
@@ -690,7 +766,8 @@
         "response_length": 193,
         "answer": "A",
         "correct": true,
-        "time": 1.3054718
+        "time": 1.3054718,
+        "discipline": "ciencias-natureza"
     },
     "2013138-llama3.2-vision+gemma2": {
         "question": "2013138",
@@ -699,7 +776,8 @@
         "response_length": 7,
         "answer": "A",
         "correct": true,
-        "time": 0.2718997
+        "time": 0.2718997,
+        "discipline": "matematica"
     },
     "2013151-llama3.2-vision+gemma2": {
         "question": "2013151",
@@ -708,7 +786,8 @@
         "response_length": 115,
         "answer": "C",
         "correct": false,
-        "time": 0.9872624
+        "time": 0.9872624,
+        "discipline": "matematica"
     },
     "2013153-llama3.2-vision+gemma2": {
         "question": "2013153",
@@ -717,7 +796,8 @@
         "response_length": 331,
         "answer": "C",
         "correct": false,
-        "time": 2.4945327
+        "time": 2.4945327,
+        "discipline": "matematica"
     },
     "2013055-llama3.2-vision+gemma2": {
         "question": "2013055",
@@ -726,7 +806,8 @@
         "response_length": 516,
         "answer": "E",
         "correct": false,
-        "time": 3.0692471
+        "time": 3.0692471,
+        "discipline": "ciencias-natureza"
     },
     "2013058-llama3.2-vision+gemma2": {
         "question": "2013058",
@@ -735,7 +816,8 @@
         "response_length": 5,
         "answer": "E",
         "correct": false,
-        "time": 0.3972492
+        "time": 0.3972492,
+        "discipline": "ciencias-natureza"
     },
     "2013087-llama3.2-vision+gemma2": {
         "question": "2013087",
@@ -744,7 +826,8 @@
         "response_length": 164,
         "answer": "C",
         "correct": false,
-        "time": 1.2643191
+        "time": 1.2643191,
+        "discipline": "ciencias-natureza"
     },
     "2014144-llama3.2-vision+gemma2": {
         "question": "2014144",
@@ -753,7 +836,8 @@
         "response_length": 89,
         "answer": null,
         "correct": false,
-        "time": 0.6779845
+        "time": 0.6779845,
+        "discipline": "matematica"
     },
     "2014145-llama3.2-vision+gemma2": {
         "question": "2014145",
@@ -762,7 +846,8 @@
         "response_length": 214,
         "answer": null,
         "correct": false,
-        "time": 1.3788984
+        "time": 1.3788984,
+        "discipline": "matematica"
     },
     "2014016-llama3.2-vision+gemma2": {
         "question": "2014016",
@@ -771,7 +856,8 @@
         "response_length": 54,
         "answer": "E",
         "correct": false,
-        "time": 0.6651749
+        "time": 0.6651749,
+        "discipline": "ciencias-humanas"
     },
     "2014163-llama3.2-vision+gemma2": {
         "question": "2014163",
@@ -780,7 +866,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2734971
+        "time": 0.2734971,
+        "discipline": "matematica"
     },
     "2014065-llama3.2-vision+gemma2": {
         "question": "2014065",
@@ -789,7 +876,8 @@
         "response_length": 234,
         "answer": "E",
         "correct": false,
-        "time": 1.3638002
+        "time": 1.3638002,
+        "discipline": "ciencias-natureza"
     },
     "2015176-llama3.2-vision+gemma2": {
         "question": "2015176",
@@ -798,7 +886,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2760644
+        "time": 0.2760644,
+        "discipline": "matematica"
     },
     "2015048-llama3.2-vision+gemma2": {
         "question": "2015048",
@@ -807,7 +896,8 @@
         "response_length": 5,
         "answer": "E",
         "correct": false,
-        "time": 0.3057026
+        "time": 0.3057026,
+        "discipline": "ciencias-natureza"
     },
     "2016147-llama3.2-vision+gemma2": {
         "question": "2016147",
@@ -816,7 +906,8 @@
         "response_length": 241,
         "answer": "A",
         "correct": true,
-        "time": 1.2212933
+        "time": 1.2212933,
+        "discipline": "matematica"
     },
     "2016150-llama3.2-vision+gemma2": {
         "question": "2016150",
@@ -825,7 +916,8 @@
         "response_length": 75,
         "answer": "A",
         "correct": false,
-        "time": 0.7174182
+        "time": 0.7174182,
+        "discipline": "matematica"
     },
     "2016168-llama3.2-vision+gemma2": {
         "question": "2016168",
@@ -834,7 +926,8 @@
         "response_length": 595,
         "answer": "D",
         "correct": false,
-        "time": 4.3806926
+        "time": 4.3806926,
+        "discipline": "matematica"
     },
     "2016063-llama3.2-vision+gemma2": {
         "question": "2016063",
@@ -843,7 +936,8 @@
         "response_length": 458,
         "answer": "A",
         "correct": false,
-        "time": 2.8911483
+        "time": 2.8911483,
+        "discipline": "ciencias-natureza"
     },
     "2017108-llama3.2-vision+gemma2": {
         "question": "2017108",
@@ -852,7 +946,8 @@
         "response_length": 1090,
         "answer": "C",
         "correct": true,
-        "time": 6.0012283
+        "time": 6.0012283,
+        "discipline": "ciencias-humanas"
     },
     "2017125-llama3.2-vision+gemma2": {
         "question": "2017125",
@@ -861,7 +956,8 @@
         "response_length": 593,
         "answer": "E",
         "correct": false,
-        "time": 3.6037686
+        "time": 3.6037686,
+        "discipline": "ciencias-natureza"
     },
     "2017136-llama3.2-vision+gemma2": {
         "question": "2017136",
@@ -870,7 +966,8 @@
         "response_length": 146,
         "answer": "D",
         "correct": false,
-        "time": 1.1091168
+        "time": 1.1091168,
+        "discipline": "matematica"
     },
     "2017175-llama3.2-vision+gemma2": {
         "question": "2017175",
@@ -879,7 +976,8 @@
         "response_length": 193,
         "answer": "A",
         "correct": true,
-        "time": 1.2317158
+        "time": 1.2317158,
+        "discipline": "matematica"
     },
     "2018126-llama3.2-vision+gemma2": {
         "question": "2018126",
@@ -888,7 +986,8 @@
         "response_length": 6,
         "answer": "A",
         "correct": false,
-        "time": 0.4729982
+        "time": 0.4729982,
+        "discipline": "ciencias-natureza"
     },
     "2018148-llama3.2-vision+gemma2": {
         "question": "2018148",
@@ -897,7 +996,8 @@
         "response_length": 470,
         "answer": "D",
         "correct": false,
-        "time": 4.4296328
+        "time": 4.4296328,
+        "discipline": "matematica"
     },
     "2018165-llama3.2-vision+gemma2": {
         "question": "2018165",
@@ -906,7 +1006,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.4106946
+        "time": 0.4106946,
+        "discipline": "matematica"
     },
     "2018056-llama3.2-vision+gemma2": {
         "question": "2018056",
@@ -915,7 +1016,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": true,
-        "time": 0.3273239
+        "time": 0.3273239,
+        "discipline": "ciencias-humanas"
     },
     "2019139-llama3.2-vision+gemma2": {
         "question": "2019139",
@@ -924,7 +1026,8 @@
         "response_length": 6,
         "answer": "C",
         "correct": false,
-        "time": 0.4279427
+        "time": 0.4279427,
+        "discipline": "matematica"
     },
     "2019165-llama3.2-vision+gemma2": {
         "question": "2019165",
@@ -933,7 +1036,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.4018559
+        "time": 0.4018559,
+        "discipline": "matematica"
     },
     "2020113-llama3.2-vision+gemma2": {
         "question": "2020113",
@@ -942,7 +1046,8 @@
         "response_length": 105,
         "answer": "D",
         "correct": true,
-        "time": 0.9748954
+        "time": 0.9748954,
+        "discipline": "ciencias-natureza"
     },
     "2020147-llama3.2-vision+gemma2": {
         "question": "2020147",
@@ -951,7 +1056,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.3901979
+        "time": 0.3901979,
+        "discipline": "matematica"
     },
     "2020157-llama3.2-vision+gemma2": {
         "question": "2020157",
@@ -960,7 +1066,8 @@
         "response_length": 471,
         "answer": "A",
         "correct": false,
-        "time": 2.7908665
+        "time": 2.7908665,
+        "discipline": "matematica"
     },
     "2020161-llama3.2-vision+gemma2": {
         "question": "2020161",
@@ -969,7 +1076,8 @@
         "response_length": 880,
         "answer": "D",
         "correct": false,
-        "time": 7.812111
+        "time": 7.812111,
+        "discipline": "matematica"
     },
     "2020163-llama3.2-vision+gemma2": {
         "question": "2020163",
@@ -978,7 +1086,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.3432611
+        "time": 0.3432611,
+        "discipline": "matematica"
     },
     "2020170-llama3.2-vision+gemma2": {
         "question": "2020170",
@@ -987,7 +1096,8 @@
         "response_length": 61,
         "answer": "D",
         "correct": false,
-        "time": 0.7029231
+        "time": 0.7029231,
+        "discipline": "matematica"
     },
     "2020093-llama3.2-vision+gemma2": {
         "question": "2020093",
@@ -996,7 +1106,8 @@
         "response_length": 130,
         "answer": "D",
         "correct": false,
-        "time": 1.0843039
+        "time": 1.0843039,
+        "discipline": "ciencias-natureza"
     },
     "2021135-llama3.2-vision+gemma2": {
         "question": "2021135",
@@ -1005,7 +1116,8 @@
         "response_length": 147,
         "answer": "E",
         "correct": false,
-        "time": 1.154054
+        "time": 1.154054,
+        "discipline": "ciencias-natureza"
     },
     "2021161-llama3.2-vision+gemma2": {
         "question": "2021161",
@@ -1014,7 +1126,8 @@
         "response_length": 164,
         "answer": "D",
         "correct": false,
-        "time": 1.2228595
+        "time": 1.2228595,
+        "discipline": "matematica"
     },
     "2021163-llama3.2-vision+gemma2": {
         "question": "2021163",
@@ -1023,7 +1136,8 @@
         "response_length": 874,
         "answer": "D",
         "correct": false,
-        "time": 5.5971716
+        "time": 5.5971716,
+        "discipline": "matematica"
     },
     "2021179-llama3.2-vision+gemma2": {
         "question": "2021179",
@@ -1032,7 +1146,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": false,
-        "time": 0.3090938
+        "time": 0.3090938,
+        "discipline": "matematica"
     },
     "2022155-llama3.2-vision+gemma2": {
         "question": "2022155",
@@ -1041,7 +1156,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": false,
-        "time": 0.4322978
+        "time": 0.4322978,
+        "discipline": "matematica"
     },
     "2022157-llama3.2-vision+gemma2": {
         "question": "2022157",
@@ -1050,7 +1166,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.3694251
+        "time": 0.3694251,
+        "discipline": "matematica"
     },
     "2023113-llama3.2-vision+gemma2": {
         "question": "2023113",
@@ -1059,7 +1176,8 @@
         "response_length": 1484,
         "answer": "E",
         "correct": false,
-        "time": 9.1146625
+        "time": 9.1146625,
+        "discipline": "ciencias-natureza"
     },
     "2023141-llama3.2-vision+gemma2": {
         "question": "2023141",
@@ -1068,7 +1186,8 @@
         "response_length": 292,
         "answer": null,
         "correct": false,
-        "time": 1.6133518
+        "time": 1.6133518,
+        "discipline": "matematica"
     },
     "2023168-llama3.2-vision+gemma2": {
         "question": "2023168",
@@ -1077,7 +1196,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.4105753
+        "time": 0.4105753,
+        "discipline": "matematica"
     },
     "2023173-llama3.2-vision+gemma2": {
         "question": "2023173",
@@ -1086,7 +1206,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": false,
-        "time": 0.3815011
+        "time": 0.3815011,
+        "discipline": "matematica"
     },
     "2023178-llama3.2-vision+gemma2": {
         "question": "2023178",
@@ -1095,7 +1216,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": false,
-        "time": 0.3910719
+        "time": 0.3910719,
+        "discipline": "matematica"
     },
     "2009021-moondream+phi4": {
         "question": "2009021",
@@ -1104,7 +1226,8 @@
         "response_length": 1502,
         "answer": "A",
         "correct": false,
-        "time": 13.4852109
+        "time": 13.4852109,
+        "discipline": "ciencias-natureza"
     },
     "2009036-moondream+phi4": {
         "question": "2009036",
@@ -1113,7 +1236,8 @@
         "response_length": 1274,
         "answer": "A",
         "correct": false,
-        "time": 8.9524903
+        "time": 8.9524903,
+        "discipline": "ciencias-natureza"
     },
     "2009085-moondream+phi4": {
         "question": "2009085",
@@ -1122,7 +1246,8 @@
         "response_length": 348,
         "answer": "A",
         "correct": false,
-        "time": 2.5565038
+        "time": 2.5565038,
+        "discipline": "ciencias-humanas"
     },
     "2009091-moondream+phi4": {
         "question": "2009091",
@@ -1131,7 +1256,8 @@
         "response_length": 392,
         "answer": "A",
         "correct": true,
-        "time": 3.6804193
+        "time": 3.6804193,
+        "discipline": "linguagens"
     },
     "2010100-moondream+phi4": {
         "question": "2010100",
@@ -1140,7 +1266,8 @@
         "response_length": 961,
         "answer": "A",
         "correct": false,
-        "time": 6.5442268
+        "time": 6.5442268,
+        "discipline": "linguagens"
     },
     "2010142-moondream+phi4": {
         "question": "2010142",
@@ -1149,7 +1276,8 @@
         "response_length": 1348,
         "answer": "E",
         "correct": false,
-        "time": 9.8969081
+        "time": 9.8969081,
+        "discipline": "matematica"
     },
     "2010080-moondream+phi4": {
         "question": "2010080",
@@ -1158,7 +1286,8 @@
         "response_length": 882,
         "answer": "A",
         "correct": false,
-        "time": 6.6371903
+        "time": 6.6371903,
+        "discipline": "ciencias-natureza"
     },
     "2010084-moondream+phi4": {
         "question": "2010084",
@@ -1167,7 +1296,8 @@
         "response_length": 1343,
         "answer": null,
         "correct": false,
-        "time": 12.7454893
+        "time": 12.7454893,
+        "discipline": "ciencias-natureza"
     },
     "2011152-moondream+phi4": {
         "question": "2011152",
@@ -1176,7 +1306,8 @@
         "response_length": 533,
         "answer": "E",
         "correct": true,
-        "time": 4.6261173
+        "time": 4.6261173,
+        "discipline": "ciencias-humanas"
     },
     "2011179-moondream+phi4": {
         "question": "2011179",
@@ -1185,7 +1316,8 @@
         "response_length": 2334,
         "answer": null,
         "correct": false,
-        "time": 25.767293
+        "time": 25.767293,
+        "discipline": "matematica"
     },
     "2012152-moondream+phi4": {
         "question": "2012152",
@@ -1194,7 +1326,8 @@
         "response_length": 775,
         "answer": null,
         "correct": false,
-        "time": 8.0359908
+        "time": 8.0359908,
+        "discipline": "matematica"
     },
     "2012156-moondream+phi4": {
         "question": "2012156",
@@ -1203,7 +1336,8 @@
         "response_length": 406,
         "answer": "A",
         "correct": false,
-        "time": 2.6293211
+        "time": 2.6293211,
+        "discipline": "matematica"
     },
     "2012170-moondream+phi4": {
         "question": "2012170",
@@ -1212,7 +1346,8 @@
         "response_length": 1210,
         "answer": "A",
         "correct": false,
-        "time": 10.5377059
+        "time": 10.5377059,
+        "discipline": "matematica"
     },
     "2012055-moondream+phi4": {
         "question": "2012055",
@@ -1221,7 +1356,8 @@
         "response_length": 476,
         "answer": null,
         "correct": false,
-        "time": 3.0840031
+        "time": 3.0840031,
+        "discipline": "ciencias-natureza"
     },
     "2012060-moondream+phi4": {
         "question": "2012060",
@@ -1230,7 +1366,8 @@
         "response_length": 883,
         "answer": "A",
         "correct": false,
-        "time": 5.8104079
+        "time": 5.8104079,
+        "discipline": "ciencias-natureza"
     },
     "2012078-moondream+phi4": {
         "question": "2012078",
@@ -1239,7 +1376,8 @@
         "response_length": 1000,
         "answer": "A",
         "correct": true,
-        "time": 6.7831529
+        "time": 6.7831529,
+        "discipline": "ciencias-natureza"
     },
     "2013138-moondream+phi4": {
         "question": "2013138",
@@ -1248,7 +1386,8 @@
         "response_length": 451,
         "answer": "E",
         "correct": false,
-        "time": 2.9302482
+        "time": 2.9302482,
+        "discipline": "matematica"
     },
     "2013151-moondream+phi4": {
         "question": "2013151",
@@ -1257,7 +1396,8 @@
         "response_length": 1414,
         "answer": "A",
         "correct": false,
-        "time": 15.1230495
+        "time": 15.1230495,
+        "discipline": "matematica"
     },
     "2013153-moondream+phi4": {
         "question": "2013153",
@@ -1266,7 +1406,8 @@
         "response_length": 798,
         "answer": null,
         "correct": false,
-        "time": 8.4347029
+        "time": 8.4347029,
+        "discipline": "matematica"
     },
     "2013055-moondream+phi4": {
         "question": "2013055",
@@ -1275,7 +1416,8 @@
         "response_length": 1914,
         "answer": "A",
         "correct": true,
-        "time": 13.3671728
+        "time": 13.3671728,
+        "discipline": "ciencias-natureza"
     },
     "2013058-moondream+phi4": {
         "question": "2013058",
@@ -1284,7 +1426,8 @@
         "response_length": 461,
         "answer": "D",
         "correct": false,
-        "time": 3.6373093
+        "time": 3.6373093,
+        "discipline": "ciencias-natureza"
     },
     "2013087-moondream+phi4": {
         "question": "2013087",
@@ -1293,7 +1436,8 @@
         "response_length": 1885,
         "answer": "E",
         "correct": false,
-        "time": 17.4238125
+        "time": 17.4238125,
+        "discipline": "ciencias-natureza"
     },
     "2014144-moondream+phi4": {
         "question": "2014144",
@@ -1302,7 +1446,8 @@
         "response_length": 710,
         "answer": "A",
         "correct": false,
-        "time": 4.3316569
+        "time": 4.3316569,
+        "discipline": "matematica"
     },
     "2014145-moondream+phi4": {
         "question": "2014145",
@@ -1311,7 +1456,8 @@
         "response_length": 740,
         "answer": "A",
         "correct": true,
-        "time": 6.6231634
+        "time": 6.6231634,
+        "discipline": "matematica"
     },
     "2014016-moondream+phi4": {
         "question": "2014016",
@@ -1320,7 +1466,8 @@
         "response_length": 1049,
         "answer": "A",
         "correct": false,
-        "time": 7.8274655
+        "time": 7.8274655,
+        "discipline": "ciencias-humanas"
     },
     "2014163-moondream+phi4": {
         "question": "2014163",
@@ -1329,7 +1476,8 @@
         "response_length": 921,
         "answer": "A",
         "correct": false,
-        "time": 5.6583311
+        "time": 5.6583311,
+        "discipline": "matematica"
     },
     "2014065-moondream+phi4": {
         "question": "2014065",
@@ -1338,7 +1486,8 @@
         "response_length": 655,
         "answer": "E",
         "correct": false,
-        "time": 4.4912744
+        "time": 4.4912744,
+        "discipline": "ciencias-natureza"
     },
     "2015176-moondream+phi4": {
         "question": "2015176",
@@ -1347,7 +1496,8 @@
         "response_length": 663,
         "answer": "A",
         "correct": false,
-        "time": 4.45169
+        "time": 4.45169,
+        "discipline": "matematica"
     },
     "2015048-moondream+phi4": {
         "question": "2015048",
@@ -1356,7 +1506,8 @@
         "response_length": 421,
         "answer": "A",
         "correct": false,
-        "time": 2.8721352
+        "time": 2.8721352,
+        "discipline": "ciencias-natureza"
     },
     "2016147-moondream+phi4": {
         "question": "2016147",
@@ -1365,7 +1516,8 @@
         "response_length": 728,
         "answer": "A",
         "correct": true,
-        "time": 5.2355732
+        "time": 5.2355732,
+        "discipline": "matematica"
     },
     "2016150-moondream+phi4": {
         "question": "2016150",
@@ -1374,7 +1526,8 @@
         "response_length": 632,
         "answer": "A",
         "correct": false,
-        "time": 4.222708
+        "time": 4.222708,
+        "discipline": "matematica"
     },
     "2016168-moondream+phi4": {
         "question": "2016168",
@@ -1383,7 +1536,8 @@
         "response_length": 2014,
         "answer": "E",
         "correct": true,
-        "time": 17.764078
+        "time": 17.764078,
+        "discipline": "matematica"
     },
     "2016063-moondream+phi4": {
         "question": "2016063",
@@ -1392,7 +1546,8 @@
         "response_length": 1670,
         "answer": "C",
         "correct": false,
-        "time": 11.3458001
+        "time": 11.3458001,
+        "discipline": "ciencias-natureza"
     },
     "2017108-moondream+phi4": {
         "question": "2017108",
@@ -1401,7 +1556,8 @@
         "response_length": 1876,
         "answer": "A",
         "correct": false,
-        "time": 16.1393975
+        "time": 16.1393975,
+        "discipline": "ciencias-humanas"
     },
     "2017125-moondream+phi4": {
         "question": "2017125",
@@ -1410,7 +1566,8 @@
         "response_length": 993,
         "answer": "A",
         "correct": false,
-        "time": 6.8529935
+        "time": 6.8529935,
+        "discipline": "ciencias-natureza"
     },
     "2017136-moondream+phi4": {
         "question": "2017136",
@@ -1419,7 +1576,8 @@
         "response_length": 2089,
         "answer": "C",
         "correct": false,
-        "time": 24.7579819
+        "time": 24.7579819,
+        "discipline": "matematica"
     },
     "2017175-moondream+phi4": {
         "question": "2017175",
@@ -1428,7 +1586,8 @@
         "response_length": 852,
         "answer": "A",
         "correct": true,
-        "time": 5.9498801
+        "time": 5.9498801,
+        "discipline": "matematica"
     },
     "2018126-moondream+phi4": {
         "question": "2018126",
@@ -1437,7 +1596,8 @@
         "response_length": 1444,
         "answer": "A",
         "correct": false,
-        "time": 10.4773018
+        "time": 10.4773018,
+        "discipline": "ciencias-natureza"
     },
     "2018148-moondream+phi4": {
         "question": "2018148",
@@ -1446,7 +1606,8 @@
         "response_length": 1397,
         "answer": "A",
         "correct": true,
-        "time": 14.7930626
+        "time": 14.7930626,
+        "discipline": "matematica"
     },
     "2018165-moondream+phi4": {
         "question": "2018165",
@@ -1455,7 +1616,8 @@
         "response_length": 1907,
         "answer": "E",
         "correct": false,
-        "time": 19.4397014
+        "time": 19.4397014,
+        "discipline": "matematica"
     },
     "2018056-moondream+phi4": {
         "question": "2018056",
@@ -1464,7 +1626,8 @@
         "response_length": 980,
         "answer": "A",
         "correct": false,
-        "time": 6.6702377
+        "time": 6.6702377,
+        "discipline": "ciencias-humanas"
     },
     "2019139-moondream+phi4": {
         "question": "2019139",
@@ -1473,7 +1636,8 @@
         "response_length": 1886,
         "answer": "E",
         "correct": false,
-        "time": 22.9959415
+        "time": 22.9959415,
+        "discipline": "matematica"
     },
     "2019165-moondream+phi4": {
         "question": "2019165",
@@ -1482,7 +1646,8 @@
         "response_length": 1112,
         "answer": "B",
         "correct": false,
-        "time": 12.38219
+        "time": 12.38219,
+        "discipline": "matematica"
     },
     "2020113-moondream+phi4": {
         "question": "2020113",
@@ -1491,7 +1656,8 @@
         "response_length": 1379,
         "answer": "A",
         "correct": false,
-        "time": 10.0534896
+        "time": 10.0534896,
+        "discipline": "ciencias-natureza"
     },
     "2020147-moondream+phi4": {
         "question": "2020147",
@@ -1500,7 +1666,8 @@
         "response_length": 905,
         "answer": "E",
         "correct": false,
-        "time": 8.09077
+        "time": 8.09077,
+        "discipline": "matematica"
     },
     "2020157-moondream+phi4": {
         "question": "2020157",
@@ -1509,7 +1676,8 @@
         "response_length": 2380,
         "answer": "E",
         "correct": false,
-        "time": 20.0982257
+        "time": 20.0982257,
+        "discipline": "matematica"
     },
     "2020161-moondream+phi4": {
         "question": "2020161",
@@ -1518,7 +1686,8 @@
         "response_length": 1358,
         "answer": "E",
         "correct": false,
-        "time": 16.7921437
+        "time": 16.7921437,
+        "discipline": "matematica"
     },
     "2020163-moondream+phi4": {
         "question": "2020163",
@@ -1527,7 +1696,8 @@
         "response_length": 1711,
         "answer": "A",
         "correct": false,
-        "time": 16.1438564
+        "time": 16.1438564,
+        "discipline": "matematica"
     },
     "2020170-moondream+phi4": {
         "question": "2020170",
@@ -1536,7 +1706,8 @@
         "response_length": 1399,
         "answer": null,
         "correct": false,
-        "time": 15.2475395
+        "time": 15.2475395,
+        "discipline": "matematica"
     },
     "2020093-moondream+phi4": {
         "question": "2020093",
@@ -1545,7 +1716,8 @@
         "response_length": 1450,
         "answer": "A",
         "correct": false,
-        "time": 10.6254522
+        "time": 10.6254522,
+        "discipline": "ciencias-natureza"
     },
     "2021135-moondream+phi4": {
         "question": "2021135",
@@ -1554,7 +1726,8 @@
         "response_length": 863,
         "answer": "A",
         "correct": false,
-        "time": 6.0304934
+        "time": 6.0304934,
+        "discipline": "ciencias-natureza"
     },
     "2021161-moondream+phi4": {
         "question": "2021161",
@@ -1563,7 +1736,8 @@
         "response_length": 1670,
         "answer": null,
         "correct": false,
-        "time": 15.9934204
+        "time": 15.9934204,
+        "discipline": "matematica"
     },
     "2021163-moondream+phi4": {
         "question": "2021163",
@@ -1572,7 +1746,8 @@
         "response_length": 1316,
         "answer": "A",
         "correct": false,
-        "time": 12.6617861
+        "time": 12.6617861,
+        "discipline": "matematica"
     },
     "2021179-moondream+phi4": {
         "question": "2021179",
@@ -1581,7 +1756,8 @@
         "response_length": 1540,
         "answer": "E",
         "correct": false,
-        "time": 16.3555745
+        "time": 16.3555745,
+        "discipline": "matematica"
     },
     "2022155-moondream+phi4": {
         "question": "2022155",
@@ -1590,7 +1766,8 @@
         "response_length": 1698,
         "answer": "E",
         "correct": false,
-        "time": 15.6251231
+        "time": 15.6251231,
+        "discipline": "matematica"
     },
     "2022157-moondream+phi4": {
         "question": "2022157",
@@ -1599,7 +1776,8 @@
         "response_length": 1229,
         "answer": null,
         "correct": false,
-        "time": 16.7092648
+        "time": 16.7092648,
+        "discipline": "matematica"
     },
     "2023113-moondream+phi4": {
         "question": "2023113",
@@ -1608,7 +1786,8 @@
         "response_length": 1106,
         "answer": "A",
         "correct": true,
-        "time": 12.2042537
+        "time": 12.2042537,
+        "discipline": "ciencias-natureza"
     },
     "2023141-moondream+phi4": {
         "question": "2023141",
@@ -1617,7 +1796,8 @@
         "response_length": 789,
         "answer": "A",
         "correct": false,
-        "time": 5.6151711
+        "time": 5.6151711,
+        "discipline": "matematica"
     },
     "2023168-moondream+phi4": {
         "question": "2023168",
@@ -1626,7 +1806,8 @@
         "response_length": 1716,
         "answer": null,
         "correct": false,
-        "time": 17.5962007
+        "time": 17.5962007,
+        "discipline": "matematica"
     },
     "2023173-moondream+phi4": {
         "question": "2023173",
@@ -1635,7 +1816,8 @@
         "response_length": 1131,
         "answer": "A",
         "correct": false,
-        "time": 13.1001529
+        "time": 13.1001529,
+        "discipline": "matematica"
     },
     "2023178-moondream+phi4": {
         "question": "2023178",
@@ -1644,7 +1826,8 @@
         "response_length": 1729,
         "answer": null,
         "correct": false,
-        "time": 15.2671947
+        "time": 15.2671947,
+        "discipline": "matematica"
     },
     "2009021-moondream+gemma2": {
         "question": "2009021",
@@ -1653,7 +1836,8 @@
         "response_length": 93,
         "answer": "A",
         "correct": false,
-        "time": 3.3345936
+        "time": 3.3345936,
+        "discipline": "ciencias-natureza"
     },
     "2009036-moondream+gemma2": {
         "question": "2009036",
@@ -1662,7 +1846,8 @@
         "response_length": 130,
         "answer": "D",
         "correct": false,
-        "time": 1.0176879
+        "time": 1.0176879,
+        "discipline": "ciencias-natureza"
     },
     "2009085-moondream+gemma2": {
         "question": "2009085",
@@ -1671,7 +1856,8 @@
         "response_length": 301,
         "answer": "E",
         "correct": false,
-        "time": 1.6734687
+        "time": 1.6734687,
+        "discipline": "ciencias-humanas"
     },
     "2009091-moondream+gemma2": {
         "question": "2009091",
@@ -1680,7 +1866,8 @@
         "response_length": 188,
         "answer": "A",
         "correct": true,
-        "time": 1.3658042
+        "time": 1.3658042,
+        "discipline": "linguagens"
     },
     "2010100-moondream+gemma2": {
         "question": "2010100",
@@ -1689,7 +1876,8 @@
         "response_length": 639,
         "answer": "E",
         "correct": false,
-        "time": 3.5192093
+        "time": 3.5192093,
+        "discipline": "linguagens"
     },
     "2010142-moondream+gemma2": {
         "question": "2010142",
@@ -1698,7 +1886,8 @@
         "response_length": 457,
         "answer": "D",
         "correct": false,
-        "time": 3.3671279
+        "time": 3.3671279,
+        "discipline": "matematica"
     },
     "2010080-moondream+gemma2": {
         "question": "2010080",
@@ -1707,7 +1896,8 @@
         "response_length": 258,
         "answer": null,
         "correct": false,
-        "time": 1.5397804
+        "time": 1.5397804,
+        "discipline": "ciencias-natureza"
     },
     "2010084-moondream+gemma2": {
         "question": "2010084",
@@ -1716,7 +1906,8 @@
         "response_length": 56,
         "answer": "D",
         "correct": true,
-        "time": 0.7733297
+        "time": 0.7733297,
+        "discipline": "ciencias-natureza"
     },
     "2011152-moondream+gemma2": {
         "question": "2011152",
@@ -1725,7 +1916,8 @@
         "response_length": 6,
         "answer": "E",
         "correct": true,
-        "time": 0.3121229
+        "time": 0.3121229,
+        "discipline": "ciencias-humanas"
     },
     "2011179-moondream+gemma2": {
         "question": "2011179",
@@ -1734,7 +1926,8 @@
         "response_length": 537,
         "answer": "A",
         "correct": false,
-        "time": 3.8543607
+        "time": 3.8543607,
+        "discipline": "matematica"
     },
     "2012152-moondream+gemma2": {
         "question": "2012152",
@@ -1743,7 +1936,8 @@
         "response_length": 65,
         "answer": "D",
         "correct": false,
-        "time": 0.7093975
+        "time": 0.7093975,
+        "discipline": "matematica"
     },
     "2012156-moondream+gemma2": {
         "question": "2012156",
@@ -1752,7 +1946,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2823499
+        "time": 0.2823499,
+        "discipline": "matematica"
     },
     "2012170-moondream+gemma2": {
         "question": "2012170",
@@ -1761,7 +1956,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": true,
-        "time": 0.3478768
+        "time": 0.3478768,
+        "discipline": "matematica"
     },
     "2012055-moondream+gemma2": {
         "question": "2012055",
@@ -1770,7 +1966,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.3129755
+        "time": 0.3129755,
+        "discipline": "ciencias-natureza"
     },
     "2012060-moondream+gemma2": {
         "question": "2012060",
@@ -1779,7 +1976,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2786198
+        "time": 0.2786198,
+        "discipline": "ciencias-natureza"
     },
     "2012078-moondream+gemma2": {
         "question": "2012078",
@@ -1788,7 +1986,8 @@
         "response_length": 220,
         "answer": "E",
         "correct": false,
-        "time": 1.477122
+        "time": 1.477122,
+        "discipline": "ciencias-natureza"
     },
     "2013138-moondream+gemma2": {
         "question": "2013138",
@@ -1797,7 +1996,8 @@
         "response_length": 184,
         "answer": "A",
         "correct": true,
-        "time": 1.2556226
+        "time": 1.2556226,
+        "discipline": "matematica"
     },
     "2013151-moondream+gemma2": {
         "question": "2013151",
@@ -1806,7 +2006,8 @@
         "response_length": 119,
         "answer": "E",
         "correct": true,
-        "time": 1.1152187
+        "time": 1.1152187,
+        "discipline": "matematica"
     },
     "2013153-moondream+gemma2": {
         "question": "2013153",
@@ -1815,7 +2016,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": false,
-        "time": 0.3692434
+        "time": 0.3692434,
+        "discipline": "matematica"
     },
     "2013055-moondream+gemma2": {
         "question": "2013055",
@@ -1824,7 +2026,8 @@
         "response_length": 853,
         "answer": "A",
         "correct": true,
-        "time": 4.0360795
+        "time": 4.0360795,
+        "discipline": "ciencias-natureza"
     },
     "2013058-moondream+gemma2": {
         "question": "2013058",
@@ -1833,7 +2036,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.4024137
+        "time": 0.4024137,
+        "discipline": "ciencias-natureza"
     },
     "2013087-moondream+gemma2": {
         "question": "2013087",
@@ -1842,7 +2046,8 @@
         "response_length": 677,
         "answer": "C",
         "correct": false,
-        "time": 3.6037124
+        "time": 3.6037124,
+        "discipline": "ciencias-natureza"
     },
     "2014144-moondream+gemma2": {
         "question": "2014144",
@@ -1851,7 +2056,8 @@
         "response_length": 6,
         "answer": "A",
         "correct": false,
-        "time": 0.2725116
+        "time": 0.2725116,
+        "discipline": "matematica"
     },
     "2014145-moondream+gemma2": {
         "question": "2014145",
@@ -1860,7 +2066,8 @@
         "response_length": 54,
         "answer": "A",
         "correct": true,
-        "time": 0.5884361
+        "time": 0.5884361,
+        "discipline": "matematica"
     },
     "2014016-moondream+gemma2": {
         "question": "2014016",
@@ -1869,7 +2076,8 @@
         "response_length": 66,
         "answer": "E",
         "correct": false,
-        "time": 0.7681949
+        "time": 0.7681949,
+        "discipline": "ciencias-humanas"
     },
     "2014163-moondream+gemma2": {
         "question": "2014163",
@@ -1878,7 +2086,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.278332
+        "time": 0.278332,
+        "discipline": "matematica"
     },
     "2014065-moondream+gemma2": {
         "question": "2014065",
@@ -1887,7 +2096,8 @@
         "response_length": 145,
         "answer": null,
         "correct": false,
-        "time": 1.027058
+        "time": 1.027058,
+        "discipline": "ciencias-natureza"
     },
     "2015176-moondream+gemma2": {
         "question": "2015176",
@@ -1896,7 +2106,8 @@
         "response_length": 114,
         "answer": "A",
         "correct": false,
-        "time": 0.8568794
+        "time": 0.8568794,
+        "discipline": "matematica"
     },
     "2015048-moondream+gemma2": {
         "question": "2015048",
@@ -1905,7 +2116,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.3207961
+        "time": 0.3207961,
+        "discipline": "ciencias-natureza"
     },
     "2016147-moondream+gemma2": {
         "question": "2016147",
@@ -1914,7 +2126,8 @@
         "response_length": 182,
         "answer": null,
         "correct": false,
-        "time": 1.0280976
+        "time": 1.0280976,
+        "discipline": "matematica"
     },
     "2016150-moondream+gemma2": {
         "question": "2016150",
@@ -1923,7 +2136,8 @@
         "response_length": 168,
         "answer": null,
         "correct": false,
-        "time": 1.0758063
+        "time": 1.0758063,
+        "discipline": "matematica"
     },
     "2016168-moondream+gemma2": {
         "question": "2016168",
@@ -1932,7 +2146,8 @@
         "response_length": 688,
         "answer": "C",
         "correct": false,
-        "time": 5.1153415
+        "time": 5.1153415,
+        "discipline": "matematica"
     },
     "2016063-moondream+gemma2": {
         "question": "2016063",
@@ -1941,7 +2156,8 @@
         "response_length": 180,
         "answer": "A",
         "correct": false,
-        "time": 1.1732134
+        "time": 1.1732134,
+        "discipline": "ciencias-natureza"
     },
     "2017108-moondream+gemma2": {
         "question": "2017108",
@@ -1950,7 +2166,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": true,
-        "time": 0.3629409
+        "time": 0.3629409,
+        "discipline": "ciencias-humanas"
     },
     "2017125-moondream+gemma2": {
         "question": "2017125",
@@ -1959,7 +2176,8 @@
         "response_length": 186,
         "answer": "D",
         "correct": false,
-        "time": 1.3905064
+        "time": 1.3905064,
+        "discipline": "ciencias-natureza"
     },
     "2017136-moondream+gemma2": {
         "question": "2017136",
@@ -1968,7 +2186,8 @@
         "response_length": 1321,
         "answer": null,
         "correct": false,
-        "time": 7.2717078
+        "time": 7.2717078,
+        "discipline": "matematica"
     },
     "2017175-moondream+gemma2": {
         "question": "2017175",
@@ -1977,7 +2196,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": true,
-        "time": 0.2846171
+        "time": 0.2846171,
+        "discipline": "matematica"
     },
     "2018126-moondream+gemma2": {
         "question": "2018126",
@@ -1986,7 +2206,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.4685616
+        "time": 0.4685616,
+        "discipline": "ciencias-natureza"
     },
     "2018148-moondream+gemma2": {
         "question": "2018148",
@@ -1995,7 +2216,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.4331704
+        "time": 0.4331704,
+        "discipline": "matematica"
     },
     "2018165-moondream+gemma2": {
         "question": "2018165",
@@ -2004,7 +2226,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.3902881
+        "time": 0.3902881,
+        "discipline": "matematica"
     },
     "2018056-moondream+gemma2": {
         "question": "2018056",
@@ -2013,7 +2236,8 @@
         "response_length": 172,
         "answer": "E",
         "correct": false,
-        "time": 1.2038245
+        "time": 1.2038245,
+        "discipline": "ciencias-humanas"
     },
     "2019139-moondream+gemma2": {
         "question": "2019139",
@@ -2022,7 +2246,8 @@
         "response_length": 668,
         "answer": "C",
         "correct": false,
-        "time": 5.713712
+        "time": 5.713712,
+        "discipline": "matematica"
     },
     "2019165-moondream+gemma2": {
         "question": "2019165",
@@ -2031,7 +2256,8 @@
         "response_length": 892,
         "answer": "D",
         "correct": false,
-        "time": 7.4619127
+        "time": 7.4619127,
+        "discipline": "matematica"
     },
     "2020113-moondream+gemma2": {
         "question": "2020113",
@@ -2040,7 +2266,8 @@
         "response_length": 70,
         "answer": "D",
         "correct": true,
-        "time": 0.7494826
+        "time": 0.7494826,
+        "discipline": "ciencias-natureza"
     },
     "2020147-moondream+gemma2": {
         "question": "2020147",
@@ -2049,7 +2276,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.3930788
+        "time": 0.3930788,
+        "discipline": "matematica"
     },
     "2020157-moondream+gemma2": {
         "question": "2020157",
@@ -2058,7 +2286,8 @@
         "response_length": 670,
         "answer": "D",
         "correct": false,
-        "time": 4.24214
+        "time": 4.24214,
+        "discipline": "matematica"
     },
     "2020161-moondream+gemma2": {
         "question": "2020161",
@@ -2067,7 +2296,8 @@
         "response_length": 1094,
         "answer": "C",
         "correct": false,
-        "time": 8.8081687
+        "time": 8.8081687,
+        "discipline": "matematica"
     },
     "2020163-moondream+gemma2": {
         "question": "2020163",
@@ -2076,7 +2306,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.3318568
+        "time": 0.3318568,
+        "discipline": "matematica"
     },
     "2020170-moondream+gemma2": {
         "question": "2020170",
@@ -2085,7 +2316,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.3149906
+        "time": 0.3149906,
+        "discipline": "matematica"
     },
     "2020093-moondream+gemma2": {
         "question": "2020093",
@@ -2094,7 +2326,8 @@
         "response_length": 397,
         "answer": "E",
         "correct": false,
-        "time": 2.4704783
+        "time": 2.4704783,
+        "discipline": "ciencias-natureza"
     },
     "2021135-moondream+gemma2": {
         "question": "2021135",
@@ -2103,7 +2336,8 @@
         "response_length": 223,
         "answer": "E",
         "correct": false,
-        "time": 1.6694973
+        "time": 1.6694973,
+        "discipline": "ciencias-natureza"
     },
     "2021161-moondream+gemma2": {
         "question": "2021161",
@@ -2112,7 +2346,8 @@
         "response_length": 161,
         "answer": "D",
         "correct": false,
-        "time": 1.1000168
+        "time": 1.1000168,
+        "discipline": "matematica"
     },
     "2021163-moondream+gemma2": {
         "question": "2021163",
@@ -2121,7 +2356,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.3140739
+        "time": 0.3140739,
+        "discipline": "matematica"
     },
     "2021179-moondream+gemma2": {
         "question": "2021179",
@@ -2130,7 +2366,8 @@
         "response_length": 688,
         "answer": "E",
         "correct": false,
-        "time": 5.1120593
+        "time": 5.1120593,
+        "discipline": "matematica"
     },
     "2022155-moondream+gemma2": {
         "question": "2022155",
@@ -2139,7 +2376,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": false,
-        "time": 0.4362252
+        "time": 0.4362252,
+        "discipline": "matematica"
     },
     "2022157-moondream+gemma2": {
         "question": "2022157",
@@ -2148,7 +2386,8 @@
         "response_length": 6,
         "answer": "C",
         "correct": false,
-        "time": 0.3756337
+        "time": 0.3756337,
+        "discipline": "matematica"
     },
     "2023113-moondream+gemma2": {
         "question": "2023113",
@@ -2157,7 +2396,8 @@
         "response_length": 952,
         "answer": "E",
         "correct": false,
-        "time": 8.2979374
+        "time": 8.2979374,
+        "discipline": "ciencias-natureza"
     },
     "2023141-moondream+gemma2": {
         "question": "2023141",
@@ -2166,7 +2406,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.293452
+        "time": 0.293452,
+        "discipline": "matematica"
     },
     "2023168-moondream+gemma2": {
         "question": "2023168",
@@ -2175,7 +2416,8 @@
         "response_length": 1416,
         "answer": "D",
         "correct": false,
-        "time": 8.791386
+        "time": 8.791386,
+        "discipline": "matematica"
     },
     "2023173-moondream+gemma2": {
         "question": "2023173",
@@ -2184,7 +2426,8 @@
         "response_length": 4,
         "answer": "D",
         "correct": false,
-        "time": 0.3676287
+        "time": 0.3676287,
+        "discipline": "matematica"
     },
     "2023178-moondream+gemma2": {
         "question": "2023178",
@@ -2193,7 +2436,8 @@
         "response_length": 80,
         "answer": "C",
         "correct": false,
-        "time": 0.9456757
+        "time": 0.9456757,
+        "discipline": "matematica"
     },
     "2009021-minicpm-v+phi4": {
         "question": "2009021",
@@ -2202,7 +2446,8 @@
         "response_length": 1486,
         "answer": null,
         "correct": false,
-        "time": 13.5830981
+        "time": 13.5830981,
+        "discipline": "ciencias-natureza"
     },
     "2009036-minicpm-v+phi4": {
         "question": "2009036",
@@ -2211,7 +2456,8 @@
         "response_length": 1551,
         "answer": "A",
         "correct": false,
-        "time": 11.0556672
+        "time": 11.0556672,
+        "discipline": "ciencias-natureza"
     },
     "2009085-minicpm-v+phi4": {
         "question": "2009085",
@@ -2220,7 +2466,8 @@
         "response_length": 810,
         "answer": "E",
         "correct": false,
-        "time": 5.2646022
+        "time": 5.2646022,
+        "discipline": "ciencias-humanas"
     },
     "2009091-minicpm-v+phi4": {
         "question": "2009091",
@@ -2229,7 +2476,8 @@
         "response_length": 658,
         "answer": "A",
         "correct": true,
-        "time": 4.9379178
+        "time": 4.9379178,
+        "discipline": "linguagens"
     },
     "2010100-minicpm-v+phi4": {
         "question": "2010100",
@@ -2238,7 +2486,8 @@
         "response_length": 523,
         "answer": null,
         "correct": false,
-        "time": 3.7208876
+        "time": 3.7208876,
+        "discipline": "linguagens"
     },
     "2010142-minicpm-v+phi4": {
         "question": "2010142",
@@ -2247,7 +2496,8 @@
         "response_length": 1806,
         "answer": null,
         "correct": false,
-        "time": 13.1539834
+        "time": 13.1539834,
+        "discipline": "matematica"
     },
     "2010080-minicpm-v+phi4": {
         "question": "2010080",
@@ -2256,7 +2506,8 @@
         "response_length": 823,
         "answer": "A",
         "correct": false,
-        "time": 6.0474551
+        "time": 6.0474551,
+        "discipline": "ciencias-natureza"
     },
     "2010084-minicpm-v+phi4": {
         "question": "2010084",
@@ -2265,7 +2516,8 @@
         "response_length": 2154,
         "answer": "E",
         "correct": false,
-        "time": 21.0821895
+        "time": 21.0821895,
+        "discipline": "ciencias-natureza"
     },
     "2011152-minicpm-v+phi4": {
         "question": "2011152",
@@ -2274,7 +2526,8 @@
         "response_length": 1509,
         "answer": "E",
         "correct": true,
-        "time": 11.9960175
+        "time": 11.9960175,
+        "discipline": "ciencias-humanas"
     },
     "2011179-minicpm-v+phi4": {
         "question": "2011179",
@@ -2283,7 +2536,8 @@
         "response_length": 2132,
         "answer": null,
         "correct": false,
-        "time": 24.4162906
+        "time": 24.4162906,
+        "discipline": "matematica"
     },
     "2012152-minicpm-v+phi4": {
         "question": "2012152",
@@ -2292,7 +2546,8 @@
         "response_length": 1372,
         "answer": "A",
         "correct": true,
-        "time": 13.0902758
+        "time": 13.0902758,
+        "discipline": "matematica"
     },
     "2012156-minicpm-v+phi4": {
         "question": "2012156",
@@ -2301,7 +2556,8 @@
         "response_length": 332,
         "answer": "A",
         "correct": false,
-        "time": 2.2274098
+        "time": 2.2274098,
+        "discipline": "matematica"
     },
     "2012170-minicpm-v+phi4": {
         "question": "2012170",
@@ -2310,7 +2566,8 @@
         "response_length": 1529,
         "answer": "A",
         "correct": false,
-        "time": 13.0277091
+        "time": 13.0277091,
+        "discipline": "matematica"
     },
     "2012055-minicpm-v+phi4": {
         "question": "2012055",
@@ -2319,7 +2576,8 @@
         "response_length": 697,
         "answer": "A",
         "correct": false,
-        "time": 4.6982333
+        "time": 4.6982333,
+        "discipline": "ciencias-natureza"
     },
     "2012060-minicpm-v+phi4": {
         "question": "2012060",
@@ -2328,7 +2586,8 @@
         "response_length": 574,
         "answer": null,
         "correct": false,
-        "time": 3.6250374
+        "time": 3.6250374,
+        "discipline": "ciencias-natureza"
     },
     "2012078-minicpm-v+phi4": {
         "question": "2012078",
@@ -2337,7 +2596,8 @@
         "response_length": 327,
         "answer": "A",
         "correct": true,
-        "time": 2.70597
+        "time": 2.70597,
+        "discipline": "ciencias-natureza"
     },
     "2013138-minicpm-v+phi4": {
         "question": "2013138",
@@ -2346,7 +2606,8 @@
         "response_length": 306,
         "answer": "A",
         "correct": true,
-        "time": 2.1247772
+        "time": 2.1247772,
+        "discipline": "matematica"
     },
     "2013151-minicpm-v+phi4": {
         "question": "2013151",
@@ -2355,7 +2616,8 @@
         "response_length": 1648,
         "answer": "A",
         "correct": false,
-        "time": 18.0382717
+        "time": 18.0382717,
+        "discipline": "matematica"
     },
     "2013153-minicpm-v+phi4": {
         "question": "2013153",
@@ -2364,7 +2626,8 @@
         "response_length": 1223,
         "answer": "A",
         "correct": false,
-        "time": 11.8571714
+        "time": 11.8571714,
+        "discipline": "matematica"
     },
     "2013055-minicpm-v+phi4": {
         "question": "2013055",
@@ -2373,7 +2636,8 @@
         "response_length": 1550,
         "answer": "A",
         "correct": true,
-        "time": 9.9525599
+        "time": 9.9525599,
+        "discipline": "ciencias-natureza"
     },
     "2013058-minicpm-v+phi4": {
         "question": "2013058",
@@ -2382,7 +2646,8 @@
         "response_length": 630,
         "answer": "D",
         "correct": false,
-        "time": 4.9227635
+        "time": 4.9227635,
+        "discipline": "ciencias-natureza"
     },
     "2013087-minicpm-v+phi4": {
         "question": "2013087",
@@ -2391,7 +2656,8 @@
         "response_length": 2246,
         "answer": "E",
         "correct": false,
-        "time": 16.307898
+        "time": 16.307898,
+        "discipline": "ciencias-natureza"
     },
     "2014144-minicpm-v+phi4": {
         "question": "2014144",
@@ -2400,7 +2666,8 @@
         "response_length": 845,
         "answer": "A",
         "correct": false,
-        "time": 5.4000832
+        "time": 5.4000832,
+        "discipline": "matematica"
     },
     "2014145-minicpm-v+phi4": {
         "question": "2014145",
@@ -2409,7 +2676,8 @@
         "response_length": 355,
         "answer": "E",
         "correct": false,
-        "time": 2.6601601
+        "time": 2.6601601,
+        "discipline": "matematica"
     },
     "2014016-minicpm-v+phi4": {
         "question": "2014016",
@@ -2418,7 +2686,8 @@
         "response_length": 1153,
         "answer": "A",
         "correct": false,
-        "time": 7.3793358
+        "time": 7.3793358,
+        "discipline": "ciencias-humanas"
     },
     "2014163-minicpm-v+phi4": {
         "question": "2014163",
@@ -2427,7 +2696,8 @@
         "response_length": 776,
         "answer": "A",
         "correct": false,
-        "time": 4.6377197
+        "time": 4.6377197,
+        "discipline": "matematica"
     },
     "2014065-minicpm-v+phi4": {
         "question": "2014065",
@@ -2436,7 +2706,8 @@
         "response_length": 476,
         "answer": "A",
         "correct": true,
-        "time": 3.1953166
+        "time": 3.1953166,
+        "discipline": "ciencias-natureza"
     },
     "2015176-minicpm-v+phi4": {
         "question": "2015176",
@@ -2445,7 +2716,8 @@
         "response_length": 798,
         "answer": "A",
         "correct": false,
-        "time": 4.9689599
+        "time": 4.9689599,
+        "discipline": "matematica"
     },
     "2015048-minicpm-v+phi4": {
         "question": "2015048",
@@ -2454,7 +2726,8 @@
         "response_length": 980,
         "answer": "A",
         "correct": false,
-        "time": 6.347878
+        "time": 6.347878,
+        "discipline": "ciencias-natureza"
     },
     "2016147-minicpm-v+phi4": {
         "question": "2016147",
@@ -2463,7 +2736,8 @@
         "response_length": 1733,
         "answer": "E",
         "correct": false,
-        "time": 13.0240666
+        "time": 13.0240666,
+        "discipline": "matematica"
     },
     "2016150-minicpm-v+phi4": {
         "question": "2016150",
@@ -2472,7 +2746,8 @@
         "response_length": 346,
         "answer": "A",
         "correct": false,
-        "time": 2.4642751
+        "time": 2.4642751,
+        "discipline": "matematica"
     },
     "2016168-minicpm-v+phi4": {
         "question": "2016168",
@@ -2481,7 +2756,8 @@
         "response_length": 1079,
         "answer": "E",
         "correct": true,
-        "time": 9.9048713
+        "time": 9.9048713,
+        "discipline": "matematica"
     },
     "2016063-minicpm-v+phi4": {
         "question": "2016063",
@@ -2490,7 +2766,8 @@
         "response_length": 939,
         "answer": null,
         "correct": false,
-        "time": 6.266759
+        "time": 6.266759,
+        "discipline": "ciencias-natureza"
     },
     "2017108-minicpm-v+phi4": {
         "question": "2017108",
@@ -2499,7 +2776,8 @@
         "response_length": 1656,
         "answer": null,
         "correct": false,
-        "time": 13.4369979
+        "time": 13.4369979,
+        "discipline": "ciencias-humanas"
     },
     "2017125-minicpm-v+phi4": {
         "question": "2017125",
@@ -2508,7 +2786,8 @@
         "response_length": 1139,
         "answer": "E",
         "correct": false,
-        "time": 8.216761
+        "time": 8.216761,
+        "discipline": "ciencias-natureza"
     },
     "2017136-minicpm-v+phi4": {
         "question": "2017136",
@@ -2517,7 +2796,8 @@
         "response_length": 2135,
         "answer": "E",
         "correct": false,
-        "time": 25.4032639
+        "time": 25.4032639,
+        "discipline": "matematica"
     },
     "2017175-minicpm-v+phi4": {
         "question": "2017175",
@@ -2526,7 +2806,8 @@
         "response_length": 756,
         "answer": "A",
         "correct": true,
-        "time": 4.8916581
+        "time": 4.8916581,
+        "discipline": "matematica"
     },
     "2018126-minicpm-v+phi4": {
         "question": "2018126",
@@ -2535,7 +2816,8 @@
         "response_length": 590,
         "answer": "A",
         "correct": false,
-        "time": 4.3057651
+        "time": 4.3057651,
+        "discipline": "ciencias-natureza"
     },
     "2018148-minicpm-v+phi4": {
         "question": "2018148",
@@ -2544,7 +2826,8 @@
         "response_length": 1061,
         "answer": null,
         "correct": false,
-        "time": 10.2379163
+        "time": 10.2379163,
+        "discipline": "matematica"
     },
     "2018165-minicpm-v+phi4": {
         "question": "2018165",
@@ -2553,7 +2836,8 @@
         "response_length": 1758,
         "answer": "A",
         "correct": false,
-        "time": 15.4626918
+        "time": 15.4626918,
+        "discipline": "matematica"
     },
     "2018056-minicpm-v+phi4": {
         "question": "2018056",
@@ -2562,7 +2846,8 @@
         "response_length": 1403,
         "answer": "A",
         "correct": false,
-        "time": 9.2733445
+        "time": 9.2733445,
+        "discipline": "ciencias-humanas"
     },
     "2019139-minicpm-v+phi4": {
         "question": "2019139",
@@ -2571,7 +2856,8 @@
         "response_length": 1557,
         "answer": null,
         "correct": false,
-        "time": 17.824533
+        "time": 17.824533,
+        "discipline": "matematica"
     },
     "2019165-minicpm-v+phi4": {
         "question": "2019165",
@@ -2580,7 +2866,8 @@
         "response_length": 1535,
         "answer": "A",
         "correct": false,
-        "time": 13.928706
+        "time": 13.928706,
+        "discipline": "matematica"
     },
     "2020113-minicpm-v+phi4": {
         "question": "2020113",
@@ -2589,7 +2876,8 @@
         "response_length": 1191,
         "answer": "E",
         "correct": false,
-        "time": 7.9434572
+        "time": 7.9434572,
+        "discipline": "ciencias-natureza"
     },
     "2020147-minicpm-v+phi4": {
         "question": "2020147",
@@ -2598,7 +2886,8 @@
         "response_length": 1388,
         "answer": "E",
         "correct": false,
-        "time": 11.1552584
+        "time": 11.1552584,
+        "discipline": "matematica"
     },
     "2020157-minicpm-v+phi4": {
         "question": "2020157",
@@ -2607,7 +2896,8 @@
         "response_length": 2529,
         "answer": "A",
         "correct": false,
-        "time": 18.9865629
+        "time": 18.9865629,
+        "discipline": "matematica"
     },
     "2020161-minicpm-v+phi4": {
         "question": "2020161",
@@ -2616,7 +2906,8 @@
         "response_length": 1212,
         "answer": "E",
         "correct": false,
-        "time": 13.5789567
+        "time": 13.5789567,
+        "discipline": "matematica"
     },
     "2020163-minicpm-v+phi4": {
         "question": "2020163",
@@ -2625,7 +2916,8 @@
         "response_length": 2015,
         "answer": "A",
         "correct": false,
-        "time": 18.1755895
+        "time": 18.1755895,
+        "discipline": "matematica"
     },
     "2020170-minicpm-v+phi4": {
         "question": "2020170",
@@ -2634,7 +2926,8 @@
         "response_length": 2261,
         "answer": null,
         "correct": false,
-        "time": 23.1682373
+        "time": 23.1682373,
+        "discipline": "matematica"
     },
     "2020093-minicpm-v+phi4": {
         "question": "2020093",
@@ -2643,7 +2936,8 @@
         "response_length": 1602,
         "answer": "A",
         "correct": false,
-        "time": 10.3027272
+        "time": 10.3027272,
+        "discipline": "ciencias-natureza"
     },
     "2021135-minicpm-v+phi4": {
         "question": "2021135",
@@ -2652,7 +2946,8 @@
         "response_length": 617,
         "answer": "E",
         "correct": false,
-        "time": 4.044884
+        "time": 4.044884,
+        "discipline": "ciencias-natureza"
     },
     "2021161-minicpm-v+phi4": {
         "question": "2021161",
@@ -2661,7 +2956,8 @@
         "response_length": 2128,
         "answer": null,
         "correct": false,
-        "time": 17.4315317
+        "time": 17.4315317,
+        "discipline": "matematica"
     },
     "2021163-minicpm-v+phi4": {
         "question": "2021163",
@@ -2670,7 +2966,8 @@
         "response_length": 1262,
         "answer": "E",
         "correct": false,
-        "time": 13.5301287
+        "time": 13.5301287,
+        "discipline": "matematica"
     },
     "2021179-minicpm-v+phi4": {
         "question": "2021179",
@@ -2679,7 +2976,8 @@
         "response_length": 1338,
         "answer": "A",
         "correct": true,
-        "time": 11.2931223
+        "time": 11.2931223,
+        "discipline": "matematica"
     },
     "2022155-minicpm-v+phi4": {
         "question": "2022155",
@@ -2688,7 +2986,8 @@
         "response_length": 1351,
         "answer": "E",
         "correct": false,
-        "time": 11.8013528
+        "time": 11.8013528,
+        "discipline": "matematica"
     },
     "2022157-minicpm-v+phi4": {
         "question": "2022157",
@@ -2697,7 +2996,8 @@
         "response_length": 1046,
         "answer": null,
         "correct": false,
-        "time": 11.3558769
+        "time": 11.3558769,
+        "discipline": "matematica"
     },
     "2023113-minicpm-v+phi4": {
         "question": "2023113",
@@ -2706,7 +3006,8 @@
         "response_length": 953,
         "answer": "E",
         "correct": false,
-        "time": 10.9843925
+        "time": 10.9843925,
+        "discipline": "ciencias-natureza"
     },
     "2023141-minicpm-v+phi4": {
         "question": "2023141",
@@ -2715,7 +3016,8 @@
         "response_length": 834,
         "answer": "A",
         "correct": false,
-        "time": 5.2842125
+        "time": 5.2842125,
+        "discipline": "matematica"
     },
     "2023168-minicpm-v+phi4": {
         "question": "2023168",
@@ -2724,7 +3026,8 @@
         "response_length": 2396,
         "answer": "A",
         "correct": true,
-        "time": 19.7955208
+        "time": 19.7955208,
+        "discipline": "matematica"
     },
     "2023173-minicpm-v+phi4": {
         "question": "2023173",
@@ -2733,7 +3036,8 @@
         "response_length": 769,
         "answer": "E",
         "correct": false,
-        "time": 6.7576615
+        "time": 6.7576615,
+        "discipline": "matematica"
     },
     "2023178-minicpm-v+phi4": {
         "question": "2023178",
@@ -2742,7 +3046,8 @@
         "response_length": 1030,
         "answer": null,
         "correct": false,
-        "time": 8.5863774
+        "time": 8.5863774,
+        "discipline": "matematica"
     },
     "2009021-minicpm-v+gemma2": {
         "question": "2009021",
@@ -2751,7 +3056,8 @@
         "response_length": 105,
         "answer": "A",
         "correct": false,
-        "time": 3.6373107
+        "time": 3.6373107,
+        "discipline": "ciencias-natureza"
     },
     "2009036-minicpm-v+gemma2": {
         "question": "2009036",
@@ -2760,7 +3066,8 @@
         "response_length": 149,
         "answer": null,
         "correct": false,
-        "time": 0.991701
+        "time": 0.991701,
+        "discipline": "ciencias-natureza"
     },
     "2009085-minicpm-v+gemma2": {
         "question": "2009085",
@@ -2769,7 +3076,8 @@
         "response_length": 354,
         "answer": "A",
         "correct": false,
-        "time": 1.9483011
+        "time": 1.9483011,
+        "discipline": "ciencias-humanas"
     },
     "2009091-minicpm-v+gemma2": {
         "question": "2009091",
@@ -2778,7 +3086,8 @@
         "response_length": 7,
         "answer": "A",
         "correct": true,
-        "time": 0.3712581
+        "time": 0.3712581,
+        "discipline": "linguagens"
     },
     "2010100-minicpm-v+gemma2": {
         "question": "2010100",
@@ -2787,7 +3096,8 @@
         "response_length": 102,
         "answer": "C",
         "correct": true,
-        "time": 0.8812054
+        "time": 0.8812054,
+        "discipline": "linguagens"
     },
     "2010142-minicpm-v+gemma2": {
         "question": "2010142",
@@ -2796,7 +3106,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.3149805
+        "time": 0.3149805,
+        "discipline": "matematica"
     },
     "2010080-minicpm-v+gemma2": {
         "question": "2010080",
@@ -2805,7 +3116,8 @@
         "response_length": 213,
         "answer": "E",
         "correct": true,
-        "time": 1.6803823
+        "time": 1.6803823,
+        "discipline": "ciencias-natureza"
     },
     "2010084-minicpm-v+gemma2": {
         "question": "2010084",
@@ -2814,7 +3126,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": true,
-        "time": 0.3774865
+        "time": 0.3774865,
+        "discipline": "ciencias-natureza"
     },
     "2011152-minicpm-v+gemma2": {
         "question": "2011152",
@@ -2823,7 +3136,8 @@
         "response_length": 59,
         "answer": "D",
         "correct": false,
-        "time": 0.6347895
+        "time": 0.6347895,
+        "discipline": "ciencias-humanas"
     },
     "2011179-minicpm-v+gemma2": {
         "question": "2011179",
@@ -2832,7 +3146,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.3168447
+        "time": 0.3168447,
+        "discipline": "matematica"
     },
     "2012152-minicpm-v+gemma2": {
         "question": "2012152",
@@ -2841,7 +3156,8 @@
         "response_length": 649,
         "answer": "D",
         "correct": false,
-        "time": 4.1715296
+        "time": 4.1715296,
+        "discipline": "matematica"
     },
     "2012156-minicpm-v+gemma2": {
         "question": "2012156",
@@ -2850,7 +3166,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2736767
+        "time": 0.2736767,
+        "discipline": "matematica"
     },
     "2012170-minicpm-v+gemma2": {
         "question": "2012170",
@@ -2859,7 +3176,8 @@
         "response_length": 5,
         "answer": "E",
         "correct": false,
-        "time": 0.327692
+        "time": 0.327692,
+        "discipline": "matematica"
     },
     "2012055-minicpm-v+gemma2": {
         "question": "2012055",
@@ -2868,7 +3186,8 @@
         "response_length": 441,
         "answer": "A",
         "correct": false,
-        "time": 2.6020317
+        "time": 2.6020317,
+        "discipline": "ciencias-natureza"
     },
     "2012060-minicpm-v+gemma2": {
         "question": "2012060",
@@ -2877,7 +3196,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2762828
+        "time": 0.2762828,
+        "discipline": "ciencias-natureza"
     },
     "2012078-minicpm-v+gemma2": {
         "question": "2012078",
@@ -2886,7 +3206,8 @@
         "response_length": 215,
         "answer": "E",
         "correct": false,
-        "time": 1.3330891
+        "time": 1.3330891,
+        "discipline": "ciencias-natureza"
     },
     "2013138-minicpm-v+gemma2": {
         "question": "2013138",
@@ -2895,7 +3216,8 @@
         "response_length": 60,
         "answer": "A",
         "correct": true,
-        "time": 0.6425455
+        "time": 0.6425455,
+        "discipline": "matematica"
     },
     "2013151-minicpm-v+gemma2": {
         "question": "2013151",
@@ -2904,7 +3226,8 @@
         "response_length": 188,
         "answer": null,
         "correct": false,
-        "time": 1.2747219
+        "time": 1.2747219,
+        "discipline": "matematica"
     },
     "2013153-minicpm-v+gemma2": {
         "question": "2013153",
@@ -2913,7 +3236,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": true,
-        "time": 0.3703376
+        "time": 0.3703376,
+        "discipline": "matematica"
     },
     "2013055-minicpm-v+gemma2": {
         "question": "2013055",
@@ -2922,7 +3246,8 @@
         "response_length": 599,
         "answer": "A",
         "correct": true,
-        "time": 3.1030101
+        "time": 3.1030101,
+        "discipline": "ciencias-natureza"
     },
     "2013058-minicpm-v+gemma2": {
         "question": "2013058",
@@ -2931,7 +3256,8 @@
         "response_length": 89,
         "answer": "D",
         "correct": false,
-        "time": 0.9365928
+        "time": 0.9365928,
+        "discipline": "ciencias-natureza"
     },
     "2013087-minicpm-v+gemma2": {
         "question": "2013087",
@@ -2940,7 +3266,8 @@
         "response_length": 649,
         "answer": "D",
         "correct": false,
-        "time": 3.4871637
+        "time": 3.4871637,
+        "discipline": "ciencias-natureza"
     },
     "2014144-minicpm-v+gemma2": {
         "question": "2014144",
@@ -2949,7 +3276,8 @@
         "response_length": 165,
         "answer": "A",
         "correct": false,
-        "time": 1.0915063
+        "time": 1.0915063,
+        "discipline": "matematica"
     },
     "2014145-minicpm-v+gemma2": {
         "question": "2014145",
@@ -2958,7 +3286,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": true,
-        "time": 0.2772014
+        "time": 0.2772014,
+        "discipline": "matematica"
     },
     "2014016-minicpm-v+gemma2": {
         "question": "2014016",
@@ -2967,7 +3296,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.36591
+        "time": 0.36591,
+        "discipline": "ciencias-humanas"
     },
     "2014163-minicpm-v+gemma2": {
         "question": "2014163",
@@ -2976,7 +3306,8 @@
         "response_length": 289,
         "answer": "A",
         "correct": false,
-        "time": 1.7144313
+        "time": 1.7144313,
+        "discipline": "matematica"
     },
     "2014065-minicpm-v+gemma2": {
         "question": "2014065",
@@ -2985,7 +3316,8 @@
         "response_length": 223,
         "answer": null,
         "correct": false,
-        "time": 1.3225778
+        "time": 1.3225778,
+        "discipline": "ciencias-natureza"
     },
     "2015176-minicpm-v+gemma2": {
         "question": "2015176",
@@ -2994,7 +3326,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2844947
+        "time": 0.2844947,
+        "discipline": "matematica"
     },
     "2015048-minicpm-v+gemma2": {
         "question": "2015048",
@@ -3003,7 +3336,8 @@
         "response_length": 7,
         "answer": "C",
         "correct": true,
-        "time": 0.3093811
+        "time": 0.3093811,
+        "discipline": "ciencias-natureza"
     },
     "2016147-minicpm-v+gemma2": {
         "question": "2016147",
@@ -3012,7 +3346,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": true,
-        "time": 0.2773992
+        "time": 0.2773992,
+        "discipline": "matematica"
     },
     "2016150-minicpm-v+gemma2": {
         "question": "2016150",
@@ -3021,7 +3356,8 @@
         "response_length": 160,
         "answer": "A",
         "correct": false,
-        "time": 1.0210316
+        "time": 1.0210316,
+        "discipline": "matematica"
     },
     "2016168-minicpm-v+gemma2": {
         "question": "2016168",
@@ -3030,7 +3366,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.3393981
+        "time": 0.3393981,
+        "discipline": "matematica"
     },
     "2016063-minicpm-v+gemma2": {
         "question": "2016063",
@@ -3039,7 +3376,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.2741769
+        "time": 0.2741769,
+        "discipline": "ciencias-natureza"
     },
     "2017108-minicpm-v+gemma2": {
         "question": "2017108",
@@ -3048,7 +3386,8 @@
         "response_length": 520,
         "answer": "E",
         "correct": false,
-        "time": 3.307723
+        "time": 3.307723,
+        "discipline": "ciencias-humanas"
     },
     "2017125-minicpm-v+gemma2": {
         "question": "2017125",
@@ -3057,7 +3396,8 @@
         "response_length": 80,
         "answer": "E",
         "correct": false,
-        "time": 0.9089762
+        "time": 0.9089762,
+        "discipline": "ciencias-natureza"
     },
     "2017136-minicpm-v+gemma2": {
         "question": "2017136",
@@ -3066,7 +3406,8 @@
         "response_length": 149,
         "answer": "D",
         "correct": false,
-        "time": 1.1467856
+        "time": 1.1467856,
+        "discipline": "matematica"
     },
     "2017175-minicpm-v+gemma2": {
         "question": "2017175",
@@ -3075,7 +3416,8 @@
         "response_length": 126,
         "answer": "A",
         "correct": true,
-        "time": 0.9144408
+        "time": 0.9144408,
+        "discipline": "matematica"
     },
     "2018126-minicpm-v+gemma2": {
         "question": "2018126",
@@ -3084,7 +3426,8 @@
         "response_length": 5,
         "answer": "A",
         "correct": false,
-        "time": 0.4600001
+        "time": 0.4600001,
+        "discipline": "ciencias-natureza"
     },
     "2018148-minicpm-v+gemma2": {
         "question": "2018148",
@@ -3093,7 +3436,8 @@
         "response_length": 805,
         "answer": "C",
         "correct": false,
-        "time": 6.2342027
+        "time": 6.2342027,
+        "discipline": "matematica"
     },
     "2018165-minicpm-v+gemma2": {
         "question": "2018165",
@@ -3102,7 +3446,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.4051275
+        "time": 0.4051275,
+        "discipline": "matematica"
     },
     "2018056-minicpm-v+gemma2": {
         "question": "2018056",
@@ -3111,7 +3456,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": true,
-        "time": 0.3227242
+        "time": 0.3227242,
+        "discipline": "ciencias-humanas"
     },
     "2019139-minicpm-v+gemma2": {
         "question": "2019139",
@@ -3120,7 +3466,8 @@
         "response_length": 145,
         "answer": "D",
         "correct": false,
-        "time": 1.2082739
+        "time": 1.2082739,
+        "discipline": "matematica"
     },
     "2019165-minicpm-v+gemma2": {
         "question": "2019165",
@@ -3129,7 +3476,8 @@
         "response_length": 853,
         "answer": "D",
         "correct": false,
-        "time": 6.1735416
+        "time": 6.1735416,
+        "discipline": "matematica"
     },
     "2020113-minicpm-v+gemma2": {
         "question": "2020113",
@@ -3138,7 +3486,8 @@
         "response_length": 82,
         "answer": "D",
         "correct": true,
-        "time": 0.8415451
+        "time": 0.8415451,
+        "discipline": "ciencias-natureza"
     },
     "2020147-minicpm-v+gemma2": {
         "question": "2020147",
@@ -3147,7 +3496,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.3948721
+        "time": 0.3948721,
+        "discipline": "matematica"
     },
     "2020157-minicpm-v+gemma2": {
         "question": "2020157",
@@ -3156,7 +3506,8 @@
         "response_length": 6,
         "answer": "A",
         "correct": false,
-        "time": 0.3637369
+        "time": 0.3637369,
+        "discipline": "matematica"
     },
     "2020161-minicpm-v+gemma2": {
         "question": "2020161",
@@ -3165,7 +3516,8 @@
         "response_length": 780,
         "answer": "D",
         "correct": false,
-        "time": 6.9479712
+        "time": 6.9479712,
+        "discipline": "matematica"
     },
     "2020163-minicpm-v+gemma2": {
         "question": "2020163",
@@ -3174,7 +3526,8 @@
         "response_length": 430,
         "answer": "A",
         "correct": false,
-        "time": 2.640324
+        "time": 2.640324,
+        "discipline": "matematica"
     },
     "2020170-minicpm-v+gemma2": {
         "question": "2020170",
@@ -3183,7 +3536,8 @@
         "response_length": 139,
         "answer": "D",
         "correct": false,
-        "time": 1.0039029
+        "time": 1.0039029,
+        "discipline": "matematica"
     },
     "2020093-minicpm-v+gemma2": {
         "question": "2020093",
@@ -3192,7 +3546,8 @@
         "response_length": 645,
         "answer": "E",
         "correct": false,
-        "time": 3.8873967
+        "time": 3.8873967,
+        "discipline": "ciencias-natureza"
     },
     "2021135-minicpm-v+gemma2": {
         "question": "2021135",
@@ -3201,7 +3556,8 @@
         "response_length": 116,
         "answer": "A",
         "correct": false,
-        "time": 0.8923721
+        "time": 0.8923721,
+        "discipline": "ciencias-natureza"
     },
     "2021161-minicpm-v+gemma2": {
         "question": "2021161",
@@ -3210,7 +3566,8 @@
         "response_length": 792,
         "answer": "D",
         "correct": false,
-        "time": 4.5187528
+        "time": 4.5187528,
+        "discipline": "matematica"
     },
     "2021163-minicpm-v+gemma2": {
         "question": "2021163",
@@ -3219,7 +3576,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.3152765
+        "time": 0.3152765,
+        "discipline": "matematica"
     },
     "2021179-minicpm-v+gemma2": {
         "question": "2021179",
@@ -3228,7 +3586,8 @@
         "response_length": 5,
         "answer": "D",
         "correct": false,
-        "time": 0.3098846
+        "time": 0.3098846,
+        "discipline": "matematica"
     },
     "2022155-minicpm-v+gemma2": {
         "question": "2022155",
@@ -3237,7 +3596,8 @@
         "response_length": 5,
         "answer": "C",
         "correct": false,
-        "time": 0.4248868
+        "time": 0.4248868,
+        "discipline": "matematica"
     },
     "2022157-minicpm-v+gemma2": {
         "question": "2022157",
@@ -3246,7 +3606,8 @@
         "response_length": 6,
         "answer": "D",
         "correct": false,
-        "time": 0.3692767
+        "time": 0.3692767,
+        "discipline": "matematica"
     },
     "2023113-minicpm-v+gemma2": {
         "question": "2023113",
@@ -3255,7 +3616,8 @@
         "response_length": 1383,
         "answer": "A",
         "correct": true,
-        "time": 8.5178362
+        "time": 8.5178362,
+        "discipline": "ciencias-natureza"
     },
     "2023141-minicpm-v+gemma2": {
         "question": "2023141",
@@ -3264,7 +3626,8 @@
         "response_length": 289,
         "answer": null,
         "correct": false,
-        "time": 1.4237736
+        "time": 1.4237736,
+        "discipline": "matematica"
     },
     "2023168-minicpm-v+gemma2": {
         "question": "2023168",
@@ -3273,7 +3636,8 @@
         "response_length": 991,
         "answer": "C",
         "correct": false,
-        "time": 6.6906345
+        "time": 6.6906345,
+        "discipline": "matematica"
     },
     "2023173-minicpm-v+gemma2": {
         "question": "2023173",
@@ -3282,7 +3646,8 @@
         "response_length": 505,
         "answer": "C",
         "correct": false,
-        "time": 3.3938822
+        "time": 3.3938822,
+        "discipline": "matematica"
     },
     "2023178-minicpm-v+gemma2": {
         "question": "2023178",
@@ -3291,6 +3656,7 @@
         "response_length": 605,
         "answer": "D",
         "correct": false,
-        "time": 3.9717565
+        "time": 3.9717565,
+        "discipline": "matematica"
     }
 }

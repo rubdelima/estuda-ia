@@ -40,7 +40,7 @@ def format_time(seconds: float) -> str:
         return f"{seconds:.2f}"
 
 # update_table
-def test_table(predict_path: str, total_questions: int, models:list[str]|None=None)->pd.DataFrame:
+def test_table_old(predict_path: str, total_questions: int, models:list[str]|None=None)->pd.DataFrame:
 
     with open(predict_path) as f:
         predict_data = json.load(f)
@@ -113,3 +113,67 @@ def test_table(predict_path: str, total_questions: int, models:list[str]|None=No
          ])
 
     return pd.DataFrame(table_data, columns=["Model", "Finsh", "OK", "Null", "Err", "Acc", "Ttot", "Tle", "Tavg", "Tmax", "Tmin"])
+
+def test_table(predict_path: str, total_questions: int | None = None, models: list[str] | None = None) -> pd.DataFrame:
+    with open(predict_path) as f:
+        predict_data = json.load(f)
+    
+    models_dict = {model: [] for model in models} if models is not None else {}
+    
+    for question in predict_data.values():
+        if question["model"] in models_dict:
+            models_dict[question["model"]].append(question)
+        elif models is not None and question["model"] not in models:
+            continue
+        else:
+            models_dict[question["model"]] = [question]
+    
+    if total_questions is None:
+        total_questions = max(len(qs) for qs in models_dict.values()) if models_dict else len(predict_data)
+    
+    table_data = []
+    total_completed = total_corrects = total_errors = total_nulls = total_exec_time = total_estimed_time_left = 0
+    total_min_time = float("inf")
+    total_max_time = 0
+
+    for model_name, model_questions in models_dict.items():
+        completed = len(model_questions)
+        corrects = sum(q["correct"] for q in model_questions)
+        null_responses = sum(1 for q in model_questions if q["answer"] is None)
+        errors = completed - corrects - null_responses
+        accuracy = corrects / max(1, completed)
+        total_time = sum(q["time"] for q in model_questions)
+        avg_time = total_time / max(1, completed)
+        max_time = max((q["time"] for q in model_questions), default=0)
+        min_time = min((q["time"] for q in model_questions), default=float("inf"))
+        estimated_time_left = (avg_time * (total_questions - completed)) if completed > 0 else 0
+
+        total_completed += completed
+        total_corrects += corrects
+        total_errors += errors
+        total_nulls += null_responses
+        total_exec_time += estimated_time_left
+        total_min_time = min(total_min_time, min_time)
+        total_max_time = max(total_max_time, max_time)
+
+        table_data.append([
+            model_name, completed, corrects, null_responses, errors, accuracy,
+            total_time, estimated_time_left, avg_time, max_time, min_time
+        ])
+    
+    table_data.append([
+        "TOTAL", total_completed, total_corrects, total_nulls, total_errors,
+        total_corrects / max(1, total_completed), total_exec_time,
+        (total_exec_time / max(1, total_completed)) * (total_questions - total_completed) if total_completed > 0 else 0,
+        total_exec_time / max(1, total_completed), total_max_time, total_min_time
+    ])
+
+    return pd.DataFrame(table_data, columns=["Model", "Finish", "OK", "Null", "Err", "Acc", "Ttot", "Tle", "Tavg", "Tmax", "Tmin"])
+
+def format_test_table(df: pd.DataFrame) -> pd.DataFrame:
+    """Converte valores numéricos de tempo para string formatada na tabela."""
+    df_copy = df.copy()
+    for col in ["Ttot", "Tle", "Tavg", "Tmax", "Tmin"]:
+        df_copy[col] = df_copy[col].apply(format_time)
+    df_copy["Finish"] = df_copy["Finish"].astype(str) + " (" + (df_copy["Finish"].astype(float) / df_copy["Finish"].max() * 100).round(0).astype(int).astype(str) + "%)"
+    return df_copy

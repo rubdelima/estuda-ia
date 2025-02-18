@@ -1,10 +1,11 @@
 import ollama
 import re
-from utils import load_json, update_json, test_table
+from utils import load_json, update_json, test_table, plots, format_test_table
 import time
 from ollama_help.build import text_question, get_images, context_description_prompt, context_description_image, context_prompt, answer_description_image, questions_description, questions_options
 from itertools import product
 from IPython.display import clear_output, display
+import pandas as pd
 
 def extract_answer(texto):
     pattern = r'\([ABCDE]\)|\{[ABCDE]\}'
@@ -53,12 +54,17 @@ def test_ollama_models(models, questions, predict_file, short_response=False):
                     "answer": answer,
                     "correct": question["correct_alternative"] == answer,
                     "time": exec_time,
+                    "discipline" : question['discipline']
                 }
 
                 update_json(predict_data, predict_file)
                 df = test_table(predict_file, len(questions),models)
                 clear_output(wait=True)
-                display(df)
+                display(format_test_table(df))
+                plots.model_performance(df)
+                
+                plots.discipline_performance(pd.DataFrame(predict_data.values()), False, True)
+                
                 test_result['ok'].append(({'question' : question, 'model' : model}))
             except Exception as e:
                 test_result['error'].append(({'question' : question, 'model' : model, 'error' : str(e)}))
@@ -134,6 +140,8 @@ def test_ollama_multi_models(text_models, vision_models, questions, predict_file
                     "answer": answer,
                     "correct": question["correct_alternative"] == answer,
                     "time": exec_time,
+                    "discipline" : question['discipline']
+
                 }
 
                 update_json(predict_data, predict_file)
