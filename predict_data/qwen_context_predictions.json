@@ -7,7 +7,8 @@
         "answer": "A",
         "correct": true,
         "time": 4.0853456,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009066-qwen2.5:14b": {
         "question": "2009066",
@@ -17,7 +18,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.7758534,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2015026-qwen2.5:14b": {
         "question": "2015026",
@@ -27,7 +29,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.4603151,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2014032-qwen2.5:14b": {
         "question": "2014032",
@@ -37,7 +40,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.5788113,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013088-qwen2.5:14b": {
         "question": "2013088",
@@ -47,7 +51,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.3688535,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2011042-qwen2.5:14b": {
         "question": "2011042",
@@ -57,7 +62,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.6414473,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010041-qwen2.5:14b": {
         "question": "2010041",
@@ -67,7 +73,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.8273874,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2021090-qwen2.5:14b": {
         "question": "2021090",
@@ -77,7 +84,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.5062317,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010028-qwen2.5:14b": {
         "question": "2010028",
@@ -87,7 +95,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.7677979,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023051-qwen2.5:14b": {
         "question": "2023051",
@@ -97,7 +106,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.5025739,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019054-qwen2.5:14b": {
         "question": "2019054",
@@ -107,7 +117,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.4698778,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009074-qwen2.5:14b": {
         "question": "2009074",
@@ -117,7 +128,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.7934767,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009071-qwen2.5:14b": {
         "question": "2009071",
@@ -127,7 +139,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.6270565,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010033-qwen2.5:14b": {
         "question": "2010033",
@@ -137,7 +150,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.5080919,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013006-qwen2.5:14b": {
         "question": "2013006",
@@ -147,7 +161,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.4583354,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2014002-qwen2.5:14b": {
         "question": "2014002",
@@ -157,7 +172,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.4676192,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2021048-qwen2.5:14b": {
         "question": "2021048",
@@ -167,7 +183,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.5887016,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023063-qwen2.5:14b": {
         "question": "2023063",
@@ -177,7 +194,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.6217433,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009068-qwen2.5:14b": {
         "question": "2009068",
@@ -187,7 +205,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.4446714,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2022062-qwen2.5:14b": {
         "question": "2022062",
@@ -197,7 +216,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.5593319,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013027-qwen2.5:14b": {
         "question": "2013027",
@@ -207,7 +227,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.4545817,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019051-qwen2.5:14b": {
         "question": "2019051",
@@ -217,7 +238,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.4669972,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013063-qwen2.5:14b": {
         "question": "2013063",
@@ -227,7 +249,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.4923893,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019084-qwen2.5:14b": {
         "question": "2019084",
@@ -237,7 +260,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.4509375,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023050-qwen2.5:14b": {
         "question": "2023050",
@@ -247,7 +271,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.5069849,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2015058-qwen2.5:14b": {
         "question": "2015058",
@@ -257,7 +282,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.639099,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2009026-qwen2.5:14b": {
         "question": "2009026",
@@ -267,7 +293,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.6496354,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2012064-qwen2.5:14b": {
         "question": "2012064",
@@ -277,7 +304,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.451445,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2018134-qwen2.5:14b": {
         "question": "2018134",
@@ -287,7 +315,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.4524219,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016071-qwen2.5:14b": {
         "question": "2016071",
@@ -297,7 +326,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.3550747,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2012062-qwen2.5:14b": {
         "question": "2012062",
@@ -307,7 +337,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.4391263,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2013079-qwen2.5:14b": {
         "question": "2013079",
@@ -317,7 +348,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.487022,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016069-qwen2.5:14b": {
         "question": "2016069",
@@ -327,7 +359,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.409696,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011057-qwen2.5:14b": {
         "question": "2011057",
@@ -337,7 +370,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.5474202,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011051-qwen2.5:14b": {
         "question": "2011051",
@@ -347,7 +381,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.5586976,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017132-qwen2.5:14b": {
         "question": "2017132",
@@ -357,7 +392,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.4208679,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011053-qwen2.5:14b": {
         "question": "2011053",
@@ -367,7 +403,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.5482467,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017104-qwen2.5:14b": {
         "question": "2017104",
@@ -377,7 +414,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.4547918,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016080-qwen2.5:14b": {
         "question": "2016080",
@@ -387,7 +425,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.5475125,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2023107-qwen2.5:14b": {
         "question": "2023107",
@@ -397,7 +436,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.4444827,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2014089-qwen2.5:14b": {
         "question": "2014089",
@@ -407,7 +447,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.3257202,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2010051-qwen2.5:14b": {
         "question": "2010051",
@@ -417,7 +458,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.5460517,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2019133-qwen2.5:14b": {
         "question": "2019133",
@@ -427,7 +469,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.4462303,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2021118-qwen2.5:14b": {
         "question": "2021118",
@@ -437,7 +480,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.5108503,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011082-qwen2.5:14b": {
         "question": "2011082",
@@ -447,7 +491,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.5006382,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017131-qwen2.5:14b": {
         "question": "2017131",
@@ -457,7 +502,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.453999,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2010081-qwen2.5:14b": {
         "question": "2010081",
@@ -467,7 +513,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.5536635,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2021097-qwen2.5:14b": {
         "question": "2021097",
@@ -477,7 +524,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.4519876,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2015072-qwen2.5:14b": {
         "question": "2015072",
@@ -487,7 +535,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.6218857,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2023099-qwen2.5:14b": {
         "question": "2023099",
@@ -497,7 +546,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.4381183,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2020034-qwen2.5:14b": {
         "question": "2020034",
@@ -507,7 +557,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.5705758,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016103-qwen2.5:14b": {
         "question": "2016103",
@@ -517,7 +568,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.8705929,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2019044-qwen2.5:14b": {
         "question": "2019044",
@@ -527,7 +579,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.6011645,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013111-qwen2.5:14b": {
         "question": "2013111",
@@ -537,7 +590,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.7599297,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2022017-qwen2.5:14b": {
         "question": "2022017",
@@ -547,7 +601,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.7203377,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011103-qwen2.5:14b": {
         "question": "2011103",
@@ -557,7 +612,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.7802698,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2009133-qwen2.5:14b": {
         "question": "2009133",
@@ -567,7 +623,8 @@
         "answer": "C",
         "correct": true,
         "time": 1.2008536,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021023-qwen2.5:14b": {
         "question": "2021023",
@@ -577,7 +634,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.7291496,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013099-qwen2.5:14b": {
         "question": "2013099",
@@ -587,7 +645,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.6920754,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2023020-qwen2.5:14b": {
         "question": "2023020",
@@ -597,7 +656,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.8121513,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014099-qwen2.5:14b": {
         "question": "2014099",
@@ -607,7 +667,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.8394349,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011109-qwen2.5:14b": {
         "question": "2011109",
@@ -617,7 +678,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.5683596,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014102-qwen2.5:14b": {
         "question": "2014102",
@@ -627,7 +689,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.7081111,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011126-qwen2.5:14b": {
         "question": "2011126",
@@ -637,7 +700,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.8641006,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016115-qwen2.5:14b": {
         "question": "2016115",
@@ -647,7 +711,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.5644479,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014130-qwen2.5:14b": {
         "question": "2014130",
@@ -657,7 +722,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.7729714,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2017031-qwen2.5:14b": {
         "question": "2017031",
@@ -667,7 +733,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.7702825,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2020045-qwen2.5:14b": {
         "question": "2020045",
@@ -677,7 +744,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.773504,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016104-qwen2.5:14b": {
         "question": "2016104",
@@ -687,7 +755,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.4926694,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2012129-qwen2.5:14b": {
         "question": "2012129",
@@ -697,7 +766,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.9526408,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016108-qwen2.5:14b": {
         "question": "2016108",
@@ -707,7 +777,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.7816936,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2015099-qwen2.5:14b": {
         "question": "2015099",
@@ -717,7 +788,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.5780912,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013123-qwen2.5:14b": {
         "question": "2013123",
@@ -727,7 +799,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.6956002,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021030-qwen2.5:14b": {
         "question": "2021030",
@@ -737,7 +810,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.9394449,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014123-qwen2.5:14b": {
         "question": "2014123",
@@ -747,7 +821,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.4873456,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021165-qwen2.5:14b": {
         "question": "2021165",
@@ -757,7 +832,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.3524368,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021142-qwen2.5:14b": {
         "question": "2021142",
@@ -767,7 +843,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.4847259,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2020138-qwen2.5:14b": {
         "question": "2020138",
@@ -777,7 +854,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3593506,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009179-qwen2.5:14b": {
         "question": "2009179",
@@ -787,7 +865,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.9410476,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019153-qwen2.5:14b": {
         "question": "2019153",
@@ -797,7 +876,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.5426267,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019170-qwen2.5:14b": {
         "question": "2019170",
@@ -807,7 +887,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.5108194,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011166-qwen2.5:14b": {
         "question": "2011166",
@@ -817,7 +898,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.4099924,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2018161-qwen2.5:14b": {
         "question": "2018161",
@@ -827,7 +909,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.3664037,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022139-qwen2.5:14b": {
         "question": "2022139",
@@ -837,7 +920,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.5189209,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2013139-qwen2.5:14b": {
         "question": "2013139",
@@ -847,7 +931,8 @@
         "answer": null,
         "correct": false,
         "time": 4.6120973,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011162-qwen2.5:14b": {
         "question": "2011162",
@@ -857,7 +942,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.3647434,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2016174-qwen2.5:14b": {
         "question": "2016174",
@@ -867,7 +953,8 @@
         "answer": null,
         "correct": false,
         "time": 4.2107381,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2015151-qwen2.5:14b": {
         "question": "2015151",
@@ -877,7 +964,8 @@
         "answer": "E",
         "correct": false,
         "time": 4.7828131,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2013166-qwen2.5:14b": {
         "question": "2013166",
@@ -887,7 +975,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.2951072,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019173-qwen2.5:14b": {
         "question": "2019173",
@@ -897,7 +986,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.4482167,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021158-qwen2.5:14b": {
         "question": "2021158",
@@ -907,7 +997,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.4546013,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2018169-qwen2.5:14b": {
         "question": "2018169",
@@ -917,7 +1008,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.4449087,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2012171-qwen2.5:14b": {
         "question": "2012171",
@@ -927,7 +1019,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.4435998,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021146-qwen2.5:14b": {
         "question": "2021146",
@@ -937,7 +1030,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.6557081,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2014168-qwen2.5:14b": {
         "question": "2014168",
@@ -947,7 +1041,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.5383146,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022165-qwen2.5:14b": {
         "question": "2022165",
@@ -957,7 +1052,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.4143925,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022169-qwen2.5:14b": {
         "question": "2022169",
@@ -967,7 +1063,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.4568035,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009175-qwen2.5:14b": {
         "question": "2009175",
@@ -977,7 +1074,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.5455043,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2012176-qwen2.5:14b": {
         "question": "2012176",
@@ -987,7 +1085,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.412391,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009161-qwen2.5:14b": {
         "question": "2009161",
@@ -997,7 +1096,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.5524615,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011013-qwen2.5:7b": {
         "question": "2011013",
@@ -1007,7 +1107,8 @@
         "answer": "A",
         "correct": true,
         "time": 4.680475,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009066-qwen2.5:7b": {
         "question": "2009066",
@@ -1017,7 +1118,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.3752709,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2015026-qwen2.5:7b": {
         "question": "2015026",
@@ -1027,7 +1129,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.2362135,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2014032-qwen2.5:7b": {
         "question": "2014032",
@@ -1037,7 +1140,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.2837288,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013088-qwen2.5:7b": {
         "question": "2013088",
@@ -1047,7 +1151,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1954229,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2011042-qwen2.5:7b": {
         "question": "2011042",
@@ -1057,7 +1162,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.3219279,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010041-qwen2.5:7b": {
         "question": "2010041",
@@ -1067,7 +1173,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.4324623,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2021090-qwen2.5:7b": {
         "question": "2021090",
@@ -1077,7 +1184,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2979447,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010028-qwen2.5:7b": {
         "question": "2010028",
@@ -1087,7 +1195,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.407447,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023051-qwen2.5:7b": {
         "question": "2023051",
@@ -1097,7 +1206,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.2947422,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019054-qwen2.5:7b": {
         "question": "2019054",
@@ -1107,7 +1217,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.2536191,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009074-qwen2.5:7b": {
         "question": "2009074",
@@ -1117,7 +1228,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.3852685,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009071-qwen2.5:7b": {
         "question": "2009071",
@@ -1127,7 +1239,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.3123042,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010033-qwen2.5:7b": {
         "question": "2010033",
@@ -1137,7 +1250,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2629125,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013006-qwen2.5:7b": {
         "question": "2013006",
@@ -1147,7 +1261,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2384707,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2014002-qwen2.5:7b": {
         "question": "2014002",
@@ -1157,7 +1272,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.2316264,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2021048-qwen2.5:7b": {
         "question": "2021048",
@@ -1167,7 +1283,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.293676,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023063-qwen2.5:7b": {
         "question": "2023063",
@@ -1177,7 +1294,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3216914,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009068-qwen2.5:7b": {
         "question": "2009068",
@@ -1187,7 +1305,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.2623964,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2022062-qwen2.5:7b": {
         "question": "2022062",
@@ -1197,7 +1316,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.2899306,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013027-qwen2.5:7b": {
         "question": "2013027",
@@ -1207,7 +1327,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.236709,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019051-qwen2.5:7b": {
         "question": "2019051",
@@ -1217,7 +1338,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2298446,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013063-qwen2.5:7b": {
         "question": "2013063",
@@ -1227,7 +1349,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.2597244,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019084-qwen2.5:7b": {
         "question": "2019084",
@@ -1237,7 +1360,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.2589254,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023050-qwen2.5:7b": {
         "question": "2023050",
@@ -1247,7 +1371,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2706027,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2015058-qwen2.5:7b": {
         "question": "2015058",
@@ -1257,7 +1382,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3147965,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2009026-qwen2.5:7b": {
         "question": "2009026",
@@ -1267,7 +1393,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.3088167,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2012064-qwen2.5:7b": {
         "question": "2012064",
@@ -1277,7 +1404,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.2302378,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2018134-qwen2.5:7b": {
         "question": "2018134",
@@ -1287,7 +1415,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2337156,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016071-qwen2.5:7b": {
         "question": "2016071",
@@ -1297,7 +1426,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.193978,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2012062-qwen2.5:7b": {
         "question": "2012062",
@@ -1307,7 +1437,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2327338,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2013079-qwen2.5:7b": {
         "question": "2013079",
@@ -1317,7 +1448,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.2729762,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016069-qwen2.5:7b": {
         "question": "2016069",
@@ -1327,7 +1459,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.222048,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011057-qwen2.5:7b": {
         "question": "2011057",
@@ -1337,7 +1470,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.3098205,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011051-qwen2.5:7b": {
         "question": "2011051",
@@ -1347,7 +1481,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.304218,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017132-qwen2.5:7b": {
         "question": "2017132",
@@ -1357,7 +1492,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2454509,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011053-qwen2.5:7b": {
         "question": "2011053",
@@ -1367,7 +1503,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.3029118,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017104-qwen2.5:7b": {
         "question": "2017104",
@@ -1377,7 +1514,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.2494815,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016080-qwen2.5:7b": {
         "question": "2016080",
@@ -1387,7 +1525,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2866435,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2023107-qwen2.5:7b": {
         "question": "2023107",
@@ -1397,7 +1536,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.2335043,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2014089-qwen2.5:7b": {
         "question": "2014089",
@@ -1407,7 +1547,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.1788356,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2010051-qwen2.5:7b": {
         "question": "2010051",
@@ -1417,7 +1558,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.2818592,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2019133-qwen2.5:7b": {
         "question": "2019133",
@@ -1427,7 +1569,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.2507744,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2021118-qwen2.5:7b": {
         "question": "2021118",
@@ -1437,7 +1580,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.2510637,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011082-qwen2.5:7b": {
         "question": "2011082",
@@ -1447,7 +1591,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.2560034,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017131-qwen2.5:7b": {
         "question": "2017131",
@@ -1457,7 +1602,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2353633,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2010081-qwen2.5:7b": {
         "question": "2010081",
@@ -1467,7 +1613,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.2855705,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2021097-qwen2.5:7b": {
         "question": "2021097",
@@ -1477,7 +1624,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2339989,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2015072-qwen2.5:7b": {
         "question": "2015072",
@@ -1487,7 +1635,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3161916,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2023099-qwen2.5:7b": {
         "question": "2023099",
@@ -1497,7 +1646,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.2177586,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2020034-qwen2.5:7b": {
         "question": "2020034",
@@ -1507,7 +1657,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.2918618,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016103-qwen2.5:7b": {
         "question": "2016103",
@@ -1517,7 +1668,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.4410063,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2019044-qwen2.5:7b": {
         "question": "2019044",
@@ -1527,7 +1679,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.2977087,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013111-qwen2.5:7b": {
         "question": "2013111",
@@ -1537,7 +1690,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.4041685,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2022017-qwen2.5:7b": {
         "question": "2022017",
@@ -1547,7 +1701,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3644836,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011103-qwen2.5:7b": {
         "question": "2011103",
@@ -1557,7 +1712,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.3956149,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2009133-qwen2.5:7b": {
         "question": "2009133",
@@ -1567,7 +1723,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.5787585,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021023-qwen2.5:7b": {
         "question": "2021023",
@@ -1577,7 +1734,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3523749,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013099-qwen2.5:7b": {
         "question": "2013099",
@@ -1587,7 +1745,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3509122,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2023020-qwen2.5:7b": {
         "question": "2023020",
@@ -1597,7 +1756,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.4257838,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014099-qwen2.5:7b": {
         "question": "2014099",
@@ -1607,7 +1767,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.4036258,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011109-qwen2.5:7b": {
         "question": "2011109",
@@ -1617,7 +1778,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2910466,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014102-qwen2.5:7b": {
         "question": "2014102",
@@ -1627,7 +1789,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.3416317,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011126-qwen2.5:7b": {
         "question": "2011126",
@@ -1637,7 +1800,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.3934507,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016115-qwen2.5:7b": {
         "question": "2016115",
@@ -1647,7 +1811,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2821544,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014130-qwen2.5:7b": {
         "question": "2014130",
@@ -1657,7 +1822,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.3712939,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2017031-qwen2.5:7b": {
         "question": "2017031",
@@ -1667,7 +1833,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.3745349,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2020045-qwen2.5:7b": {
         "question": "2020045",
@@ -1677,7 +1844,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.3708947,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016104-qwen2.5:7b": {
         "question": "2016104",
@@ -1687,7 +1855,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.2351844,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2012129-qwen2.5:7b": {
         "question": "2012129",
@@ -1697,7 +1866,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.4506329,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016108-qwen2.5:7b": {
         "question": "2016108",
@@ -1707,7 +1877,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.4170077,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2015099-qwen2.5:7b": {
         "question": "2015099",
@@ -1717,7 +1888,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.3286168,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013123-qwen2.5:7b": {
         "question": "2013123",
@@ -1727,7 +1899,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.3867785,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021030-qwen2.5:7b": {
         "question": "2021030",
@@ -1737,7 +1910,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.4635136,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014123-qwen2.5:7b": {
         "question": "2014123",
@@ -1747,7 +1921,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.2620961,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021165-qwen2.5:7b": {
         "question": "2021165",
@@ -1757,7 +1932,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.1880806,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021142-qwen2.5:7b": {
         "question": "2021142",
@@ -1767,7 +1943,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2527103,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2020138-qwen2.5:7b": {
         "question": "2020138",
@@ -1777,7 +1954,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.1890003,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009179-qwen2.5:7b": {
         "question": "2009179",
@@ -1787,7 +1965,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.4538086,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019153-qwen2.5:7b": {
         "question": "2019153",
@@ -1797,7 +1976,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.2781601,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019170-qwen2.5:7b": {
         "question": "2019170",
@@ -1807,7 +1987,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2710118,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011166-qwen2.5:7b": {
         "question": "2011166",
@@ -1817,7 +1998,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.222301,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2018161-qwen2.5:7b": {
         "question": "2018161",
@@ -1827,7 +2009,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.1905131,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022139-qwen2.5:7b": {
         "question": "2022139",
@@ -1837,7 +2020,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.2533832,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2013139-qwen2.5:7b": {
         "question": "2013139",
@@ -1847,7 +2031,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1510716,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011162-qwen2.5:7b": {
         "question": "2011162",
@@ -1857,7 +2042,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1917773,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2016174-qwen2.5:7b": {
         "question": "2016174",
@@ -1867,7 +2053,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1505458,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2015151-qwen2.5:7b": {
         "question": "2015151",
@@ -1877,7 +2064,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.160322,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2013166-qwen2.5:7b": {
         "question": "2013166",
@@ -1887,7 +2075,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.1626829,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019173-qwen2.5:7b": {
         "question": "2019173",
@@ -1897,7 +2086,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.2315831,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021158-qwen2.5:7b": {
         "question": "2021158",
@@ -1907,7 +2097,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.2368487,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2018169-qwen2.5:7b": {
         "question": "2018169",
@@ -1917,7 +2108,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.2606308,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2012171-qwen2.5:7b": {
         "question": "2012171",
@@ -1927,7 +2119,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2316868,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021146-qwen2.5:7b": {
         "question": "2021146",
@@ -1937,7 +2130,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.317599,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2014168-qwen2.5:7b": {
         "question": "2014168",
@@ -1947,7 +2141,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.2614384,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022165-qwen2.5:7b": {
         "question": "2022165",
@@ -1957,7 +2152,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.2192498,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022169-qwen2.5:7b": {
         "question": "2022169",
@@ -1967,7 +2163,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.238882,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009175-qwen2.5:7b": {
         "question": "2009175",
@@ -1977,7 +2174,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.2815837,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2012176-qwen2.5:7b": {
         "question": "2012176",
@@ -1987,7 +2185,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2244463,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009161-qwen2.5:7b": {
         "question": "2009161",
@@ -1997,7 +2196,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.2869432,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011013-qwen2.5:1.5b": {
         "question": "2011013",
@@ -2007,7 +2207,8 @@
         "answer": "A",
         "correct": true,
         "time": 2.1239758,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009066-qwen2.5:1.5b": {
         "question": "2009066",
@@ -2017,7 +2218,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.3798002,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2015026-qwen2.5:1.5b": {
         "question": "2015026",
@@ -2027,7 +2229,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0957515,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2014032-qwen2.5:1.5b": {
         "question": "2014032",
@@ -2037,7 +2240,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1091857,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013088-qwen2.5:1.5b": {
         "question": "2013088",
@@ -2047,7 +2251,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0825053,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2011042-qwen2.5:1.5b": {
         "question": "2011042",
@@ -2057,7 +2262,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.2861981,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010041-qwen2.5:1.5b": {
         "question": "2010041",
@@ -2067,7 +2273,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1528866,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2021090-qwen2.5:1.5b": {
         "question": "2021090",
@@ -2077,7 +2284,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.188483,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010028-qwen2.5:1.5b": {
         "question": "2010028",
@@ -2087,7 +2295,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1438962,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023051-qwen2.5:1.5b": {
         "question": "2023051",
@@ -2097,7 +2306,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1017722,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019054-qwen2.5:1.5b": {
         "question": "2019054",
@@ -2107,7 +2317,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.0940145,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009074-qwen2.5:1.5b": {
         "question": "2009074",
@@ -2117,7 +2328,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.1516247,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009071-qwen2.5:1.5b": {
         "question": "2009071",
@@ -2127,7 +2339,8 @@
         "answer": "C",
         "correct": false,
         "time": 0.3271608,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2010033-qwen2.5:1.5b": {
         "question": "2010033",
@@ -2137,7 +2350,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.1082803,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013006-qwen2.5:1.5b": {
         "question": "2013006",
@@ -2147,7 +2361,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.093866,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2014002-qwen2.5:1.5b": {
         "question": "2014002",
@@ -2157,7 +2372,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1246575,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2021048-qwen2.5:1.5b": {
         "question": "2021048",
@@ -2167,7 +2383,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1089492,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023063-qwen2.5:1.5b": {
         "question": "2023063",
@@ -2177,7 +2394,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.1649752,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2009068-qwen2.5:1.5b": {
         "question": "2009068",
@@ -2187,7 +2405,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0937972,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2022062-qwen2.5:1.5b": {
         "question": "2022062",
@@ -2197,7 +2416,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1092771,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013027-qwen2.5:1.5b": {
         "question": "2013027",
@@ -2207,7 +2427,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1859926,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019051-qwen2.5:1.5b": {
         "question": "2019051",
@@ -2217,7 +2438,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.0912422,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2013063-qwen2.5:1.5b": {
         "question": "2013063",
@@ -2227,7 +2449,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0990183,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2019084-qwen2.5:1.5b": {
         "question": "2019084",
@@ -2237,7 +2460,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1620616,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2023050-qwen2.5:1.5b": {
         "question": "2023050",
@@ -2247,7 +2471,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1074621,
-        "discipline": "ciencias-humanas"
+        "discipline": "ciencias-humanas",
+        "timeout": null
     },
     "2015058-qwen2.5:1.5b": {
         "question": "2015058",
@@ -2257,7 +2482,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2775245,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2009026-qwen2.5:1.5b": {
         "question": "2009026",
@@ -2267,7 +2493,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1849714,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2012064-qwen2.5:1.5b": {
         "question": "2012064",
@@ -2277,7 +2504,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.091329,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2018134-qwen2.5:1.5b": {
         "question": "2018134",
@@ -2287,7 +2515,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.0959001,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016071-qwen2.5:1.5b": {
         "question": "2016071",
@@ -2297,7 +2526,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.0805992,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2012062-qwen2.5:1.5b": {
         "question": "2012062",
@@ -2307,7 +2537,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.0932989,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2013079-qwen2.5:1.5b": {
         "question": "2013079",
@@ -2317,7 +2548,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1016385,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016069-qwen2.5:1.5b": {
         "question": "2016069",
@@ -2327,7 +2559,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.08889,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011057-qwen2.5:1.5b": {
         "question": "2011057",
@@ -2337,7 +2570,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.1058216,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011051-qwen2.5:1.5b": {
         "question": "2011051",
@@ -2347,7 +2581,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.1085709,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017132-qwen2.5:1.5b": {
         "question": "2017132",
@@ -2357,7 +2592,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.0886218,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011053-qwen2.5:1.5b": {
         "question": "2011053",
@@ -2367,7 +2603,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1125581,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017104-qwen2.5:1.5b": {
         "question": "2017104",
@@ -2377,7 +2614,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1257178,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2016080-qwen2.5:1.5b": {
         "question": "2016080",
@@ -2387,7 +2625,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1059787,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2023107-qwen2.5:1.5b": {
         "question": "2023107",
@@ -2397,7 +2636,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.092447,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2014089-qwen2.5:1.5b": {
         "question": "2014089",
@@ -2407,7 +2647,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.1489547,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2010051-qwen2.5:1.5b": {
         "question": "2010051",
@@ -2417,7 +2658,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.1319787,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2019133-qwen2.5:1.5b": {
         "question": "2019133",
@@ -2427,7 +2669,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1210179,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2021118-qwen2.5:1.5b": {
         "question": "2021118",
@@ -2437,7 +2680,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0979874,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2011082-qwen2.5:1.5b": {
         "question": "2011082",
@@ -2447,7 +2691,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.1234488,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2017131-qwen2.5:1.5b": {
         "question": "2017131",
@@ -2457,7 +2702,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.0935586,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2010081-qwen2.5:1.5b": {
         "question": "2010081",
@@ -2467,7 +2713,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1102302,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2021097-qwen2.5:1.5b": {
         "question": "2021097",
@@ -2477,7 +2724,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.09239,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2015072-qwen2.5:1.5b": {
         "question": "2015072",
@@ -2487,7 +2735,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1189533,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2023099-qwen2.5:1.5b": {
         "question": "2023099",
@@ -2497,7 +2746,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.1082187,
-        "discipline": "ciencias-natureza"
+        "discipline": "ciencias-natureza",
+        "timeout": null
     },
     "2020034-qwen2.5:1.5b": {
         "question": "2020034",
@@ -2507,7 +2757,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1132435,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016103-qwen2.5:1.5b": {
         "question": "2016103",
@@ -2517,7 +2768,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.1587498,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2019044-qwen2.5:1.5b": {
         "question": "2019044",
@@ -2527,7 +2779,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1158903,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013111-qwen2.5:1.5b": {
         "question": "2013111",
@@ -2537,7 +2790,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1495344,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2022017-qwen2.5:1.5b": {
         "question": "2022017",
@@ -2547,7 +2801,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.1393071,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011103-qwen2.5:1.5b": {
         "question": "2011103",
@@ -2557,7 +2812,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.3535209,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2009133-qwen2.5:1.5b": {
         "question": "2009133",
@@ -2567,7 +2823,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.5116897,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021023-qwen2.5:1.5b": {
         "question": "2021023",
@@ -2577,7 +2834,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1344782,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013099-qwen2.5:1.5b": {
         "question": "2013099",
@@ -2587,7 +2845,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.272062,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2023020-qwen2.5:1.5b": {
         "question": "2023020",
@@ -2597,7 +2856,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.2782669,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014099-qwen2.5:1.5b": {
         "question": "2014099",
@@ -2607,7 +2867,8 @@
         "answer": "C",
         "correct": true,
         "time": 0.1520705,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011109-qwen2.5:1.5b": {
         "question": "2011109",
@@ -2617,7 +2878,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1120877,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014102-qwen2.5:1.5b": {
         "question": "2014102",
@@ -2627,7 +2889,8 @@
         "answer": "D",
         "correct": true,
         "time": 0.1302316,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2011126-qwen2.5:1.5b": {
         "question": "2011126",
@@ -2637,7 +2900,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.150209,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016115-qwen2.5:1.5b": {
         "question": "2016115",
@@ -2647,7 +2911,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1104832,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014130-qwen2.5:1.5b": {
         "question": "2014130",
@@ -2657,7 +2922,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1455286,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2017031-qwen2.5:1.5b": {
         "question": "2017031",
@@ -2667,7 +2933,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1404996,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2020045-qwen2.5:1.5b": {
         "question": "2020045",
@@ -2677,7 +2944,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.2895187,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016104-qwen2.5:1.5b": {
         "question": "2016104",
@@ -2687,7 +2955,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.092489,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2012129-qwen2.5:1.5b": {
         "question": "2012129",
@@ -2697,7 +2966,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1668739,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2016108-qwen2.5:1.5b": {
         "question": "2016108",
@@ -2707,7 +2977,8 @@
         "answer": "A",
         "correct": true,
         "time": 0.1398561,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2015099-qwen2.5:1.5b": {
         "question": "2015099",
@@ -2717,7 +2988,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1067682,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2013123-qwen2.5:1.5b": {
         "question": "2013123",
@@ -2727,7 +2999,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.2933607,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021030-qwen2.5:1.5b": {
         "question": "2021030",
@@ -2737,7 +3010,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.3137579,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2014123-qwen2.5:1.5b": {
         "question": "2014123",
@@ -2747,7 +3021,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1077074,
-        "discipline": "linguagens"
+        "discipline": "linguagens",
+        "timeout": null
     },
     "2021165-qwen2.5:1.5b": {
         "question": "2021165",
@@ -2757,7 +3032,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.0782252,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021142-qwen2.5:1.5b": {
         "question": "2021142",
@@ -2767,7 +3043,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.0957118,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2020138-qwen2.5:1.5b": {
         "question": "2020138",
@@ -2777,7 +3054,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.081783,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009179-qwen2.5:1.5b": {
         "question": "2009179",
@@ -2787,7 +3065,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1650781,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019153-qwen2.5:1.5b": {
         "question": "2019153",
@@ -2797,7 +3076,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1021475,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019170-qwen2.5:1.5b": {
         "question": "2019170",
@@ -2807,7 +3087,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.095846,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011166-qwen2.5:1.5b": {
         "question": "2011166",
@@ -2817,7 +3098,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0868026,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2018161-qwen2.5:1.5b": {
         "question": "2018161",
@@ -2827,7 +3109,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0812102,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022139-qwen2.5:1.5b": {
         "question": "2022139",
@@ -2837,7 +3120,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.1015198,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2013139-qwen2.5:1.5b": {
         "question": "2013139",
@@ -2847,7 +3131,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0736473,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2011162-qwen2.5:1.5b": {
         "question": "2011162",
@@ -2857,7 +3142,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1265748,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2016174-qwen2.5:1.5b": {
         "question": "2016174",
@@ -2867,7 +3153,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0878976,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2015151-qwen2.5:1.5b": {
         "question": "2015151",
@@ -2877,7 +3164,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.091358,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2013166-qwen2.5:1.5b": {
         "question": "2013166",
@@ -2887,7 +3175,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.0689116,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2019173-qwen2.5:1.5b": {
         "question": "2019173",
@@ -2897,7 +3186,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.0918212,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021158-qwen2.5:1.5b": {
         "question": "2021158",
@@ -2907,7 +3197,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0921666,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2018169-qwen2.5:1.5b": {
         "question": "2018169",
@@ -2917,7 +3208,8 @@
         "answer": "D",
         "correct": false,
         "time": 0.0931869,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2012171-qwen2.5:1.5b": {
         "question": "2012171",
@@ -2927,7 +3219,8 @@
         "answer": "B",
         "correct": true,
         "time": 0.0918203,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2021146-qwen2.5:1.5b": {
         "question": "2021146",
@@ -2937,7 +3230,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.1219048,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2014168-qwen2.5:1.5b": {
         "question": "2014168",
@@ -2947,7 +3241,8 @@
         "answer": "B",
         "correct": false,
         "time": 0.1414053,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022165-qwen2.5:1.5b": {
         "question": "2022165",
@@ -2957,7 +3252,8 @@
         "answer": "E",
         "correct": false,
         "time": 0.0868904,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2022169-qwen2.5:1.5b": {
         "question": "2022169",
@@ -2967,7 +3263,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.0949092,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009175-qwen2.5:1.5b": {
         "question": "2009175",
@@ -2977,7 +3274,8 @@
         "answer": "A",
         "correct": false,
         "time": 0.1603399,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2012176-qwen2.5:1.5b": {
         "question": "2012176",
@@ -2987,7 +3285,8 @@
         "answer": "E",
         "correct": true,
         "time": 0.0890567,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009161-qwen2.5:1.5b": {
         "question": "2009161",
@@ -2997,6 +3296,7 @@
         "answer": "B",
         "correct": false,
         "time": 0.1094634,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     }
 }

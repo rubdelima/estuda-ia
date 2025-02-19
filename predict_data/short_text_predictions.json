@@ -7,7 +7,8 @@
         "correct": true,
         "time": 18.53078,
         "response_length": 981,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009145-phi4": {
         "question": "2009145",
@@ -17,7 +18,8 @@
         "correct": true,
         "time": 12.5111355,
         "response_length": 1050,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009151-phi4": {
         "question": "2009151",
@@ -27,7 +29,8 @@
         "correct": true,
         "time": 19.2672427,
         "response_length": 1504,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009152-phi4": {
         "question": "2009152",
@@ -37,7 +40,8 @@
         "correct": true,
         "time": 16.3920368,
         "response_length": 1656,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009154-phi4": {
         "question": "2009154",
@@ -47,7 +51,8 @@
         "correct": true,
         "time": 12.9992969,
         "response_length": 1258,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009155-phi4": {
         "question": "2009155",
@@ -57,7 +62,8 @@
         "correct": true,
         "time": 16.6758952,
         "response_length": 1272,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009156-phi4": {
         "question": "2009156",
@@ -67,7 +73,8 @@
         "correct": true,
         "time": 31.7877315,
         "response_length": 2452,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009160-phi4": {
         "question": "2009160",
@@ -77,7 +84,8 @@
         "correct": true,
         "time": 35.2640633,
         "response_length": 3211,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009161-phi4": {
         "question": "2009161",
@@ -87,7 +95,8 @@
         "correct": false,
         "time": 29.804144,
         "response_length": 1884,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009162-phi4": {
         "question": "2009162",
@@ -97,7 +106,8 @@
         "correct": true,
         "time": 20.9736713,
         "response_length": 1656,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009141-llava": {
         "question": "2009141",
@@ -107,7 +117,8 @@
         "correct": true,
         "time": 5.7349058,
         "response_length": 32,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009145-llava": {
         "question": "2009145",
@@ -117,7 +128,8 @@
         "correct": false,
         "time": 0.4249744,
         "response_length": 18,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009151-llava": {
         "question": "2009151",
@@ -127,7 +139,8 @@
         "correct": false,
         "time": 0.2899354,
         "response_length": 5,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009152-llava": {
         "question": "2009152",
@@ -137,7 +150,8 @@
         "correct": false,
         "time": 0.4336462,
         "response_length": 5,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009154-llava": {
         "question": "2009154",
@@ -147,7 +161,8 @@
         "correct": false,
         "time": 0.2454594,
         "response_length": 5,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009155-llava": {
         "question": "2009155",
@@ -157,7 +172,8 @@
         "correct": true,
         "time": 0.3168881,
         "response_length": 5,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009156-llava": {
         "question": "2009156",
@@ -167,7 +183,8 @@
         "correct": false,
         "time": 0.5622696,
         "response_length": 13,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009160-llava": {
         "question": "2009160",
@@ -177,7 +194,8 @@
         "correct": true,
         "time": 0.3258113,
         "response_length": 5,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009161-llava": {
         "question": "2009161",
@@ -187,7 +205,8 @@
         "correct": true,
         "time": 0.3524433,
         "response_length": 5,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009162-llava": {
         "question": "2009162",
@@ -197,7 +216,8 @@
         "correct": true,
         "time": 0.2864092,
         "response_length": 5,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009141-deepseek-r1": {
         "question": "2009141",
@@ -207,7 +227,8 @@
         "correct": true,
         "time": 22.7897274,
         "response_length": 2810,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009145-deepseek-r1": {
         "question": "2009145",
@@ -217,7 +238,8 @@
         "correct": true,
         "time": 14.3377181,
         "response_length": 2528,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009151-deepseek-r1": {
         "question": "2009151",
@@ -227,7 +249,8 @@
         "correct": false,
         "time": 212.9717232,
         "response_length": 31783,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009152-deepseek-r1": {
         "question": "2009152",
@@ -237,7 +260,8 @@
         "correct": false,
         "time": 5.964355,
         "response_length": 708,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009154-deepseek-r1": {
         "question": "2009154",
@@ -247,7 +271,8 @@
         "correct": false,
         "time": 81.5530846,
         "response_length": 12390,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009155-deepseek-r1": {
         "question": "2009155",
@@ -257,7 +282,8 @@
         "correct": true,
         "time": 17.3332508,
         "response_length": 1926,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009156-deepseek-r1": {
         "question": "2009156",
@@ -267,7 +293,8 @@
         "correct": false,
         "time": 217.3826211,
         "response_length": 33464,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     },
     "2009160-deepseek-r1": {
         "question": "2009160",
@@ -277,6 +304,7 @@
         "correct": false,
         "time": 121.5816541,
         "response_length": 23407,
-        "discipline": "matematica"
+        "discipline": "matematica",
+        "timeout": null
     }
 }
