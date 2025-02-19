@@ -32,14 +32,27 @@ def update_json(obj,filename)->bool:
         return True
     except Exception as e:
         return False
+
+def get_predict_data(models, questions):
+    if questions and isinstance(questions[0], dict):
+        questions = list(map(lambda x : str(x['id']), questions))
     
-def gen_modelos_str(primary_models, questions=None, secundary_models=None):
+    predictions = load_json('./predict_data/local_predictions.json')
+    
+    return {
+        f"{question}-{model}": prediction for prediction in predictions.values()
+        if ((model := prediction["model"]) in models) and ((question := prediction["question"]) in questions)
+    }
+    
+
+def gen_modelos_str(primary_models:list[str], questions=None, secundary_models=None):
     target = primary_models
     if secundary_models is not None:
-        target = map(lambda x : f"{x[0]}+{x[1]}", product(secundary_models, primary_models))
+        target = list(map(lambda x : f"{x[0]}+{x[1]}", product(secundary_models, primary_models)))
     
-    if questions is not None:
+    if questions:
         target = list(map(lambda x : f"{x[0]}-{x[1]}", product(questions, target)))
+    
     return target
     
 def filter_predictions(models):
@@ -66,8 +79,6 @@ def format_time(seconds: float) -> str:
         return f"{minutes:02}:{int(seconds % 60):02}"
     else:
         return f"{seconds:.2f}"
-
-# update_table
 
 def test_table(questions:Optional[list[str]]=None, models:Optional[list[str]]=None, predict_data:Optional[dict[str, dict]]=None, predict_path:Optional[str]=None):
     if predict_data is None and (questions is None and models is None) and predict_path is None:
@@ -147,11 +158,11 @@ def test_table(questions:Optional[list[str]]=None, models:Optional[list[str]]=No
 
     return df
 
-def format_test_table(df, total_questions=None):
+def format_test_table(df:pd.DataFrame, total_questions:Optional[int]=None)->pd.DataFrame:
     """Converte valores numéricos de tempo para string formatada na tabela."""
     df_copy = df.copy()
     for col in ["Ttot", "Tle", "Tavg", "Tmax", "Tmin"]:
-        df_copy[col] = df_copy[col].apply(utils.format_time)
+        df_copy[col] = df_copy[col].apply(format_time)
     
     if total_questions is None:
         total_questions = int(df["Finish"][:-1].max())

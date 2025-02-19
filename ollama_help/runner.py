@@ -2,7 +2,7 @@ import ollama
 import re
 from utils import (load_json, update_json, test_table, 
                    plots, format_test_table, models_info,
-                   load_predictions, gen_modelos_str, new_test_table)
+                   load_predictions,)
 import time
 from ollama_help.build import text_question, get_images, context_description_prompt, context_description_image, context_prompt, answer_description_image, questions_description, questions_options
 from itertools import product
@@ -92,7 +92,6 @@ def test_ollama_models(questions, primary_models, secundary_models=None, predict
     )
     
     models = list(product(primary_models, secundary_models if secundary_models else [None]))
-    models_str = gen_modelos_str(questions_str, primary_models, secundary_models)
     
     for primary_model, secundary_model in models:
         for question in questions:
@@ -182,7 +181,7 @@ def test_ollama_models(questions, primary_models, secundary_models=None, predict
                 # update_json(predict_data, "./predict_data/local_predictions.json" if predict_file is None else predict_file)
                 
                 # Plota a tabela
-                df = new_test_table(questions=questions_str, models=models, predict_data=predict_data)
+                df = format_test_table(test_table(questions=questions_str, models=models, predict_data=predict_data), len(questions))
                 clear_output(wait=True)
                 display(df)
     

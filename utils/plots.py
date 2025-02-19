@@ -1,76 +1,92 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-from utils import format_time
+from utils import format_time, get_predict_data, gen_modelos_str
+from typing import Literal
 
-def model_performance(df: pd.DataFrame):
-    """Gera um gráfico de barras empilhadas mostrando a distribuição de acertos, nulos e erros por modelo."""
+def model_performance(df: pd.DataFrame, title=None)->plt.Figure:
+    """Gera um gráfico de barras empilhadas mostrando a distribuição de acertos, nulos, erros e timeouts por modelo,
+    e retorna o objeto Figure para ser usado em composições gráficas."""
     df_sorted = df[df["Model"] != "TOTAL"].sort_values(by="OK", ascending=False)
     models = df_sorted["Model"]
     corrects = df_sorted["OK"]
     nulls = df_sorted["Null"]
     errors = df_sorted["Err"]
+    timeouts = df_sorted["Tout"]
     total_questions = df_sorted["Finish"]
 
     fig, ax = plt.subplots(figsize=(10, 6))
+    
     bars1 = ax.bar(models, corrects, color='#99FF99', label='Acertos')
     bars2 = ax.bar(models, nulls, bottom=corrects, color='#C3C3C3', label='Nulos')
     bars3 = ax.bar(models, errors, bottom=corrects + nulls, color='#FF6666', label='Erros')
-    
-    for bar, total, correct, null, error in zip(bars1, total_questions, corrects, nulls, errors):
+    bars4 = ax.bar(models, timeouts, bottom=corrects + nulls + errors, color='#FFD700', label='Timeouts')
+
+    for bar, total, correct, null, error, timeout in zip(bars1, total_questions, corrects, nulls, errors, timeouts):
         ax.text(bar.get_x() + bar.get_width()/2, correct/2, f"{(correct/total*100):.1f}%", ha='center', va='center')
         ax.text(bar.get_x() + bar.get_width()/2, correct + null/2, f"{(null/total*100):.1f}%", ha='center', va='center')
         ax.text(bar.get_x() + bar.get_width()/2, correct + null + error/2, f"{(error/total*100):.1f}%", ha='center', va='center')
-    
+        ax.text(bar.get_x() + bar.get_width()/2, correct + null + error + timeout/2, f"{(timeout/total*100):.1f}%", ha='center', va='center')
+
     ax.set_ylabel("Número de Questões")
     ax.set_xlabel("Modelos")
-    ax.set_title("Desempenho dos Modelos")
+    ax.set_title("Desempenho dos Modelos" if title is None else title)
     ax.legend()
     plt.xticks(rotation=45)
-    plt.show()
 
-def time_metrics(df: pd.DataFrame):
-    """Gera dois gráficos: um para tempo médio, mínimo e máximo por modelo, e outro para tempo total."""
+    return fig
+
+def time_metrics(df: pd.DataFrame) -> plt.Figure:
+    """Gera um gráfico de barras para tempo mínimo, médio e máximo por modelo e retorna o objeto Figure."""
     df_sorted = df[df["Model"] != "TOTAL"]
     models = df_sorted["Model"]
     avg_time = df_sorted["Tavg"]
     min_time = df_sorted["Tmin"]
     max_time = df_sorted["Tmax"]
-    total_time = df_sorted["Ttot"] / 60  # Convertendo para minutos
     
-    fig, axes = plt.subplots(2, 1, figsize=(12, 10))
+    fig, ax = plt.subplots(figsize=(12, 6))
     
-    # Primeiro gráfico - tempo médio, mínimo e máximo
-    width = 0.2
-    x = range(len(models))
+    width = 0.3
+    x = np.arange(len(models))
+
+    ax.bar(x - width, min_time, width, label='Tempo Mínimo', color='#99ccff')
+    ax.bar(x, avg_time, width, label='Tempo Médio', color='#ffcc99')
+    ax.bar(x + width, max_time, width, label='Tempo Máximo', color='#c2f0c2')
     
-    axes[0].bar(x, avg_time, width, label='Tempo Médio', color='#ffcc99')
-    axes[0].bar([i + width for i in x], min_time, width, label='Tempo Mínimo', color='#99ccff')
-    axes[0].bar([i + 2 * width for i in x], max_time, width, label='Tempo Máximo', color='#c2f0c2')
+    for i, (min_, avg, max_) in enumerate(zip(min_time, avg_time, max_time)):
+        ax.text(i - width, min_ + 1, f"{min_:.2f}s", ha='center')
+        ax.text(i, avg + 1, f"{avg:.2f}s", ha='center')
+        ax.text(i + width, max_ + 1, f"{max_:.2f}s", ha='center')
     
-    for i, (avg, min_, max_) in enumerate(zip(avg_time, min_time, max_time)):
-        axes[0].text(i, avg + 1, f"{avg:.2f}s", ha='center')
-        axes[0].text(i + width, min_ + 1, f"{min_:.2f}s", ha='center')
-        axes[0].text(i + 2 * width, max_ + 1, f"{max_:.2f}s", ha='center')
-    
-    axes[0].set_xticks([i + width for i in x])
-    axes[0].set_xticklabels(models, rotation=45)
-    axes[0].set_ylabel("Tempo (segundos)")
-    axes[0].set_title("Métricas de Tempo por Modelo")
-    axes[0].legend()
-    
-    # Segundo gráfico - tempo total por modelo
-    colors = ['#ff9999','#66b3ff','#99ff99','#ffcc99','#c2f0c2','#ffb3e6']
-    bars = axes[1].bar(models, total_time, color=colors)
-    
-    for bar, time in zip(bars, total_time):
-        axes[1].text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, f"{time:.2f}m", ha='center')
-    
-    axes[1].set_ylabel("Tempo Total (minutos)")
-    axes[1].set_title("Tempo Total por Modelo")
+    ax.set_xticks(x)
+    ax.set_xticklabels(models, rotation=45)
+    ax.set_ylabel("Tempo (segundos)")
+    ax.set_title("Métricas de Tempo por Modelo")
+    ax.legend()
     
     plt.tight_layout()
-    plt.show()
+    return fig
+
+def time_metrics_total(df: pd.DataFrame) -> plt.Figure:
+    """Gera um gráfico de barras do tempo total por modelo, ordenado do maior para o menor, e retorna o objeto Figure."""
+    df_sorted = df[df["Model"] != "TOTAL"].sort_values(by="Ttot", ascending=False)
+    models = df_sorted["Model"]
+    total_time = df_sorted["Ttot"] / 60
+    
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2f0c2', '#ffb3e6']
+    bars = ax.bar(models, total_time, color=colors[:len(models)])
+    
+    for bar, time in zip(bars, total_time):
+        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, f"{time:.2f}m", ha='center')
+    
+    ax.set_ylabel("Tempo Total (minutos)")
+    ax.set_title("Tempo Total por Modelo (Ordenado)")
+    
+    plt.tight_layout()
+    return fig
+
 
 def accuracy_vs_time(df: pd.DataFrame):
     """Gera um gráfico de dispersão mostrando a correlação entre tempo médio e acurácia por modelo."""
@@ -91,14 +107,13 @@ def accuracy_vs_time(df: pd.DataFrame):
     ax.set_title("Correlação entre Tempo Médio e Acurácia por Modelo")
     
     plt.legend()
-    plt.show()
+    plt.tight_layout()
+    
+    return fig
 
-def discipline_performance(df: pd.DataFrame, group_model: bool = False, normalize: bool = False):
-    """Gera múltiplos gráficos de barras empilhadas mostrando a distribuição de acertos, nulos e erros por disciplina e modelo.
-    Se group_model for True, agrupa os dados por modelo em vez de disciplina.
-    Se normalize for True, normaliza os valores pelo total de questões em cada grupo.
-    Limita a exibição a 4 modelos por gráfico para melhor visualização e adiciona separação entre grupos.
-    """
+def discipline_performance(models, questions, group_model: bool = False, normalize: bool = False) -> plt.Figure:
+    df = pd.DataFrame(get_predict_data(models, questions).values())
+    
     df_filtered = df.dropna(subset=["discipline"])
     
     group_by = "model" if group_model else "discipline"
@@ -117,65 +132,64 @@ def discipline_performance(df: pd.DataFrame, group_model: bool = False, normaliz
     
     if normalize:
         grouped[["OK", "Null", "Err"]] = grouped[["OK", "Null", "Err"]].div(grouped["Total"], axis=0) * 100
-    
+
     unique_groups = grouped[group_by].unique()
-    group_chunks = [unique_groups[i:i+4] for i in range(0, len(unique_groups), 4)]
     
-    for group_subset in group_chunks:
-        fig, ax = plt.subplots(figsize=(max(12, len(group_subset) * 2), 8))
-        width = 0.3
-        colors = ['#99FF99', '#C3C3C3', '#FF6666']
-        labels = ['Acertos', 'Nulos', 'Erros']
+    # Criando apenas um gráfico que englobe todos os grupos
+    fig, ax = plt.subplots(figsize=(max(12, len(unique_groups) * 2), 8))
+    width = 0.8
+    colors = ['#99FF99', '#C3C3C3', '#FF6666']
+    labels = ['Acertos', 'Nulos', 'Erros']
+    
+    tick_positions = []
+    tick_labels = []
+    x_index = 0
+    spacing = 1
+
+    for category in unique_groups:
+        category_data = grouped[grouped[group_by] == category]
+
+        if category_data.empty:
+            continue
+
+        for i, (_, row) in enumerate(category_data.iterrows()):
+            correct, null, error = row["OK"], row["Null"], row["Err"]
+            total = row["Total"] if not normalize else 100
+
+            tick_positions.append(x_index)
+            tick_labels.append(f"{row['model'] if not group_model else row['discipline']}\n{category}")
+
+            bottom = 0
+            ax.bar(x_index, correct, width, color=colors[0], bottom=bottom, label=labels[0] if x_index == 0 else "")
+            ax.text(x_index, bottom + correct / 2, f"{correct:.1f}%" if normalize else f"{int(correct)}", ha='center', va='center')
+            bottom += correct
+
+            ax.bar(x_index, null, width, color=colors[1], bottom=bottom, label=labels[1] if x_index == 0 else "")
+            ax.text(x_index, bottom + null / 2, f"{null:.1f}%" if normalize else f"{int(null)}", ha='center', va='center')
+            bottom += null
+
+            ax.bar(x_index, error, width, color=colors[2], bottom=bottom, label=labels[2] if x_index == 0 else "")
+            ax.text(x_index, bottom + error / 2, f"{error:.1f}%" if normalize else f"{int(error)}", ha='center', va='center')
+
+            x_index += 1
+
+        x_index += spacing  # Adiciona espaço entre grupos
+
+    ax.set_xticks(tick_positions)
+    ax.set_xticklabels(tick_labels, rotation=90)
+    ax.set_ylabel("Proporção (%)" if normalize else "Número Total de Questões")
+    ax.set_xlabel("Modelos e Disciplinas" if not group_model else "Disciplinas e Modelos")
+    ax.set_title("Desempenho por Disciplina e Modelo" if not group_model else "Desempenho por Modelo e Disciplina")
+    ax.legend()
+
+    return fig
+
         
-        tick_positions = []
-        tick_labels = []
-        x_index = 0
-        spacing = 2
-        
-        for category in group_subset:
-            category_data = grouped[grouped[group_by] == category]
-            
-            if category_data.empty:
-                continue
-            
-            for i, (_, row) in enumerate(category_data.iterrows()):
-                correct, null, error = row["OK"], row["Null"], row["Err"]
-                total = row["Total"] if not normalize else 100
-                
-                tick_positions.append(x_index)
-                tick_labels.append(f"{row['model'] if not group_model else row['discipline']}\n{category}")
-                
-                bottom = 0
-                ax.bar(x_index, correct, width, color=colors[0], bottom=bottom, label=labels[0] if x_index == 0 else "")
-                ax.text(x_index, bottom + correct / 2, f"{correct:.1f}%" if normalize else f"{int(correct)}", ha='center', va='center')
-                bottom += correct
-                
-                ax.bar(x_index, null, width, color=colors[1], bottom=bottom, label=labels[1] if x_index == 0 else "")
-                ax.text(x_index, bottom + null / 2, f"{null:.1f}%" if normalize else f"{int(null)}", ha='center', va='center')
-                bottom += null
-                
-                ax.bar(x_index, error, width, color=colors[2], bottom=bottom, label=labels[2] if x_index == 0 else "")
-                ax.text(x_index, bottom + error / 2, f"{error:.1f}%" if normalize else f"{int(error)}", ha='center', va='center')
-                
-                x_index += 1
-            
-            x_index += spacing  # Adiciona espaço entre grupos
-        
-        ax.set_xticks(tick_positions)
-        ax.set_xticklabels(tick_labels, rotation=90)
-        ax.set_ylabel("Proporção (%)" if normalize else "Número Total de Questões")
-        ax.set_xlabel("Modelos e Disciplinas" if not group_model else "Disciplinas e Modelos")
-        ax.set_title("Desempenho por Disciplina e Modelo" if not group_model else "Desempenho por Modelo e Disciplina")
-        ax.legend()
-        plt.show()
-        
-def discipline_time_performance(df: pd.DataFrame, group_model: bool = False):
-    """Gera múltiplos gráficos de barras mostrando o tempo médio por disciplina e modelo.
-    Se group_model for True, agrupa os dados por modelo e disciplina.
-    O eixo Y representa o tempo médio em segundos.
-    Limita a exibição a 2 disciplinas por gráfico se agrupado por disciplina e 3 disciplinas por gráfico se agrupado por modelo.
-    Mantém agrupamentos juntos e adiciona legenda de cores.
-    """
+def discipline_time_performance(models, questions, group_model: bool = False) -> plt.Figure:
+    """Gera um gráfico de barras mostrando o tempo médio por disciplina e modelo e retorna um objeto plt.Figure."""
+    
+    df = pd.DataFrame(get_predict_data(models, questions).values())
+
     df_filtered = df.dropna(subset=["discipline"]).copy()
     df_filtered["time"] = pd.to_numeric(df_filtered["time"], errors="coerce")  # Garante que os tempos sejam numéricos
     
@@ -190,54 +204,51 @@ def discipline_time_performance(df: pd.DataFrame, group_model: bool = False):
     grouped[group_by] = pd.Categorical(grouped[group_by], categories=sorted_groups, ordered=True)
     grouped = grouped.sort_values([group_by, "Avg_Time"], ascending=[False, False])
     
-    max_groups = 2 if not group_model else 3
-    unique_groups = grouped[group_by].unique()
-    group_chunks = [unique_groups[i:i+max_groups] for i in range(0, len(unique_groups), max_groups)]
-    
     lista_cores = ['#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3', '#a6d854', '#ffd92f']
     categories = sorted(grouped["discipline"].unique()) if group_model else sorted(grouped["model"].unique())
     color_map = {category: lista_cores[i % len(lista_cores)] for i, category in enumerate(categories)}
-    
-    for group_subset in group_chunks:
-        fig, ax = plt.subplots(figsize=(max(12, len(group_subset) * 2), 6))
-        width = 0.4
-        
-        subset_data = grouped[grouped[group_by].isin(group_subset)]
-        x_positions = []
-        tick_labels = []
-        x_index = 0
-        spacing = 2  # Aumenta a separação entre grupos distintos
-        
-        for category in group_subset:
-            category_data = subset_data[subset_data[group_by] == category]
-            
-            if category_data.empty:
-                continue
-            
-            for _, row in category_data.iterrows():
-                color = color_map[row["discipline"]] if group_model else color_map[row["model"]]
-                ax.bar(x_index, row["Avg_Time"], width, color=color)
-                ax.text(x_index, row["Avg_Time"] * 1.03, f"{row['Avg_Time']:.2f}s", ha='center', fontsize=10)
-                x_positions.append(x_index)
-                tick_labels.append(category)
-                x_index += 1
-            x_index += spacing  # Adiciona espaço entre os grupos
-        
-        ax.set_xticks(x_positions)
-        ax.set_xticklabels(tick_labels, rotation=45)
-        ax.set_ylabel("Tempo Médio (segundos)")
-        ax.set_xlabel("Modelos" if group_model else "Disciplinas")
-        ax.set_title("Tempo Médio por Disciplina e Modelo" if not group_model else "Tempo Médio por Modelo e Disciplina")
-        
-        # Criar a legenda corretamente sem duplicação
-        unique_labels = sorted(set(color_map.keys()))
-        handles = [plt.Rectangle((0,0),1,1, color=color_map[label]) for label in unique_labels]
-        ax.legend(handles, unique_labels, title="Disciplinas" if group_model else "Modelos")
-        
-        plt.show()
 
-def discipline_accuracy_vs_time(df: pd.DataFrame):
+    fig, ax = plt.subplots(figsize=(max(12, len(grouped[group_by].unique()) * 2), 6))
+    width = 0.4
+    x_positions = []
+    tick_labels = []
+    x_index = 0
+    spacing = 2  # Aumenta a separação entre grupos distintos
+
+    for category in grouped[group_by].unique():
+        category_data = grouped[grouped[group_by] == category]
+        
+        if category_data.empty:
+            continue
+        
+        for _, row in category_data.iterrows():
+            color = color_map[row["discipline"]] if group_model else color_map[row["model"]]
+            ax.bar(x_index, row["Avg_Time"], width, color=color)
+            ax.text(x_index, row["Avg_Time"] * 1.03, f"{row['Avg_Time']:.2f}s", ha='center', fontsize=10)
+            x_positions.append(x_index)
+            tick_labels.append(category)
+            x_index += 1
+        x_index += spacing  # Adiciona espaço entre os grupos
+
+    ax.set_xticks(x_positions)
+    ax.set_xticklabels(tick_labels, rotation=45)
+    ax.set_ylabel("Tempo Médio (segundos)")
+    ax.set_xlabel("Modelos" if group_model else "Disciplinas")
+    ax.set_title("Tempo Médio por Disciplina e Modelo" if not group_model else "Tempo Médio por Modelo e Disciplina")
+
+    # Criar a legenda corretamente sem duplicação
+    unique_labels = sorted(set(color_map.keys()))
+    handles = [plt.Rectangle((0,0),1,1, color=color_map[label]) for label in unique_labels]
+    ax.legend(handles, unique_labels, title="Disciplinas" if group_model else "Modelos")
+
+    plt.tight_layout()
+    return fig
+
+
+def discipline_accuracy_vs_time(models, questions)->plt.Figure:
     """Gera um gráfico de dispersão mostrando a correlação entre acurácia e tempo médio por disciplina e modelo."""
+    df = pd.DataFrame(get_predict_data(models, questions).values())
+    
     df_filtered = df.dropna(subset=["discipline"]).copy()
     df_filtered["time"] = pd.to_numeric(df_filtered["time"], errors="coerce")
     
@@ -257,14 +268,32 @@ def discipline_accuracy_vs_time(df: pd.DataFrame):
     ax.set_xlabel("Tempo Médio (segundos)")
     ax.set_ylabel("Acurácia")
     ax.set_title("Correlação entre Acurácia e Tempo Médio por Modelo e Disciplina")
-    plt.show()
+    return fig
 
-def multi_model_performance(df: pd.DataFrame, group: str, y_axis: str):
-    """Gera um gráfico de barras mostrando a acurácia ou tempo médio por modelo de visão ou modelo de texto."""
+def multi_model_performance(
+        group: Literal["model_vision", "model_text"], y_axis: Literal["time-avg", "accuracy"], questions,
+        vision_models=None, text_models=None, mixed_models=None):
+    
+    if  ((vision_models is None and text_models is None) and mixed_models is None):
+        raise ValueError("É necessário especificar pelo menos um dos conjuntos de modelos: vision_models, text_models ou mixed_models")
     if group not in ["model_vision", "model_text"]:
         raise ValueError("O parâmetro 'group' deve ser 'model_vision' ou 'model_text'")
     if y_axis not in ["time-avg", "accuracy"]:
         raise ValueError("O parâmetro 'y_axis' deve ser 'time-avg' ou 'accuracy'")
+    
+    if mixed_models is None:
+        mixed_models = gen_modelos_str(primary_models=text_models, secundary_models=vision_models)
+    
+    predict_data = get_predict_data(
+        models = mixed_models, 
+        questions= questions
+    ).values()
+    
+    for question in predict_data:
+        question['model_vision'], question['model_text'] = question['model'].split('+')
+        del question['model']
+    
+    df = pd.DataFrame(predict_data)
     
     df_filtered = df.copy()
     df_filtered["time"] = pd.to_numeric(df_filtered["time"], errors="coerce")
@@ -292,4 +321,5 @@ def multi_model_performance(df: pd.DataFrame, group: str, y_axis: str):
     ax.set_ylabel(y_label)
     ax.set_title(title)
     plt.xticks(rotation=45)
-    plt.show()
+    
+    return fig
