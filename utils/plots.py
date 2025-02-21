@@ -49,15 +49,20 @@ def time_metrics(df: pd.DataFrame) -> plt.Figure:
     width = 0.3
     x = np.arange(len(models))
 
-    ax.bar(x - width, min_time, width, label='Tempo Mínimo', color='#99ccff')
-    ax.bar(x, avg_time, width, label='Tempo Médio', color='#ffcc99')
-    ax.bar(x + width, max_time, width, label='Tempo Máximo', color='#c2f0c2')
+    bars1 = ax.bar(x - width, min_time, width, label='Tempo Mínimo', color='#99ccff')
+    bars2 = ax.bar(x, avg_time, width, label='Tempo Médio', color='#ffcc99')
+    bars3 = ax.bar(x + width, max_time, width, label='Tempo Máximo', color='#c2f0c2')
     
-    for i, (min_, avg, max_) in enumerate(zip(min_time, avg_time, max_time)):
-        ax.text(i - width, min_ + 1, f"{min_:.2f}s", ha='center')
-        ax.text(i, avg + 1, f"{avg:.2f}s", ha='center')
-        ax.text(i + width, max_ + 1, f"{max_:.2f}s", ha='center')
-    
+    # Ajuste da posição do texto para ficar dentro das barras
+    for bar, min_, avg, max_ in zip(bars1, min_time, avg_time, max_time):
+        ax.text(bar.get_x() + bar.get_width()/2, min_ * 0.5, f"{min_:.2f}s", ha='center', va='center', fontsize=10, color='black')
+
+    for bar, avg in zip(bars2, avg_time):
+        ax.text(bar.get_x() + bar.get_width()/2, avg * 0.5, f"{avg:.2f}s", ha='center', va='center', fontsize=10, color='black')
+
+    for bar, max_ in zip(bars3, max_time):
+        ax.text(bar.get_x() + bar.get_width()/2, max_ * 0.5, f"{max_:.2f}s", ha='center', va='center', fontsize=10, color='black')
+
     ax.set_xticks(x)
     ax.set_xticklabels(models, rotation=45)
     ax.set_ylabel("Tempo (segundos)")
@@ -71,29 +76,45 @@ def time_metrics_total(df: pd.DataFrame) -> plt.Figure:
     """Gera um gráfico de barras do tempo total por modelo, ordenado do maior para o menor, e retorna o objeto Figure."""
     df_sorted = df[df["Model"] != "TOTAL"].sort_values(by="Ttot", ascending=False)
     models = df_sorted["Model"]
-    total_time = df_sorted["Ttot"] / 60
+    total_time = df_sorted["Ttot"] / 60  # Convertendo para minutos
     
     fig, ax = plt.subplots(figsize=(12, 6))
     
     colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2f0c2', '#ffb3e6']
     bars = ax.bar(models, total_time, color=colors[:len(models)])
     
+    # Ajuste da posição do texto para centralizar dentro das barras
     for bar, time in zip(bars, total_time):
-        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, f"{time:.2f}m", ha='center')
-    
+        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() * 0.5, f"{time:.2f}m", 
+                ha='center', va='center', fontsize=10, color='black')
+
     ax.set_ylabel("Tempo Total (minutos)")
     ax.set_title("Tempo Total por Modelo (Ordenado)")
     
     plt.tight_layout()
     return fig
 
+def axis_type(name):
+    match(name):
+        case "Tavg":
+            return "Tempo Médio"
+        case "Size":
+            return "Tamanho"
+        case "Acc":
+            return "Acurácia"
+        case "Ttot":
+            return "Tempo Total"
+        case "Tmin":
+            return "Tempo Mínimo"
+        case "Tmax":
+            return "Tempo Máximo"
 
-def accuracy_vs_time(df: pd.DataFrame):
+def correlation(df: pd.DataFrame, x:Literal["Tavg", "Size", "Acc"]="Tavg", y:Literal["Tavg", "Size", "Acc"]="Acc"):
     """Gera um gráfico de dispersão mostrando a correlação entre tempo médio e acurácia por modelo."""
     df_sorted = df[df["Model"] != "TOTAL"]
     models = df_sorted["Model"]
-    avg_time = df_sorted["Tavg"]
-    accuracy = df_sorted["Acc"]
+    avg_time = df_sorted[x]
+    accuracy = df_sorted[y]
     
     fig, ax = plt.subplots(figsize=(8, 6))
     colors = plt.cm.Paired(np.linspace(0, 1, len(models)))
@@ -102,9 +123,11 @@ def accuracy_vs_time(df: pd.DataFrame):
         ax.scatter(avg_time.iloc[i], accuracy.iloc[i], color=colors[i], label=model)
         ax.text(avg_time.iloc[i], accuracy.iloc[i], model, fontsize=10, ha='right', color=colors[i])
     
-    ax.set_xlabel("Tempo Médio (s)")
-    ax.set_ylabel("Acurácia")
-    ax.set_title("Correlação entre Tempo Médio e Acurácia por Modelo")
+    x_title = axis_type(x)
+    y_title = axis_type(y)
+    ax.set_xlabel(x_title)
+    ax.set_ylabel(y_title)
+    ax.set_title(f"Correlação entre {x_title} e {y_title} por Modelo")
     
     plt.legend()
     plt.tight_layout()

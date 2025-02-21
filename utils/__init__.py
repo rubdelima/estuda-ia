@@ -4,6 +4,7 @@ import pandas as pd
 import os
 from typing import Optional
 from itertools import product
+from utils.models_info import models as models_json
 
 def load_json(filename, pass_error:bool=False)->dict:
     """Carrega dados de um arquivo JSON."""
@@ -112,7 +113,7 @@ def test_table(questions:Optional[list[str]]=None, models:Optional[list[str]]=No
     )
     
     table_data: list[list] = []
-    total_completed = total_corrects = total_errors = total_nulls = total_exec_time = total_estimed_time_left = total_timeout = 0
+    total_completed = total_corrects = total_errors = total_nulls = total_size = total_exec_time = total_estimed_time_left = total_timeout = 0
     total_min_time = float("inf")
     total_max_time = 0
     
@@ -128,6 +129,13 @@ def test_table(questions:Optional[list[str]]=None, models:Optional[list[str]]=No
         max_time = max((q["time"] for q in model_questions), default=0)
         min_time = min((q["time"] for q in model_questions), default=float("inf"))
         estimated_time_left = (avg_time * (total_questions - completed)) if completed > 0 else 0
+        if "+" in  model_name:
+            m1, m2 = model_name.split("+")
+            model_size = models_json.get(m1, {}).get('size', 0) + models_json.get(m2, {}).get('size', 0)
+            if model_size == 0:
+                model_size = None
+        else:
+            model_size = models_json.get(model_name, {}).get('size')
 
         total_completed += completed
         total_corrects += corrects
@@ -138,19 +146,20 @@ def test_table(questions:Optional[list[str]]=None, models:Optional[list[str]]=No
         total_estimed_time_left += estimated_time_left
         total_min_time = min(total_min_time, min_time)
         total_max_time = max(total_max_time, max_time)
+        total_size += model_size
 
         table_data.append([
-            model_name, completed, corrects, null_responses, errors, timeout, accuracy,
+            model_name, round(model_size,1), completed, corrects, null_responses, errors, timeout, accuracy,
             total_time, estimated_time_left, avg_time, max_time, min_time
         ])
     
 
-    df = pd.DataFrame(table_data, columns=["Model", "Finish", "OK", "Null", "Err", "Tout", "Acc", "Ttot", "Tle", "Tavg", "Tmax", "Tmin"])
+    df = pd.DataFrame(table_data, columns=["Model", "Size", "Finish", "OK", "Null", "Err", "Tout", "Acc", "Ttot", "Tle", "Tavg", "Tmax", "Tmin"])
     
     df = df.sort_values("Acc", ignore_index=True, ascending=False)
     
     df.loc[len(df)] = [
-        "TOTAL", total_completed, total_corrects, total_nulls, total_errors, total_timeout,
+        "TOTAL",round(total_size, 1), total_completed, total_corrects, total_nulls, total_errors, total_timeout,
         total_corrects / max(1, total_completed), total_exec_time,
         (total_exec_time / max(1, total_completed)) * (total_questions - total_completed) if total_completed > 0 else 0,
         total_exec_time / max(1, total_completed), total_max_time, total_min_time
