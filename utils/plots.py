@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from utils import format_time, get_predict_data, gen_modelos_str
 from typing import Literal
+from matplotlib_venn import venn2_unweighted, venn3_unweighted
 
 def model_performance(df: pd.DataFrame, title=None)->plt.Figure:
     """Gera um gráfico de barras empilhadas mostrando a distribuição de acertos, nulos, erros e timeouts por modelo,
@@ -129,7 +130,7 @@ def correlation(df: pd.DataFrame, x:Literal["Tavg", "Size", "Acc"]="Tavg", y:Lit
     ax.set_ylabel(y_title)
     ax.set_title(f"Correlação entre {x_title} e {y_title} por Modelo")
     
-    plt.legend()
+    # plt.legend()
     plt.tight_layout()
     
     return fig
@@ -346,3 +347,44 @@ def multi_model_performance(
     plt.xticks(rotation=45)
     
     return fig
+
+def venn(questions, model1, model2, model3=None):
+    models = [model1, model2]
+    vennx = venn2_unweighted
+    if model3:
+        models.append(model3)
+        vennx = venn3_unweighted
+    
+    predict_data = get_predict_data(models, questions)
+    
+    vennp = vennx([
+        {t['question'] for t in predict_data.values() if t['model'] == model and t['correct']} for model in models
+    ], models)
+    
+    plt.show()
+
+def histogram(df, column, max_unique_bins=30):
+    df[column] = pd.to_numeric(df[column], errors='coerce')
+    df = df.dropna(subset=[column])
+
+    unique_values = df[column].nunique()
+
+    if unique_values <= max_unique_bins:
+        bins = np.arange(df[column].min(), df[column].max() + 2) - 0.5 
+        xticks = np.arange(df[column].min(), df[column].max() + 1, 1) 
+    else:
+        bins = 'auto'  
+        xticks = None 
+
+    plt.figure(figsize=(10, 6))
+    plt.hist(df[column], bins=bins, edgecolor='black', alpha=0.7)
+
+    plt.xlabel(f'Números de {column}')
+    plt.ylabel('Frequência')
+    plt.title(f'Histograma da Distribuição da Variável {column}')
+
+    if xticks is not None:
+        plt.xticks(xticks)
+
+    plt.grid(axis='y', alpha=0.75)
+    plt.show()

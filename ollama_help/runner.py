@@ -1,8 +1,8 @@
 import ollama
 import re
 from utils import (load_json, update_json, test_table, 
-                   plots, format_test_table, models_info,
-                   load_predictions,)
+                   format_test_table, models_info,
+                   load_predictions,gen_modelos_str)
 import time
 from ollama_help.build import text_question, get_images, context_description_prompt, context_description_image, context_prompt, answer_description_image, questions_description, questions_options
 from itertools import product
@@ -11,6 +11,8 @@ import pandas as pd
 import multiprocessing
 import ollama
 import time
+import warnings
+import tqdm
 
 def ollama_generate(queue, model, prompt, images):
     try:
@@ -47,20 +49,21 @@ def extract_answer(texto):
     return occs[-1][1] if occs else None
 
 
-def question_text_vision(model_vision, question, images):
+def question_text_vision(model_vision, question, images, timeout):
     # Caso a questão possua imagem no contexto
     if question['type'] in ['context-image', 'full-image']:
         context_prompt_str = context_description_image(question) 
-        image_response = ollama.generate(
+        image_response = send_text(
             model=model_vision, 
             prompt=context_prompt_str,
-            images= [images.pop(0)]
+            images= [images.pop(0)],
+            timeout = timeout
         )
         question_text = context_description_prompt(question, image_response.response)
     else:
         question_text = context_prompt(question, False)
     # Caso a questão possua imagem nas alternativas
-    if question['type'] in ['context-image', 'full-image']:
+    if question['type'] in ['answer-image', 'full-image']:
         descriptions_list = []
         for i, ans in enumerate(["A", "B", "C", "D", "E"], start=1):
             ans_prompt_str = answer_description_image(question, ans)
@@ -77,10 +80,7 @@ def question_text_vision(model_vision, question, images):
     return question_text
 
 def test_ollama_models(questions, primary_models, secundary_models=None, predict_file=None, timeout=None):    
-    if primary_models is None and secundary_models is None:
-        raise ValueError("Por favor, especifique pelo menos um modelo de texto ou uma visão.")
-    
-    questions_str = list(map(lambda x : x['id'], questions))
+    questions_str = list(map(lambda x : str(x['id']), questions))
     
     # Dicionário de Resultados do Treinamento
     test_result = {'ok' : [], 'error' : []}
@@ -91,99 +91,95 @@ def test_ollama_models(questions, primary_models, secundary_models=None, predict
         else load_predictions(questions_str,primary_models, secundary_models)
     )
     
-    models = list(product(primary_models, secundary_models if secundary_models else [None]))
+    table_models = gen_modelos_str(primary_models, secundary_models=secundary_models)
     
-    for primary_model, secundary_model in models:
-        for question in questions:
-            question_id = str(question["id"])
-            predict_name = (
-                f"{question_id}-{primary_model}" if secundary_model is None
-                else f"{question_id}-{secundary_model}+{primary_model}"
+    df = format_test_table(test_table(questions=questions_str, models=table_models), len(questions))
+    clear_output(wait=True)
+    display(df)
+    
+    to_update = []
+
+    for primary_model, secundary_model, question in product(primary_models, secundary_models if secundary_models else [None], questions):
+        model_name = f"{secundary_model}+{primary_model}" if secundary_model else primary_model
+        predict_name = f"{question['id']}-{model_name}"
+        if predict_name not in predict_data:
+            to_update.append((primary_model, secundary_model, question, model_name, predict_name))
+
+    
+    for primary_model, secundary_model, question, model_name, predict_name in tqdm.tqdm(to_update, desc="Teste"):
+        question_id = question['id']
+        try:
+            print(f"Realizando o Teste de : {predict_name}")
+            time.sleep(1)
+            
+            # Carrego as imagens, se houverem
+            images = get_images(question)
+            
+            # Inicio o tempo da execução
+            start_time = time.time_ns()
+            
+            # Cria o texto da questão para ser enviada
+            question_text = text_question(question) if secundary_model is None else \
+                question_text_vision(secundary_model, question, images, timeout=timeout//2)
+            
+            # Caso o modelo principal não seja de visão, poe como null as imagens para evitar problemas
+            if (model := models_info.models.get(primary_model)) is None or model['algorithm'] != 'vision':
+                images = None
+            
+            # Envia para a LLM principal
+            response = send_text(
+                model=primary_model, 
+                prompt=question_text,
+                images= images,
+                timeout=timeout
             )
             
-            try:
-                # Se o modelo já  estiver no dicionário
-                if predict_name in predict_data:
-                    old_timeout = predict_data[predict_name].get('timeout')
-                    
-                    # Se o valor  do timeout do anterior for None, significa que o treinamento aconteceu de forma bem sucedida
-                    # Se houver um timeout, ele deve ser maior do que o timeout anterior
-                    
-                    if old_timeout is None or (timeout is not None and timeout <= old_timeout):
-                        continue
-                
-                print(f"Realizando o Teste de : {predict_name}")
-                time.sleep(10)
-                
-                # Carrego as imagens, se houverem
-                images = get_images(question)
-                
-                # Inicio o tempo da execução
-                start_time = time.time_ns()
-                
-                # Cria o texto da questão para ser enviada
-                question_text = text_question(question) if secundary_model is None else \
-                    question_text_vision(secundary_model, question, images)
-                
-                # Caso o modelo principal não seja de visão, poe como null as imagens para evitar problemas
-                if (model := models_info.models.get(primary_model)) is None or model['algorithm'] != 'vision':
-                    images = None
-                
-                # Envia para a LLM principal
-                response = send_text(
-                    model=primary_model, 
-                    prompt=question_text,
-                    images= images,
-                    timeout=timeout
-                )
-                
-                # Encerra o tempo de execução do teste
-                exec_time = (time.time_ns() - start_time) / 10**9 
-
-                # Extrai a resposta
-                answer = extract_answer(response.response)
-
-                # Adiciona nos dados de predição
-                predict_data[predict_name] = {
-                    "question": question_id,
-                    "model": primary_model if secundary_model is None else f"{secundary_model}+{primary_model}",
-                    "response": response.response,
-                    "response_length" : len(response.response),
-                    "answer": answer,
-                    "correct": question["correct_alternative"] == answer,
-                    "time": exec_time,
-                    "discipline" : question['discipline'],
-                    "timeout" : None
-                }
-                
-                test_result['ok'].append(({'question' : question, 'model' : model}))
-                
-            except TimeoutError as te:
-                predict_data[predict_name] = {
-                    "question": question_id,
-                    "model": primary_model if secundary_model is None else f"{secundary_model}+{primary_model}",
-                    "response": None,
-                    "response_length" : None,
-                    "answer": None,
-                    "correct": None,
-                    "time": None,
-                    "discipline" : question['discipline'],
-                    "timeout" : timeout
-                }
-                raise Exception(te)
+            # Encerra o tempo de execução do teste
+            exec_time = (time.time_ns() - start_time) / 10**9 
+            # Extrai a resposta
+            answer = extract_answer(response.response)
+            # Adiciona nos dados de predição
+            predict_data[predict_name] = {
+                "question": question_id,
+                "model": model_name,
+                "response": response.response,
+                "response_length" : len(response.response),
+                "answer": answer,
+                "correct": question["correct_alternative"] == answer,
+                "time": exec_time,
+                "discipline" : question['discipline'],
+                "timeout" : None
+            }
             
-            except Exception as e:
-                test_result['error'].append(({'question' : question, 'model' : model, 'error' : str(e)}))
-                print(f"Error ao gerar resposta para a pergunta {question_id} do modelo {model}: {e}")
+            test_result['ok'].append(({'question' : question, 'model' : model}))
             
-            finally:
-                # Atualiza a tabela
-                # update_json(predict_data, "./predict_data/local_predictions.json" if predict_file is None else predict_file)
-                
-                # Plota a tabela
-                df = format_test_table(test_table(questions=questions_str, models=models, predict_data=predict_data), len(questions))
-                clear_output(wait=True)
-                display(df)
+        except TimeoutError as te:
+            predict_data[predict_name] = {
+                "question": question_id,
+                "model": primary_model if secundary_model is None else f"{secundary_model}+{primary_model}",
+                "response": None,
+                "response_length" : None,
+                "answer": None,
+                "correct": None,
+                "time": None,
+                "discipline" : question['discipline'],
+                "timeout" : timeout
+            }
+            test_result['error'].append(({'question' : question, 'model' : model, 'error' : str(te)}))
+            warnings.warn(f"Timeout Error, a questão {question_id} no modelo {model} passou de {timeout} segundos de execução")
+        
+        except Exception as e:
+            test_result['error'].append(({'question' : question, 'model' : model, 'error' : str(e)}))
+            warnings.warn(f"Error ao gerar resposta para a pergunta {question_id} do modelo {model}: {e}")
+        
+        finally:
+            # Atualiza a tabela
+            update_json(predict_data, "./predict_data/local_predictions.json" if predict_file is None else predict_file)
+            
+            # Plota a tabela 
+            df = format_test_table(test_table(questions=questions_str, models=table_models), len(questions))
+            clear_output(wait=True)
+            display(df)
     
     return test_result
 
