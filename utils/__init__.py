@@ -123,7 +123,6 @@ def test_table(questions:Optional[list[str]]=None, models:Optional[list[str]]=No
     
     for model_name, model_questions in models_dict.items():
         completed = len(model_questions)
-        print([1 for q in model_questions if q["correct"]])
         corrects = sum(1 for q in model_questions if q["correct"] )
         null_responses = sum(1 for q in model_questions if q["answer"] is None and q["timeout"] is not None)
         timeout = sum(1 for q in model_questions if q.get("timeout") is not None)

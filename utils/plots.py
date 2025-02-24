@@ -5,9 +5,10 @@ from utils import format_time, get_predict_data, gen_modelos_str
 from typing import Literal
 from matplotlib_venn import venn2_unweighted, venn3_unweighted
 
-def model_performance(df: pd.DataFrame, title=None)->plt.Figure:
+def model_performance(df: pd.DataFrame, title=None) -> plt.Figure:
     """Gera um gráfico de barras empilhadas mostrando a distribuição de acertos, nulos, erros e timeouts por modelo,
     e retorna o objeto Figure para ser usado em composições gráficas."""
+    
     df_sorted = df[df["Model"] != "TOTAL"].sort_values(by="OK", ascending=False)
     models = df_sorted["Model"]
     corrects = df_sorted["OK"]
@@ -24,11 +25,12 @@ def model_performance(df: pd.DataFrame, title=None)->plt.Figure:
     bars4 = ax.bar(models, timeouts, bottom=corrects + nulls + errors, color='#FFD700', label='Timeouts')
 
     for bar, total, correct, null, error, timeout in zip(bars1, total_questions, corrects, nulls, errors, timeouts):
-        ax.text(bar.get_x() + bar.get_width()/2, correct/2, f"{(correct/total*100):.1f}%", ha='center', va='center')
-        ax.text(bar.get_x() + bar.get_width()/2, correct + null/2, f"{(null/total*100):.1f}%", ha='center', va='center')
-        ax.text(bar.get_x() + bar.get_width()/2, correct + null + error/2, f"{(error/total*100):.1f}%", ha='center', va='center')
-        ax.text(bar.get_x() + bar.get_width()/2, correct + null + error + timeout/2, f"{(timeout/total*100):.1f}%", ha='center', va='center')
-
+        if total > 0:  # Verifica se o total é maior que zero antes de calcular a porcentagem
+            ax.text(bar.get_x() + bar.get_width()/2, correct/2, f"{(correct/total*100):.1f}%", ha='center', va='center')
+            ax.text(bar.get_x() + bar.get_width()/2, correct + null/2, f"{(null/total*100):.1f}%", ha='center', va='center')
+            ax.text(bar.get_x() + bar.get_width()/2, correct + null + error/2, f"{(error/total*100):.1f}%", ha='center', va='center')
+            ax.text(bar.get_x() + bar.get_width()/2, correct + null + error + timeout/2, f"{(timeout/total*100):.1f}%", ha='center', va='center')
+    
     ax.set_ylabel("Número de Questões")
     ax.set_xlabel("Modelos")
     ax.set_title("Desempenho dos Modelos" if title is None else title)
@@ -36,6 +38,7 @@ def model_performance(df: pd.DataFrame, title=None)->plt.Figure:
     plt.xticks(rotation=45)
 
     return fig
+
 
 def time_metrics(df: pd.DataFrame) -> plt.Figure:
     """Gera um gráfico de barras para tempo mínimo, médio e máximo por modelo e retorna o objeto Figure."""
@@ -294,6 +297,7 @@ def discipline_accuracy_vs_time(models, questions)->plt.Figure:
     ax.set_title("Correlação entre Acurácia e Tempo Médio por Modelo e Disciplina")
     return fig
 
+#TODO: Ajustar o plot para acuráciae agrupamento por modelos de texto
 def multi_model_performance(
         group: Literal["model_vision", "model_text"], y_axis: Literal["time-avg", "accuracy"], questions,
         vision_models=None, text_models=None, mixed_models=None):
@@ -387,4 +391,29 @@ def histogram(df, column, max_unique_bins=30):
         plt.xticks(xticks)
 
     plt.grid(axis='y', alpha=0.75)
+    plt.show()
+
+def discipline_models(df, disciplina, mode):
+    df_filtered = df[df['discipline'] == disciplina]
+
+    if mode == 'time':
+        df_grouped = df_filtered.groupby('model')['time'].mean().sort_values(ascending=True)
+        ylabel = 'Tempo Médio de Resposta (s)'
+        title = f'Tempo Médio de Resposta em ({disciplina})'
+    elif mode == 'acc':
+        df_grouped = df_filtered[df_filtered['correct'] == True].groupby('model').size().sort_values(ascending=False)
+        ylabel = 'Quantidade de Questões Acertadas'
+        title = f'Quantidade de Questões Acertadas em ({disciplina})'
+    else:
+        raise ValueError("Modo inválido. Use 'avg_time' ou 'correct_count'.")
+
+    plt.figure(figsize=(10, 6))
+    df_grouped.plot(kind='bar', color=['#ffb3ba', '#baffc9', '#bae1ff', '#ffdfba', '#ffffba'], edgecolor='black')
+
+    plt.xlabel('Modelo')
+    plt.ylabel(ylabel)
+    plt.title(title)
+    plt.xticks(rotation=45)
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    
     plt.show()
