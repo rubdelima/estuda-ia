@@ -1,0 +1,5 @@
+[theme]
+primaryColor = "#3B5A77"  # Azul escuro dos livros
+backgroundColor = "#EAEFF5"  # Azul claro do fundo do logo
+secondaryBackgroundColor = "#D6E2EC"  # Azul médio
+textColor = "#1A1A1A"  # Preto para modo claro

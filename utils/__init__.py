@@ -40,7 +40,7 @@ def get_predict_data(models, questions):
     if questions and isinstance(questions[0], dict):
         questions = list(map(lambda x : str(x['id']), questions))
     
-    predictions = load_json('./predict_data/local_predictions.json')
+    predictions = load_json('./data/predict_data/local_predictions.json')
     
     return {
         f"{question}-{model}": prediction for prediction in predictions.values()
@@ -59,7 +59,7 @@ def gen_modelos_str(primary_models:list[str], questions=None, secundary_models=N
     return target
     
 def filter_predictions(models):
-    all_predictions = load_json("./predict_data/local_predictions.json")
+    all_predictions = load_json("./data/predict_data/local_predictions.json")
     
     return {
         pred_key : pred for pred_key, pred in all_predictions.items()

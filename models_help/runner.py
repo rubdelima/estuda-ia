@@ -219,7 +219,7 @@ def test_models(questions, primary_models, secundary_models=None, predict_file=N
             print(e)
         finally:
             # Atualiza a tabela
-            update_json(predict_data, "./predict_data/local_predictions.json" if predict_file is None else predict_file)
+            update_json(predict_data, "./data/predict_data/local_predictions.json" if predict_file is None else predict_file)
             
             # Plota a tabela 
             df = format_test_table(test_table(questions=questions_str, models=table_models), len(questions))

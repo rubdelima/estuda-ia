@@ -10,7 +10,7 @@ import json
 app = FastAPI()
 
 # Carregando Questões
-with open('./questoes/questoes.json') as f:
+with open('./data/questoes/questoes.json') as f:
     questions_db = {
         questao['id'] : Questao(**questao)
         for questao in json.load(f)
