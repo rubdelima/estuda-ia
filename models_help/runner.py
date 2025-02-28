@@ -65,7 +65,6 @@ def get_model_runner(model):
         return open_ai
     return ollama_generate
 
-
 def model_generate(queue, model, prompt, images):
     try:
         resposta = get_model_runner(model)(model,prompt,images)
@@ -91,12 +90,10 @@ def send_text(model, prompt, images=None, timeout=None):
 
     return resultado
 
-
 def extract_answer(texto):
     pattern = r'\([ABCDE]\)|\{[ABCDE]\}'
     occs = re.findall(pattern, texto)
     return occs[-1][1] if occs else None
-
 
 def question_text_vision(model_vision, question, images, timeout):
     # Caso a questão possua imagem no contexto

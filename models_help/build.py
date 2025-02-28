@@ -1,4 +1,6 @@
 import base64
+from models_help.habilities import dict_assuntos, dict_habilidades
+from typing import Literal
 
 def codefy_image(image_path):
     with open(image_path, "rb") as image_file:
@@ -133,3 +135,92 @@ def context_prompt(questao, image):
     
     """
 
+def get_messages(question, descriptions:list[str]=[], images:list=[], message_type:Literal["explique", "habilidades", "resolva", "assuntos"]='explique'):    
+    # Contrução inicial da mensagem
+    message = [{"role" : "system", "content" : f"Você é um grande especialista em {question['discipline']} da prova do ENEM. Dada a questão abaixo, responda"}]
+    
+    # Contreução do contexto da questão
+    message.append(
+        {"role" : "system", "content" : f"O contexto da questão é esse: {question['context']}" }
+    )
+    
+    if question['type'] in ('full-image', 'context-image'):
+        if images:
+            message.append(
+                {"role" : "system", "content" : "Esta é a imagem da questão: ", "images" : [images.pop(0)]}
+            )
+        elif descriptions:
+            message.append(
+                {"role" : "system", "content" : "Esta é a descrição da questão: ", "content" : descriptions.pop(0)}
+            )
+    
+    # Introdução à alternativa
+    message.append(
+        {"role" : "system", "content" : f"Observe com atenção a introdução das alternativas da questão: {question['alternatives_introduction']}"}
+    )
+    
+    # Alternativas
+    for alternative in ["A", "B", "C", "D", "E"]:
+        if images:
+            message.append(
+                {"role" : "system", "content" : f"({alternative}) : {question[alternative]} - Imagem: ", "images" : [images.pop(0)]}
+            )
+        elif descriptions:
+            message.append(
+                {"role" : "system", "content" : f"({alternative}) : {question[alternative]} - Descrição da Imagem: {descriptions.pop(0)}"}
+            )
+        else:
+            message.append(
+                {"role" : "system", "content" : f"({alternative}) : {question[alternative]}"}
+            )
+    
+    # Tipo da mensagem
+    
+    if message_type == "explique":
+        correct = question['correct_alternative']
+        correct_text = question[correct]
+        message.append({
+            "role" : "system", 
+            "content" : f"Sabemos que a resposta correta dessa questão é a alternativa ({correct}): {correct_text}.\n Explique o motivo dessa ser a resposta correta!"
+            }
+        )
+    
+    elif "habilidades" in message_type:
+        discipline = question['discipline']
+        habilidades = dict_habilidades.get(discipline, '')
+        message.append({
+            "role" : "system",
+            "content" : f"Sabemos que essa questão é de uma prova do ENEM de {discipline} a qual possui as seguintes habilidades: {habilidades}"
+            }
+        )
+        message.append({
+            "role" : "system",
+            "content" : f"Selecione 3 habilidades que possívelmente essa questão aborda, responda apenas uma lista com as habilidades dentro de parenteses, exemplo: (H1), (H2), (H5)"
+        })
+    
+    elif "assuntos" in message_type:
+        discipline = question['discipline']
+        assuntos = dict_assuntos.get(discipline, '')
+        message.append({
+            "role" : "system",
+            "content" : f"Sabemos que essa questão é de uma prova do ENEM de {discipline} a qual possui os seguintes assuntos: {assuntos}"
+            }
+        )
+        message.append({
+            "role" : "system",
+            "content" : f"Selecione 3 assuntos que possívelmente essa questão aborda, por fim responda ao fim retorne uma lista com os assuntos dentro de parenteses, exemplo: (Leis de Newton), (Positivismo), (Trigonometria). Não ponha mais nada dentro dos parenteses a não ser as habilidades ou  assuntos"
+        })
+        message.append({
+            "role" : "system",
+            "content" : f"Não explique a questão, apenaas responda dentro dos parenteses o que foi solicitado. Não ponha mais nada dentro dos parenteses a não ser as habilidades (caso seja solicitado) ou assuntos"
+        })
+    
+    elif message_type == "resolva":
+        discipline = question['discipline']
+        message.append({
+            "role" : "system",
+            "content" : "Responda apenas a alternativa dentro dos parenteses, ex: (A)"
+            }
+        )
+    
+    return message

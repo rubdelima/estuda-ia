@@ -1,0 +1,9 @@
+pydantic
+tqdm
+ollama
+pandas
+numpy
+streamlit
+tiktoken
+python-dotenv
+genai

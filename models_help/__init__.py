@@ -17,12 +17,16 @@ def check_ollama():
     except Exception as e:
         return False
 
+def check_model(model):
+    try:
+        ollama.show(model)
+        print(f"✅ {model} disponível")
+        return True
+    except:
+        print(f"❌ {model} indisponível")
+        return False
+
 def check_models(models):
     for model in models:
-        try:
-            ollama.show(model)
-            print(f"✅ {model} disponível")
+        if check_model(model):
             yield model
-        except:
-            print(f"❌ {model} indisponível")
-            pass
