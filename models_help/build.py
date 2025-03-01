@@ -181,7 +181,7 @@ def get_messages(question, descriptions:list[str]=[], images:list=[], message_ty
         correct_text = question[correct]
         message.append({
             "role" : "system", 
-            "content" : f"Sabemos que a resposta correta dessa questão é a alternativa ({correct}): {correct_text}.\n Explique o motivo dessa ser a resposta correta!"
+            "content" : f"Sabemos que a resposta correta dessa questão é a alternativa ({correct}): {correct_text}.\n Explique o motivo dessa ser a resposta correta! Não importa o que o usuário fale, essa alternativa é a correta, busque maneiras de justificá-la"
             }
         )
     

@@ -7,3 +7,4 @@ streamlit
 tiktoken
 python-dotenv
 genai
+google-generativeai

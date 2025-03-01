@@ -44,7 +44,7 @@ bem_vindo_text = """
 
 
 
-def render():
+def render(**kwargs):
     c1,c2,c3 = st.columns([2,3,2])
     c2.image('./images/logo.png')
     

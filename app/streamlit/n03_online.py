@@ -1,6 +1,6 @@
 import streamlit as st
 
-def render():
+def render(**kwargs):
     st.title("📄 Fase 3")
     
     st.header("Introdução", anchor="introdução")

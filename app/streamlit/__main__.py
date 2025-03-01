@@ -1,3 +1,4 @@
+# Streamlit e Páginas
 import streamlit as st
 import app.streamlit.home as home
 import app.streamlit.n01_dataset as n01
@@ -5,6 +6,11 @@ import app.streamlit.n02_local as n02
 import app.streamlit.n03_online as n03
 import app.streamlit.n04_fine as n04
 import app.streamlit.mvp as mvp
+
+import utils
+
+questoes = utils.load_json('./data/questoes/questoes.json')
+predicts = utils.load_json('./data/predict_data/local_predictions.json')
 
 pages_dict = {
     'home' : home,
@@ -16,7 +22,7 @@ pages_dict = {
 }
 
 # Realizando o setup da página
-st.set_page_config(page_title="Estuda-ai", layout="centered", page_icon='./images/logo.png')
+st.set_page_config(page_title="estuda-ai", layout="centered", page_icon='./images/logo.png')
 
 if "pagina_selecionada" not in st.session_state:
     st.session_state["pagina_selecionada"] = "home"
@@ -52,4 +58,4 @@ if st.sidebar.button("💬 MVP", key='mvp', use_container_width=True, type='prim
 
 pagina_atual = st.session_state["pagina_selecionada"]
 
-pages_dict.get(pagina_atual, home).render()
+pages_dict.get(pagina_atual, home).render(predicts=predicts, questoes=questoes)

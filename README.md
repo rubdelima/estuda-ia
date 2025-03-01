@@ -30,20 +30,23 @@ O **Estuda-AI** é um projeto desenvolvido por alunos da **Universidade Federal 
 4️⃣ **Fine-tuning dos Modelos**
 
 5️⃣ **Testes e Validação**
+
 ---
 
 ## **🛠️ Tecnologias Utilizadas**
 
 | Tecnologia | Descrição |
 |------------|-----------|
-| <img src="https://pandas.pydata.org/static/img/pandas.svg" width="30%"> | **Pandas**: Biblioteca de manipulação e análise de dados, essencial para o processamento das questões do ENEM. |
-| <img src="https://numpy.org/images/logo.svg" width="30%"> | **NumPy**: Biblioteca fundamental para computação científica em Python, utilizada para operações matemáticas e manipulação de arrays. |
-| <img src="https://images.seeklogo.com/logo-png/59/2/ollama-logo-png_seeklogo-593420.png" width="30%"> | **Ollama**: Plataforma de modelos de linguagem que utilizamos para avaliação e fine-tuning de modelos locais. |
-| <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="30%"> | **Hugging Face**: Biblioteca que fornece ferramentas para processamento de linguagem natural, facilitando o uso e treinamento de modelos de IA. |
-| <img src="https://matplotlib.org/_static/images/logo2.svg" width="30%"> | **Matplotlib**: Biblioteca de plotagem em Python, utilizada para visualização de dados e resultados das análises. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1280px-Google_Gemini_logo.svg.png" width="30%"> | **GenAI**: Plataforma utilizada para integração com o modelo Gemini via API, permitindo avaliações de desempenho e viabilidade. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/2560px-OpenAI_Logo.svg.png" width="30%"> | **OpenAI**: Biblioteca Python utilizada para acessar modelos avançados de IA via API, auxiliando na geração e explicação de questões. |
-| <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="30%"> | **Streamlit**: Framework utilizado para o desenvolvimento da interface web interativa do Estuda-AI. |
+| <p align="center"><img src="https://pandas.pydata.org/static/img/pandas.svg" width="120"></p> | **Pandas**: Biblioteca de manipulação e análise de dados, essencial para o processamento das questões do ENEM. |
+| <p align="center"><img src="https://numpy.org/images/logo.svg" width="120"></p> | **NumPy**: Biblioteca fundamental para computação científica em Python, utilizada para operações matemáticas e manipulação de arrays. |
+| <p align="center"><img src="https://images.seeklogo.com/logo-png/59/2/ollama-logo-png_seeklogo-593420.png" width="120"></p> | **Ollama**: Plataforma de modelos de linguagem que utilizamos para avaliação e fine-tuning de modelos locais. |
+| <p align="center"><img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="120"></p> | **Hugging Face**: Biblioteca que fornece ferramentas para processamento de linguagem natural, facilitando o uso e treinamento de modelos de IA. |
+| <p align="center"><img src="https://matplotlib.org/_static/images/logo2.svg" width="120"></p> | **Matplotlib**: Biblioteca de plotagem em Python, utilizada para visualização de dados e resultados das análises. |
+| <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1280px-Google_Gemini_logo.svg.png" width="120"></p> | **GenAI**: Plataforma utilizada para integração com o modelo Gemini via API, permitindo avaliações de desempenho e viabilidade. |
+| <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/2560px-OpenAI_Logo.svg.png" width="120"></p> | **OpenAI**: Biblioteca Python utilizada para acessar modelos avançados de IA via API, auxiliando na geração e explicação de questões. |
+| <p align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="120"></p> | **Streamlit**: Framework utilizado para o desenvolvimento da interface web interativa do Estuda-AI. |
+
+
 
 ---
 
