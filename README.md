@@ -12,12 +12,12 @@ O **Estuda-AI** é um projeto desenvolvido por alunos da **Universidade Federal 
 
 ## **🔍 Etapas do Projeto**
 
-1️⃣ **Coleta e Processamento de Dados**
+1️⃣ **Coleta e Visualização de Dados**
    - [Notebook](./01%20-%20Coleta%20e%20Processamento%20de%20Dados.ipynb)
    - Construímos um banco de dados com questões do ENEM e suas respectivas resoluções.
    - Aplicamos pré-processamento de texto, incluindo tokenização, limpeza e normalização.
 
-2️⃣ **Avaliação Inicial dos Modelos Locais**
+2️⃣ **Avaliação de Modelos Locais**
    - [Notebook](./02%20-%20Avaliação%20de%20Modelos%20Locais.ipynb)
    - Testamos diferentes modelos de IA localmente, utilizando o **Ollama**, analisando desempenho, custo e viabilidade.
    - Nosso objetivo foi encontrar os melhores modelos para realizar o fine-tuning posteriormente.
