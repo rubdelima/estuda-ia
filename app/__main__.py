@@ -1,3 +1,9 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 # Streamlit e Páginas
 import streamlit as st
 import app.home as home
