@@ -1,11 +1,10 @@
+import pandas as pd
 import streamlit as st
 
-def render(**kwargs):
-    st.title("📄 Fase 1")
-    
-    st.header("Introdução", anchor="introdução")
-    st.write("Explicação introdutória sobre o tema...")
 
-    st.header("Detalhes", anchor="detalhes")
-    st.write("Aqui estão mais detalhes importantes...")
+def render(**kwargs):
+    st.title("📄 Coleta e Processamento de Dados")
+    
+    questoes = kwargs['questoes']
+    
 

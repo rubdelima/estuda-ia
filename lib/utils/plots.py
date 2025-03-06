@@ -355,7 +355,7 @@ def multi_model_performance(
     
     return fig
 
-def venn(questions, model1, model2, model3=None):
+def venn(questions, model1, model2, model3=None) -> plt.Figure:
     models = [model1, model2]
     vennx = venn2_unweighted
     if model3:
@@ -364,13 +364,18 @@ def venn(questions, model1, model2, model3=None):
     
     predict_data = get_predict_data(models, questions)
     
-    vennp = vennx([
-        {t['question'] for t in predict_data.values() if t['model'] == model and t['correct']} for model in models
-    ], models)
-    
-    plt.show()
+    sets = [
+        {t['question'] for t in predict_data.values() if t['model'] == model and t['correct']} 
+        for model in models
+    ]
 
-def histogram(df, column, max_unique_bins=30):
+    fig, ax = plt.subplots(figsize=(6, 6))
+    vennx(sets, set_labels=models, ax=ax)
+    
+    return fig
+
+
+def histogram(df, column, max_unique_bins=30) -> plt.Figure:
     df[column] = pd.to_numeric(df[column], errors='coerce')
     df = df.dropna(subset=[column])
 
@@ -383,20 +388,22 @@ def histogram(df, column, max_unique_bins=30):
         bins = 'auto'  
         xticks = None 
 
-    plt.figure(figsize=(10, 6))
-    plt.hist(df[column], bins=bins, edgecolor='black', alpha=0.7)
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.hist(df[column], bins=bins, edgecolor='black', alpha=0.7)
 
-    plt.xlabel(f'Números de {column}')
-    plt.ylabel('Frequência')
-    plt.title(f'Histograma da Distribuição da Variável {column}')
+    ax.set_xlabel(f'Números de {column}')
+    ax.set_ylabel('Frequência')
+    ax.set_title(f'Histograma da Distribuição da Variável {column}')
 
     if xticks is not None:
-        plt.xticks(xticks)
+        ax.set_xticks(xticks)
 
-    plt.grid(axis='y', alpha=0.75)
-    plt.show()
+    ax.grid(axis='y', alpha=0.75)
+    
+    return fig 
 
-def discipline_models(df, disciplina, mode):
+
+def discipline_models(df, disciplina, mode) -> plt.Figure:
     df_filtered = df[df['discipline'] == disciplina]
 
     if mode == 'time':
@@ -408,15 +415,15 @@ def discipline_models(df, disciplina, mode):
         ylabel = 'Quantidade de Questões Acertadas'
         title = f'Quantidade de Questões Acertadas em ({disciplina})'
     else:
-        raise ValueError("Modo inválido. Use 'avg_time' ou 'correct_count'.")
+        raise ValueError("Modo inválido. Use 'time' ou 'acc'.")
 
-    plt.figure(figsize=(10, 6))
-    df_grouped.plot(kind='bar', color=['#ffb3ba', '#baffc9', '#bae1ff', '#ffdfba', '#ffffba'], edgecolor='black')
+    fig, ax = plt.subplots(figsize=(10, 6))
+    df_grouped.plot(kind='bar', ax=ax, color=['#ffb3ba', '#baffc9', '#bae1ff', '#ffdfba', '#ffffba'], edgecolor='black')
 
-    plt.xlabel('Modelo')
-    plt.ylabel(ylabel)
-    plt.title(title)
-    plt.xticks(rotation=45)
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    ax.set_xlabel('Modelo')
+    ax.set_ylabel(ylabel)
+    ax.set_title(title)
+    ax.set_xticklabels(df_grouped.index, rotation=45)
+    ax.grid(axis='y', linestyle='--', alpha=0.7)
     
-    plt.show()
+    return fig 

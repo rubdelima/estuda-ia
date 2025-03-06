@@ -13,19 +13,22 @@ O **Estuda-AI** é um projeto desenvolvido por alunos da **Universidade Federal 
 ## **🔍 Etapas do Projeto**
 
 1️⃣ **Coleta e Visualização de Dados**
-   - [Notebook](./01%20-%20Coleta%20e%20Processamento%20de%20Dados.ipynb)
-   - Construímos um banco de dados com questões do ENEM e suas respectivas resoluções.
-   - Aplicamos pré-processamento de texto, incluindo tokenização, limpeza e normalização.
+
+- [Notebook](./01%20-%20Coleta%20e%20Processamento%20de%20Dados.ipynb)
+- Construímos um banco de dados com questões do ENEM e suas respectivas resoluções.
+- Aplicamos pré-processamento de texto, incluindo tokenização, limpeza e normalização.
 
 2️⃣ **Avaliação de Modelos Locais**
-   - [Notebook](./02%20-%20Avaliação%20de%20Modelos%20Locais.ipynb)
-   - Testamos diferentes modelos de IA localmente, utilizando o **Ollama**, analisando desempenho, custo e viabilidade.
-   - Nosso objetivo foi encontrar os melhores modelos para realizar o fine-tuning posteriormente.
+
+- [Notebook](./02%20-%20Avaliação%20de%20Modelos%20Locais.ipynb)
+- Testamos diferentes modelos de IA localmente, utilizando o **Ollama**, analisando desempenho, custo e viabilidade.
+- Nosso objetivo foi encontrar os melhores modelos para realizar o fine-tuning posteriormente.
 
 3️⃣ **Avaliação de Modelos via API**
-   - [Notebook](./02%20-%20Teste%20em%20Modelos%20via%20API.ipynb)
-   - Testamos diferentes modelos de IA via API, utilizando o **Gemini** e **OpenAI**, analisando desempenho, custo e viabilidade.
-   - Nosso objetivo foi identificar os modelos mais adequados para o fine-tuning.
+
+- [Notebook](./02%20-%20Teste%20em%20Modelos%20via%20API.ipynb)
+- Testamos diferentes modelos de IA via API, utilizando o **Gemini** e **OpenAI**, analisando desempenho, custo e viabilidade.
+- Nosso objetivo foi identificar os modelos mais adequados para o fine-tuning.
 
 4️⃣ **Fine-tuning dos Modelos**
 
@@ -45,8 +48,6 @@ O **Estuda-AI** é um projeto desenvolvido por alunos da **Universidade Federal 
 | <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1280px-Google_Gemini_logo.svg.png" width="120"></p> | **GenAI**: Plataforma utilizada para integração com o modelo Gemini via API, permitindo avaliações de desempenho e viabilidade. |
 | <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/2560px-OpenAI_Logo.svg.png" width="120"></p> | **OpenAI**: Biblioteca Python utilizada para acessar modelos avançados de IA via API, auxiliando na geração e explicação de questões. |
 | <p align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="120"></p> | **Streamlit**: Framework utilizado para o desenvolvimento da interface web interativa do Estuda-AI. |
-
-
 
 ---
 
