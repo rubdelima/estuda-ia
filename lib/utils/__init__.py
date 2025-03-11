@@ -168,11 +168,11 @@ def test_table(questions: Optional[list[str]] = None, models: Optional[list[str]
         # Atualizando totais
         for key in total_metrics:
             if key in ["Tmin"]:
-                total_metrics[key] = min(total_metrics[key], metrics[key])
+                total_metrics[key] = min(total_metrics[key], (metrics[key] if metrics[key] is not None else float('inf')))
             elif key in ["Tmax"]:
-                total_metrics[key] = max(total_metrics[key], metrics[key])
+                total_metrics[key] = max(total_metrics[key], (metrics[key] if metrics[key] is not None else -1*(float('inf'))))
             else:
-                total_metrics[key] += metrics[key]
+                total_metrics[key] += metrics[key] if metrics[key] is not None else 0
 
         table_data.append(metrics)
 

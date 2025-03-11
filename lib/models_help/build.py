@@ -195,7 +195,7 @@ def get_messages(question, descriptions:list[str]=[], images:list=[], message_ty
         )
         message.append({
             "role" : "system",
-            "content" : f"Selecione 3 habilidades que possívelmente essa questão aborda, responda apenas uma lista com as habilidades dentro de parenteses, exemplo: (H1), (H2), (H5)"
+            "content" : f"Selecione 3 habilidades que possívelmente essa questão aborda, responda apenas uma lista com as habilidades dentro de TAGS do seguinte REGEX <habilidade> H? , exemplo: (H1), (H2), (H5)"
         })
     
     elif "assuntos" in message_type:
@@ -208,11 +208,11 @@ def get_messages(question, descriptions:list[str]=[], images:list=[], message_ty
         )
         message.append({
             "role" : "system",
-            "content" : f"Selecione 3 assuntos que possívelmente essa questão aborda, por fim responda ao fim retorne uma lista com os assuntos dentro de parenteses, exemplo: (Leis de Newton), (Positivismo), (Trigonometria). Não ponha mais nada dentro dos parenteses a não ser as habilidades ou  assuntos"
+            "content" : f"Selecione 3 assuntos que possívelmente essa questão aborda, e retone uma lista com os assuntos dentro tags <> parenteses, exemplo: (Leis de Newton), (Positivismo), (Trigonometria). Não ponha mais nada dentro dos parenteses a não ser as habilidades ou  assuntos"
         })
         message.append({
             "role" : "system",
-            "content" : f"Não explique a questão, apenaas responda dentro dos parenteses o que foi solicitado. Não ponha mais nada dentro dos parenteses a não ser as habilidades (caso seja solicitado) ou assuntos"
+            "content" : f"Não explique a questão, apenas responda dentro das tags o que foi solicitado."
         })
     
     elif message_type == "resolva":

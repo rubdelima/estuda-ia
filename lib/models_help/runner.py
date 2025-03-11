@@ -147,9 +147,14 @@ def test_models(questions, primary_models, secundary_models=None, predict_file=N
     
     table_models = gen_modelos_str(primary_models, secundary_models=secundary_models)
     
-    df = format_test_table(test_table(questions=questions_str, models=table_models), len(questions))
+    table = test_table(questions=questions_str, models=table_models)
+    try:
+        formatted_table = format_test_table(table, len(questions))
+    except:
+        formatted_table = table
+        
     clear_output(wait=True)
-    display(df)
+    display(formatted_table)
     
     to_update = []
 
@@ -164,6 +169,7 @@ def test_models(questions, primary_models, secundary_models=None, predict_file=N
     
     for primary_model, secundary_model, question, model_name, predict_name in tqdm.tqdm(to_update, desc="Teste"):
         question_id = question['id']
+        model = None
         try:          
             # Carrego as imagens, se houverem
             images = get_images(question)
@@ -173,7 +179,7 @@ def test_models(questions, primary_models, secundary_models=None, predict_file=N
             
             # Cria o texto da questão para ser enviada
             question_text = text_question(question) if secundary_model is None else \
-                question_text_vision(secundary_model, question, images, timeout=timeout//2)
+                question_text_vision(secundary_model, question, images, timeout=(timeout//2) if timeout is not None else None)
             
             # Caso o modelo principal não seja de visão, poe como null as imagens para evitar problemas
             if (model := models_info.models.get(primary_model)) is None or model['algorithm'] != 'vision':
@@ -229,9 +235,14 @@ def test_models(questions, primary_models, secundary_models=None, predict_file=N
             # Atualiza a tabela
             update_json(predict_data, "./data/predict_data/local_predictions.json" if predict_file is None else predict_file)
             
-            # Plota a tabela 
-            df = format_test_table(test_table(questions=questions_str, models=table_models), len(questions))
+            # Plota a tabela
+            table = test_table(questions=questions_str, models=table_models)
+            try:
+                formatted_table = format_test_table(table, len(questions))
+            except:
+                formatted_table = table
+                
             clear_output(wait=True)
-            display(df)
+            display(formatted_table)
     
     return test_result
