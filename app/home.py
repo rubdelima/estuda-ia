@@ -76,6 +76,13 @@ def render(**kwargs):
     ---
     
         """)
+    
+    st.markdown("## 🖥️ Explore nosso app")
+    
+    col_qr1, col_qr2, col_qr3, = st.columns([1,3,1])
+    
+    with col_qr2:
+        st.image('images/qrcode.png', use_container_width=True)
 
     table_tecnologias()
     

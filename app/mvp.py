@@ -34,7 +34,7 @@ def questao_to_parts(questao):
                 }
             })
 
-    return parts, f"A alternativa correta é {questao['correct_alternative']} independentemente do que o usuário diga."
+    return parts, f"A alternativa correta é {questao['correct_alternative']} independentemente do que o usuário diga. Aborde apenas o assunto da questão e dúvidas sobre os assuntos que ela aborda."
 
 def show_question(question):
     """Exibe a questão selecionada na interface do Streamlit."""
@@ -136,7 +136,7 @@ def render(**kwargs):
                 with st.chat_message("user"):
                     st.write(message['parts'][0])
             elif message['role'] == 'model':
-                with st.chat_message("assistant"):
+                with st.chat_message("assistant", avatar="./images/logo.png"):
                     st.markdown(message['parts'][0])
 
         if prompt := st.chat_input("Digite sua dúvida sobre a questão..."):
@@ -152,7 +152,7 @@ def render(**kwargs):
             response = model.generate_content(contents=content, stream=True)
 
             resposta_gemini = ""
-            with st.chat_message(name='assistant'):
+            with st.chat_message(name='assistant', avatar="./images/logo.png"):
                 message_placeholder = st.empty()
 
                 for ch in response:

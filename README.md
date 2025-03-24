@@ -10,6 +10,41 @@
 
 O **Estuda-AI** é um projeto desenvolvido por alunos da **Universidade Federal de Pernambuco (UFPE)** durante a disciplina **[IF1006] Tópicos Avançados em Sistemas de Informação 3 - Transformação Digital com IA**. Nosso principal objetivo é criar um ambiente inteligente para auxiliar na geração, explicação e análise de questões do ENEM, utilizando modelos de Inteligência Artificial (IA).
 
+## **Como Executar Localmente**
+
+Primeiramente recomendamos que inicie uma **venv** para executar. Para fazer isso você deve realizar o seguinte comando:
+
+```sh
+python3 -m venv .estuda_ai
+
+```
+
+Após criar a venv você pode inicializar ela com os comandos:
+
+**Caso esteja no Windows:**
+
+```sh
+./.estuda_ai/Scripts/activate
+
+```
+**Caso esteja no Linux ou MacOS:**
+
+```sh
+source .estuda_ai/bin/activate
+```
+
+Após inicializar a venv instale as dependências com:
+
+```sh
+pip install -r requirements.txt
+```
+
+E você pode executar o projeto com
+
+```sh
+streamlit run app/__main__.py
+```
+
 ## **🔍 Etapas do Projeto**
 
 1️⃣ **Coleta e Visualização de Dados**
